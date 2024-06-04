@@ -1,0 +1,37 @@
+Rider Entry Point...
+17:08:18.322 |V| --LOGLOG:NativeMemoryPool--    | WatchParentPid:73131:4         | New memory block allocated, size: 1,048,576 bytes, total allocated blocks: 0, used: 0
+
+17:08:18.352 |I| --LOGLOG--                     | :1                             | Initializing LogManager with path=/Users/main/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.rider/riderRD/2024.1/f2b801fd987fbe249222ea8de791bce38384b5c3/riderRD-2024.1/bin/backend-log.xml, subconfiguration=Debug
+
+17:08:18.355 |I| --LOGLOG--                     | :1                             | Listening of folder /Users/main/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.rider/riderRD/2024.1/f2b801fd987fbe249222ea8de791bce38384b5c3/riderRD-2024.1/bin is DISABLED. Platform: MacOsX.
+
+17:08:18.356 |I| --LOGLOG--                     | :1                             | Reconfigure logger, ReadBinary=[False], Subconf=[Debug], Xml=/Users/main/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.rider/riderRD/2024.1/f2b801fd987fbe249222ea8de791bce38384b5c3/riderRD-2024.1/bin/backend-log.xml
+
+JetBrains Rider 2024.1 
+Running in .NET Core v8.0.1 ARM64 runtime
+17:08:18.415 |I| --LOGLOG--                     | :1                             | Added omnipresent logger with type [JetBrains.Util.Console.ConsoleLoggerListener] and level [INFO]
+
+17:08:22.109 |V| --LOGLOG:NativeMemoryPool--    | JetPool(S) #2:15               | New memory block allocated, size: 1,048,576 bytes, total allocated blocks: 1, used: 0
+
+17:08:22.127 |I| --LOGLOG--                     | :1                             | Added omnipresent logger with type [JetBrains.UI.Application.LogEventListener] and level [INFO]. Filters: <len=1>[BurstFilter[level=ERROR, lastburst=0, rates=0]]
+
+JetBrains Rider 2024.1
+Running on ARM64 OS in ARM64 architecture, .NET 8.0.1 under Darwin 23.5.0 Darwin Kernel Version 23.5.0: Wed May  1 20:12:58 PDT 2024; root:xnu-10063.121.3~5/RELEASE_ARM64_T6000
+17:08:22.432 |I| --LOGLOG--                     | :1                             | Removed omnipresent logger with type [JetBrains.Util.Console.ConsoleLoggerListener] and level [INFO]
+
+17:08:22.432 |I| --LOGLOG--                     | :1                             | Added omnipresent logger with type [JetBrains.ReSharperAutomationTools.CommandLine.Common.Console.Util.Logging.ConsoleToolLogger] and level [INFO]
+
+17:08:22.525 |I| --LOGLOG--                     | :1                             | Removed omnipresent logger with type [JetBrains.ReSharperAutomationTools.CommandLine.Common.Console.Util.Logging.ConsoleToolLogger] and level [INFO]
+
+17:08:22.525 |I| --LOGLOG--                     | :1                             | Added omnipresent logger with type [JetBrains.Util.Console.ConsoleLoggerListener] and level [WARN]. Filters: <len=1>[JetBrains.Rider.Backend.Features.Loggers.RiderStderrThresholdFilter]
+
+17:08:22.525 |I| --LOGLOG--                     | :1                             | Added omnipresent logger with type [JetBrains.Rider.Backend.Features.Loggers.LoggerHost] and level [INFO]
+
+17:08:22.525 |I| --LOGLOG--                     | :1                             | Removed omnipresent logger with type [JetBrains.UI.Application.LogEventListener] and level [INFO]
+
+17:08:46.162 |V| --LOGLOG:UnsafeWriter--        | :1                             | Realloc UnsafeWriter, current: 1,048,576 bytes, new: 2,097,152
+
+17:08:46.163 |V| --LOGLOG:UnsafeWriter--        | :1                             | Realloc UnsafeWriter, current: 2,097,152 bytes, new: 4,194,304
+
+17:08:53.578 |I| --LOGLOG--                     | :1                             | Apply Transformation >> Enable RD trace categories: <len=0>
+

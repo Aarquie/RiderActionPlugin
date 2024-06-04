@@ -1,0 +1,871 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="click" path="ActionManager" hit="Click to navigate to the next uncovered statement" />
+    <option name="navigate" path="ActionManager" hit="Click to navigate to the next uncovered statement" />
+    <option name="next" path="ActionManager" hit="Click to navigate to the next uncovered statement" />
+    <option name="statement" path="ActionManager" hit="Click to navigate to the next uncovered statement" />
+    <option name="the" path="ActionManager" hit="Click to navigate to the next uncovered statement" />
+    <option name="to" path="ActionManager" hit="Click to navigate to the next uncovered statement" />
+    <option name="uncovered" path="ActionManager" hit="Click to navigate to the next uncovered statement" />
+    <option name="click" path="ActionManager" hit="Click to navigate to the previous uncovered statement" />
+    <option name="navigate" path="ActionManager" hit="Click to navigate to the previous uncovered statement" />
+    <option name="previous" path="ActionManager" hit="Click to navigate to the previous uncovered statement" />
+    <option name="statement" path="ActionManager" hit="Click to navigate to the previous uncovered statement" />
+    <option name="the" path="ActionManager" hit="Click to navigate to the previous uncovered statement" />
+    <option name="to" path="ActionManager" hit="Click to navigate to the previous uncovered statement" />
+    <option name="uncovered" path="ActionManager" hit="Click to navigate to the previous uncovered statement" />
+    <option name="continuous" path="ActionManager" hit="Continuous Testing Options" />
+    <option name="options" path="ActionManager" hit="Continuous Testing Options" />
+    <option name="testing" path="ActionManager" hit="Continuous Testing Options" />
+    <option name="continuous" path="ActionManager" hit="Continuous Testing Settings…" />
+    <option name="settings" path="ActionManager" hit="Continuous Testing Settings…" />
+    <option name="testing" path="ActionManager" hit="Continuous Testing Settings…" />
+    <option name="all" path="ActionManager" hit="Cover All Tests" />
+    <option name="cover" path="ActionManager" hit="Cover All Tests" />
+    <option name="tests" path="ActionManager" hit="Cover All Tests" />
+    <option name="all" path="ActionManager" hit="Cover All Tests from Solution" />
+    <option name="cover" path="ActionManager" hit="Cover All Tests from Solution" />
+    <option name="from" path="ActionManager" hit="Cover All Tests from Solution" />
+    <option name="solution" path="ActionManager" hit="Cover All Tests from Solution" />
+    <option name="tests" path="ActionManager" hit="Cover All Tests from Solution" />
+    <option name="action" path="ActionManager" hit="Cover All Tests from Solution (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="all" path="ActionManager" hit="Cover All Tests from Solution (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="cover" path="ActionManager" hit="Cover All Tests from Solution (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="from" path="ActionManager" hit="Cover All Tests from Solution (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="in" path="ActionManager" hit="Cover All Tests from Solution (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="local" path="ActionManager" hit="Cover All Tests from Solution (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="only" path="ActionManager" hit="Cover All Tests from Solution (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="solution" path="ActionManager" hit="Cover All Tests from Solution (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="tests" path="ActionManager" hit="Cover All Tests from Solution (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="tool" path="ActionManager" hit="Cover All Tests from Solution (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="unit" path="ActionManager" hit="Cover All Tests from Solution (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="which" path="ActionManager" hit="Cover All Tests from Solution (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="windows" path="ActionManager" hit="Cover All Tests from Solution (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="works" path="ActionManager" hit="Cover All Tests from Solution (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="all" path="ActionManager" hit="Cover All Tests from Solution (Tool Window)" />
+    <option name="cover" path="ActionManager" hit="Cover All Tests from Solution (Tool Window)" />
+    <option name="from" path="ActionManager" hit="Cover All Tests from Solution (Tool Window)" />
+    <option name="solution" path="ActionManager" hit="Cover All Tests from Solution (Tool Window)" />
+    <option name="tests" path="ActionManager" hit="Cover All Tests from Solution (Tool Window)" />
+    <option name="tool" path="ActionManager" hit="Cover All Tests from Solution (Tool Window)" />
+    <option name="window" path="ActionManager" hit="Cover All Tests from Solution (Tool Window)" />
+    <option name="cover" path="ActionManager" hit="Cover Current Session" />
+    <option name="current" path="ActionManager" hit="Cover Current Session" />
+    <option name="session" path="ActionManager" hit="Cover Current Session" />
+    <option name="action" path="ActionManager" hit="Cover Current Session (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="cover" path="ActionManager" hit="Cover Current Session (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="current" path="ActionManager" hit="Cover Current Session (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="in" path="ActionManager" hit="Cover Current Session (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="local" path="ActionManager" hit="Cover Current Session (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="only" path="ActionManager" hit="Cover Current Session (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="session" path="ActionManager" hit="Cover Current Session (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="tests" path="ActionManager" hit="Cover Current Session (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="tool" path="ActionManager" hit="Cover Current Session (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="unit" path="ActionManager" hit="Cover Current Session (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="which" path="ActionManager" hit="Cover Current Session (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="windows" path="ActionManager" hit="Cover Current Session (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="works" path="ActionManager" hit="Cover Current Session (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="cover" path="ActionManager" hit="Cover Current Session (Tool Window)" />
+    <option name="current" path="ActionManager" hit="Cover Current Session (Tool Window)" />
+    <option name="session" path="ActionManager" hit="Cover Current Session (Tool Window)" />
+    <option name="tool" path="ActionManager" hit="Cover Current Session (Tool Window)" />
+    <option name="window" path="ActionManager" hit="Cover Current Session (Tool Window)" />
+    <option name="cover" path="ActionManager" hit="Cover Selected Tests" />
+    <option name="selected" path="ActionManager" hit="Cover Selected Tests" />
+    <option name="tests" path="ActionManager" hit="Cover Selected Tests" />
+    <option name="cover" path="ActionManager" hit="Cover Unit Tests" />
+    <option name="tests" path="ActionManager" hit="Cover Unit Tests" />
+    <option name="unit" path="ActionManager" hit="Cover Unit Tests" />
+    <option name="action" path="ActionManager" hit="Cover Unit Tests (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="cover" path="ActionManager" hit="Cover Unit Tests (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="in" path="ActionManager" hit="Cover Unit Tests (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="local" path="ActionManager" hit="Cover Unit Tests (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="only" path="ActionManager" hit="Cover Unit Tests (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="tests" path="ActionManager" hit="Cover Unit Tests (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="tool" path="ActionManager" hit="Cover Unit Tests (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="unit" path="ActionManager" hit="Cover Unit Tests (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="which" path="ActionManager" hit="Cover Unit Tests (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="windows" path="ActionManager" hit="Cover Unit Tests (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="works" path="ActionManager" hit="Cover Unit Tests (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="cover" path="ActionManager" hit="Cover Unit Tests (Tool Window)" />
+    <option name="tests" path="ActionManager" hit="Cover Unit Tests (Tool Window)" />
+    <option name="tool" path="ActionManager" hit="Cover Unit Tests (Tool Window)" />
+    <option name="unit" path="ActionManager" hit="Cover Unit Tests (Tool Window)" />
+    <option name="window" path="ActionManager" hit="Cover Unit Tests (Tool Window)" />
+    <option name="all" path="ActionManager" hit="Cover all tests" />
+    <option name="cover" path="ActionManager" hit="Cover all tests" />
+    <option name="tests" path="ActionManager" hit="Cover all tests" />
+    <option name="action" path="ActionManager" hit="Cover all tests from current tree (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="all" path="ActionManager" hit="Cover all tests from current tree (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="cover" path="ActionManager" hit="Cover all tests from current tree (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="current" path="ActionManager" hit="Cover all tests from current tree (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="from" path="ActionManager" hit="Cover all tests from current tree (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="in" path="ActionManager" hit="Cover all tests from current tree (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="local" path="ActionManager" hit="Cover all tests from current tree (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="only" path="ActionManager" hit="Cover all tests from current tree (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="tests" path="ActionManager" hit="Cover all tests from current tree (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="tool" path="ActionManager" hit="Cover all tests from current tree (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="tree" path="ActionManager" hit="Cover all tests from current tree (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="unit" path="ActionManager" hit="Cover all tests from current tree (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="which" path="ActionManager" hit="Cover all tests from current tree (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="windows" path="ActionManager" hit="Cover all tests from current tree (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="works" path="ActionManager" hit="Cover all tests from current tree (Local action which works only in Unit Tests Tool Windows)" />
+    <option name="cover" path="ActionManager" hit="Cover selected tests" />
+    <option name="selected" path="ActionManager" hit="Cover selected tests" />
+    <option name="tests" path="ActionManager" hit="Cover selected tests" />
+    <option name="create" path="ActionManager" hit="Create New Session" />
+    <option name="new" path="ActionManager" hit="Create New Session" />
+    <option name="session" path="ActionManager" hit="Create New Session" />
+    <option name="and" path="ActionManager" hit="Create New Session and Cover Tests" />
+    <option name="cover" path="ActionManager" hit="Create New Session and Cover Tests" />
+    <option name="create" path="ActionManager" hit="Create New Session and Cover Tests" />
+    <option name="new" path="ActionManager" hit="Create New Session and Cover Tests" />
+    <option name="session" path="ActionManager" hit="Create New Session and Cover Tests" />
+    <option name="tests" path="ActionManager" hit="Create New Session and Cover Tests" />
+    <option name="and" path="ActionManager" hit="Create New Session and Run Tests" />
+    <option name="create" path="ActionManager" hit="Create New Session and Run Tests" />
+    <option name="new" path="ActionManager" hit="Create New Session and Run Tests" />
+    <option name="run" path="ActionManager" hit="Create New Session and Run Tests" />
+    <option name="session" path="ActionManager" hit="Create New Session and Run Tests" />
+    <option name="tests" path="ActionManager" hit="Create New Session and Run Tests" />
+    <option name="create" path="ActionManager" hit="Create new session" />
+    <option name="new" path="ActionManager" hit="Create new session" />
+    <option name="session" path="ActionManager" hit="Create new session" />
+    <option name="debug" path="ActionManager" hit="Debug Selected Tests" />
+    <option name="selected" path="ActionManager" hit="Debug Selected Tests" />
+    <option name="tests" path="ActionManager" hit="Debug Selected Tests" />
+    <option name="debug" path="ActionManager" hit="Debug selected tests" />
+    <option name="selected" path="ActionManager" hit="Debug selected tests" />
+    <option name="tests" path="ActionManager" hit="Debug selected tests" />
+    <option name="drop" path="ActionManager" hit="Drop Snapshot" />
+    <option name="snapshot" path="ActionManager" hit="Drop Snapshot" />
+    <option name="all" path="ActionManager" hit="Exclude All But This" />
+    <option name="but" path="ActionManager" hit="Exclude All But This" />
+    <option name="exclude" path="ActionManager" hit="Exclude All But This" />
+    <option name="this" path="ActionManager" hit="Exclude All But This" />
+    <option name="and" path="ActionManager" hit="Exclude and Create Runtime Coverage Filter" />
+    <option name="coverage" path="ActionManager" hit="Exclude and Create Runtime Coverage Filter" />
+    <option name="create" path="ActionManager" hit="Exclude and Create Runtime Coverage Filter" />
+    <option name="exclude" path="ActionManager" hit="Exclude and Create Runtime Coverage Filter" />
+    <option name="filter" path="ActionManager" hit="Exclude and Create Runtime Coverage Filter" />
+    <option name="runtime" path="ActionManager" hit="Exclude and Create Runtime Coverage Filter" />
+    <option name="coverage" path="ActionManager" hit="Exclude from Coverage Results" />
+    <option name="exclude" path="ActionManager" hit="Exclude from Coverage Results" />
+    <option name="from" path="ActionManager" hit="Exclude from Coverage Results" />
+    <option name="results" path="ActionManager" hit="Exclude from Coverage Results" />
+    <option name="coverage" path="ActionManager" hit="Export Coverage Report" />
+    <option name="export" path="ActionManager" hit="Export Coverage Report" />
+    <option name="report" path="ActionManager" hit="Export Coverage Report" />
+    <option name="detailed" path="ActionManager" hit="Export to Detailed XML…" />
+    <option name="export" path="ActionManager" hit="Export to Detailed XML…" />
+    <option name="to" path="ActionManager" hit="Export to Detailed XML…" />
+    <option name="xml" path="ActionManager" hit="Export to Detailed XML…" />
+    <option name="export" path="ActionManager" hit="Export to HTML…" />
+    <option name="html" path="ActionManager" hit="Export to HTML…" />
+    <option name="to" path="ActionManager" hit="Export to HTML…" />
+    <option name="export" path="ActionManager" hit="Export to JSON…" />
+    <option name="json" path="ActionManager" hit="Export to JSON…" />
+    <option name="to" path="ActionManager" hit="Export to JSON…" />
+    <option name="export" path="ActionManager" hit="Export to XML for NDepend…" />
+    <option name="for" path="ActionManager" hit="Export to XML for NDepend…" />
+    <option name="ndepend" path="ActionManager" hit="Export to XML for NDepend…" />
+    <option name="to" path="ActionManager" hit="Export to XML for NDepend…" />
+    <option name="xml" path="ActionManager" hit="Export to XML for NDepend…" />
+    <option name="export" path="ActionManager" hit="Export to XML…" />
+    <option name="to" path="ActionManager" hit="Export to XML…" />
+    <option name="xml" path="ActionManager" hit="Export to XML…" />
+    <option name="flatten" path="ActionManager" hit="Flatten Namespaces" />
+    <option name="namespaces" path="ActionManager" hit="Flatten Namespaces" />
+    <option name="go" path="ActionManager" hit="Go To Next Uncovered Statement" />
+    <option name="next" path="ActionManager" hit="Go To Next Uncovered Statement" />
+    <option name="statement" path="ActionManager" hit="Go To Next Uncovered Statement" />
+    <option name="to" path="ActionManager" hit="Go To Next Uncovered Statement" />
+    <option name="uncovered" path="ActionManager" hit="Go To Next Uncovered Statement" />
+    <option name="go" path="ActionManager" hit="Go To Previous Uncovered Statement" />
+    <option name="previous" path="ActionManager" hit="Go To Previous Uncovered Statement" />
+    <option name="statement" path="ActionManager" hit="Go To Previous Uncovered Statement" />
+    <option name="to" path="ActionManager" hit="Go To Previous Uncovered Statement" />
+    <option name="uncovered" path="ActionManager" hit="Go To Previous Uncovered Statement" />
+    <option name="code" path="ActionManager" hit="Highlight Code" />
+    <option name="highlight" path="ActionManager" hit="Highlight Code" />
+    <option name="editor" path="ActionManager" hit="Navigate from Editor" />
+    <option name="from" path="ActionManager" hit="Navigate from Editor" />
+    <option name="navigate" path="ActionManager" hit="Navigate from Editor" />
+    <option name="all" path="ActionManager" hit="Run All Tests" />
+    <option name="run" path="ActionManager" hit="Run All Tests" />
+    <option name="tests" path="ActionManager" hit="Run All Tests" />
+    <option name="run" path="ActionManager" hit="Run Selected Tests" />
+    <option name="selected" path="ActionManager" hit="Run Selected Tests" />
+    <option name="tests" path="ActionManager" hit="Run Selected Tests" />
+    <option name="all" path="ActionManager" hit="Run all tests" />
+    <option name="run" path="ActionManager" hit="Run all tests" />
+    <option name="tests" path="ActionManager" hit="Run all tests" />
+    <option name="run" path="ActionManager" hit="Run selected tests" />
+    <option name="selected" path="ActionManager" hit="Run selected tests" />
+    <option name="tests" path="ActionManager" hit="Run selected tests" />
+    <option name="save" path="ActionManager" hit="Save Snapshot…" />
+    <option name="snapshot" path="ActionManager" hit="Save Snapshot…" />
+    <option name="coverage" path="ActionManager" hit="Show Coverage Details" />
+    <option name="details" path="ActionManager" hit="Show Coverage Details" />
+    <option name="show" path="ActionManager" hit="Show Coverage Details" />
+    <option name="covering" path="ActionManager" hit="Show Covering Tests" />
+    <option name="show" path="ActionManager" hit="Show Covering Tests" />
+    <option name="tests" path="ActionManager" hit="Show Covering Tests" />
+    <option name="code" path="ActionManager" hit="Toggle Code Highlighting" />
+    <option name="highlighting" path="ActionManager" hit="Toggle Code Highlighting" />
+    <option name="toggle" path="ActionManager" hit="Toggle Code Highlighting" />
+    <option name="continuous" path="ActionManager" hit="Trigger Continuous Testing" />
+    <option name="testing" path="ActionManager" hit="Trigger Continuous Testing" />
+    <option name="trigger" path="ActionManager" hit="Trigger Continuous Testing" />
+    <option name="dotcover" path="ActionManager" hit="dotCover Settings…" />
+    <option name="settings" path="ActionManager" hit="dotCover Settings…" />
+  </configurable>
+  <configurable id="RiderDotCoverPageId" configurable_name="dotCover">
+    <option name="" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="already" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="analysis" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="are" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="as" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="build" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="by" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="coverage" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="defined" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="deployment" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="execution" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="faster" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="in" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="is" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="loaded" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="max" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="number" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="of" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="parallel" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="preloaded" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="run" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="runners" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="start" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="test" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="testing" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="the" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="to" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="unit" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="up" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="will" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="x" hit=" Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="" hit=" Enable external storage debug" />
+    <option name="debug" hit=" Enable external storage debug" />
+    <option name="enable" hit=" Enable external storage debug" />
+    <option name="external" hit=" Enable external storage debug" />
+    <option name="storage" hit=" Enable external storage debug" />
+    <option name="" hit=" Enable external storage logs" />
+    <option name="enable" hit=" Enable external storage logs" />
+    <option name="external" hit=" Enable external storage logs" />
+    <option name="logs" hit=" Enable external storage logs" />
+    <option name="storage" hit=" Enable external storage logs" />
+    <option name="" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="allowed" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="analysis" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="application" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="are" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="be" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="cases" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="coverage" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="during" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="enabled" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="exception" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="framework" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="if" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="images" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="in" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="inconclusive" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="is" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="load" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="may" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="most" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="native" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="net" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="not" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="or" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="possible" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="result" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="runtime" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="s" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="speed" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="tests" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="the" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="there" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="this" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="to" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="up" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="using" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="when" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="will" hit=" If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="an" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="analysis" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="assembly" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="build" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="by" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="classes" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="coverage" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="defined" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="deployment" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="dotcover" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="enabled" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="execution" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="faster" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="if" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="in" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="is" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="max" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="may" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="number" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="of" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="parallel" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="processes" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="run" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="runner" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="runners" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="running" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="separate" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="test" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="testing" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="the" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="to" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="unit" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="up" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="will" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="within" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="x" hit=" If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="" hit=" Keep intermediate coverage results" />
+    <option name="coverage" hit=" Keep intermediate coverage results" />
+    <option name="intermediate" hit=" Keep intermediate coverage results" />
+    <option name="keep" hit=" Keep intermediate coverage results" />
+    <option name="results" hit=" Keep intermediate coverage results" />
+    <option name="" hit=" Open Unit Tests Coverage tool window automatically:" />
+    <option name="automatically" hit=" Open Unit Tests Coverage tool window automatically:" />
+    <option name="coverage" hit=" Open Unit Tests Coverage tool window automatically:" />
+    <option name="open" hit=" Open Unit Tests Coverage tool window automatically:" />
+    <option name="tests" hit=" Open Unit Tests Coverage tool window automatically:" />
+    <option name="tool" hit=" Open Unit Tests Coverage tool window automatically:" />
+    <option name="unit" hit=" Open Unit Tests Coverage tool window automatically:" />
+    <option name="window" hit=" Open Unit Tests Coverage tool window automatically:" />
+    <option name="" hit=" Preload test runners" />
+    <option name="preload" hit=" Preload test runners" />
+    <option name="runners" hit=" Preload test runners" />
+    <option name="test" hit=" Preload test runners" />
+    <option name="" hit=" Run test classes in parallel" />
+    <option name="classes" hit=" Run test classes in parallel" />
+    <option name="in" hit=" Run test classes in parallel" />
+    <option name="parallel" hit=" Run test classes in parallel" />
+    <option name="run" hit=" Run test classes in parallel" />
+    <option name="test" hit=" Run test classes in parallel" />
+    <option name="" hit=" Semicolon-separated profiler log masks:" />
+    <option name="log" hit=" Semicolon-separated profiler log masks:" />
+    <option name="masks" hit=" Semicolon-separated profiler log masks:" />
+    <option name="profiler" hit=" Semicolon-separated profiler log masks:" />
+    <option name="semicolon-separated" hit=" Semicolon-separated profiler log masks:" />
+    <option name="" hit=" Use NGen native images" />
+    <option name="images" hit=" Use NGen native images" />
+    <option name="native" hit=" Use NGen native images" />
+    <option name="ngen" hit=" Use NGen native images" />
+    <option name="use" hit=" Use NGen native images" />
+    <option name="core" hit="Core:" />
+    <option name="already" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="analysis" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="are" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="as" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="build" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="by" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="coverage" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="defined" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="deployment" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="execution" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="faster" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="in" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="is" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="loaded" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="max" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="number" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="of" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="parallel" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="preloaded" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="run" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="runners" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="start" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="test" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="testing" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="the" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="to" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="unit" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="up" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="will" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="x" hit="Coverage analysis will start faster as test runners are already loaded. The max number of preloaded runners is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="debug" hit="Enable external storage debug" />
+    <option name="enable" hit="Enable external storage debug" />
+    <option name="external" hit="Enable external storage debug" />
+    <option name="storage" hit="Enable external storage debug" />
+    <option name="enable" hit="Enable external storage logs" />
+    <option name="external" hit="Enable external storage logs" />
+    <option name="logs" hit="Enable external storage logs" />
+    <option name="storage" hit="Enable external storage logs" />
+    <option name="allowed" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="analysis" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="application" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="are" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="be" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="cases" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="coverage" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="during" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="enabled" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="exception" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="framework" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="if" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="images" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="in" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="inconclusive" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="is" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="load" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="may" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="most" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="native" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="net" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="not" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="or" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="possible" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="result" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="runtime" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="s" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="speed" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="tests" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="the" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="there" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="this" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="to" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="up" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="using" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="when" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="will" hit="If enabled, .NET Framework runtime will be allowed to load application's native images during coverage analysis. In most cases, this will speed up the analysis. There are cases when using native images is not possible: This may result in inconclusive tests or application exception." />
+    <option name="an" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="analysis" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="assembly" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="build" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="by" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="classes" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="coverage" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="defined" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="deployment" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="dotcover" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="enabled" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="execution" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="faster" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="if" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="in" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="is" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="max" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="may" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="number" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="of" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="parallel" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="processes" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="run" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="runner" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="runners" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="running" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="separate" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="test" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="testing" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="the" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="to" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="unit" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="up" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="will" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="within" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="x" hit="If enabled, dotCover will run test classes within an assembly in separate test runner processes. Coverage analysis may run faster. The max number of processes running in parallel is defined by Build, Execution, Deployment &gt; Unit Testing &gt; Run up to X test runners in parallel." />
+    <option name="internal" hit="Internal Options" />
+    <option name="options" hit="Internal Options" />
+    <option name="coverage" hit="Keep intermediate coverage results" />
+    <option name="intermediate" hit="Keep intermediate coverage results" />
+    <option name="keep" hit="Keep intermediate coverage results" />
+    <option name="results" hit="Keep intermediate coverage results" />
+    <option name="never" hit="Never" />
+    <option name="coverage" hit="On each run of test coverage" />
+    <option name="each" hit="On each run of test coverage" />
+    <option name="of" hit="On each run of test coverage" />
+    <option name="on" hit="On each run of test coverage" />
+    <option name="run" hit="On each run of test coverage" />
+    <option name="test" hit="On each run of test coverage" />
+    <option name="coverage" hit="On the first run of test coverage" />
+    <option name="first" hit="On the first run of test coverage" />
+    <option name="of" hit="On the first run of test coverage" />
+    <option name="on" hit="On the first run of test coverage" />
+    <option name="run" hit="On the first run of test coverage" />
+    <option name="test" hit="On the first run of test coverage" />
+    <option name="the" hit="On the first run of test coverage" />
+    <option name="automatically" hit="Open Unit Tests Coverage tool window automatically:" />
+    <option name="coverage" hit="Open Unit Tests Coverage tool window automatically:" />
+    <option name="open" hit="Open Unit Tests Coverage tool window automatically:" />
+    <option name="tests" hit="Open Unit Tests Coverage tool window automatically:" />
+    <option name="tool" hit="Open Unit Tests Coverage tool window automatically:" />
+    <option name="unit" hit="Open Unit Tests Coverage tool window automatically:" />
+    <option name="window" hit="Open Unit Tests Coverage tool window automatically:" />
+    <option name="pdbserver" hit="PdbServer:" />
+    <option name="preload" hit="Preload test runners" />
+    <option name="runners" hit="Preload test runners" />
+    <option name="test" hit="Preload test runners" />
+    <option name="classes" hit="Run test classes in parallel" />
+    <option name="in" hit="Run test classes in parallel" />
+    <option name="parallel" hit="Run test classes in parallel" />
+    <option name="run" hit="Run test classes in parallel" />
+    <option name="test" hit="Run test classes in parallel" />
+    <option name="log" hit="Semicolon-separated profiler log masks:" />
+    <option name="masks" hit="Semicolon-separated profiler log masks:" />
+    <option name="profiler" hit="Semicolon-separated profiler log masks:" />
+    <option name="semicolon-separated" hit="Semicolon-separated profiler log masks:" />
+    <option name="images" hit="Use NGen native images" />
+    <option name="native" hit="Use NGen native images" />
+    <option name="ngen" hit="Use NGen native images" />
+    <option name="use" hit="Use NGen native images" />
+    <option name="dotcover" hit="dotCover" />
+    <option name="iddqd" hit="iddqd" />
+  </configurable>
+  <configurable id="RiderDotCoverHighlightingPageId" configurable_name="Highlighting">
+    <option name="" hit=" Detect a document encoding by:" />
+    <option name="a" hit=" Detect a document encoding by:" />
+    <option name="by" hit=" Detect a document encoding by:" />
+    <option name="detect" hit=" Detect a document encoding by:" />
+    <option name="document" hit=" Detect a document encoding by:" />
+    <option name="encoding" hit=" Detect a document encoding by:" />
+    <option name="" hit=" Disable checksum cache" />
+    <option name="cache" hit=" Disable checksum cache" />
+    <option name="checksum" hit=" Disable checksum cache" />
+    <option name="disable" hit=" Disable checksum cache" />
+    <option name="" hit=" Enable highlighting" />
+    <option name="enable" hit=" Enable highlighting" />
+    <option name="highlighting" hit=" Enable highlighting" />
+    <option name="" hit=" Highlight code coverage using:" />
+    <option name="code" hit=" Highlight code coverage using:" />
+    <option name="coverage" hit=" Highlight code coverage using:" />
+    <option name="highlight" hit=" Highlight code coverage using:" />
+    <option name="using" hit=" Highlight code coverage using:" />
+    <option name="" hit=" If disabled, highlighting shows only code coverage" />
+    <option name="code" hit=" If disabled, highlighting shows only code coverage" />
+    <option name="coverage" hit=" If disabled, highlighting shows only code coverage" />
+    <option name="disabled" hit=" If disabled, highlighting shows only code coverage" />
+    <option name="highlighting" hit=" If disabled, highlighting shows only code coverage" />
+    <option name="if" hit=" If disabled, highlighting shows only code coverage" />
+    <option name="only" hit=" If disabled, highlighting shows only code coverage" />
+    <option name="shows" hit=" If disabled, highlighting shows only code coverage" />
+    <option name="" hit=" Show document coverage indicator" />
+    <option name="coverage" hit=" Show document coverage indicator" />
+    <option name="document" hit=" Show document coverage indicator" />
+    <option name="indicator" hit=" Show document coverage indicator" />
+    <option name="show" hit=" Show document coverage indicator" />
+    <option name="" hit=" Use highlighting to show unit test results" />
+    <option name="highlighting" hit=" Use highlighting to show unit test results" />
+    <option name="results" hit=" Use highlighting to show unit test results" />
+    <option name="show" hit=" Use highlighting to show unit test results" />
+    <option name="test" hit=" Use highlighting to show unit test results" />
+    <option name="to" hit=" Use highlighting to show unit test results" />
+    <option name="unit" hit=" Use highlighting to show unit test results" />
+    <option name="use" hit=" Use highlighting to show unit test results" />
+    <option name="" hit=" Use shaped markers (colorblind mode)" />
+    <option name="colorblind" hit=" Use shaped markers (colorblind mode)" />
+    <option name="markers" hit=" Use shaped markers (colorblind mode)" />
+    <option name="mode" hit=" Use shaped markers (colorblind mode)" />
+    <option name="shaped" hit=" Use shaped markers (colorblind mode)" />
+    <option name="use" hit=" Use shaped markers (colorblind mode)" />
+    <option name="and" hit="Both markers and line background" />
+    <option name="background" hit="Both markers and line background" />
+    <option name="both" hit="Both markers and line background" />
+    <option name="line" hit="Both markers and line background" />
+    <option name="markers" hit="Both markers and line background" />
+    <option name="a" hit="Detect a document encoding by:" />
+    <option name="by" hit="Detect a document encoding by:" />
+    <option name="detect" hit="Detect a document encoding by:" />
+    <option name="document" hit="Detect a document encoding by:" />
+    <option name="encoding" hit="Detect a document encoding by:" />
+    <option name="cache" hit="Disable checksum cache" />
+    <option name="checksum" hit="Disable checksum cache" />
+    <option name="disable" hit="Disable checksum cache" />
+    <option name="document" hit="Document in memory" />
+    <option name="in" hit="Document in memory" />
+    <option name="memory" hit="Document in memory" />
+    <option name="enable" hit="Enable highlighting" />
+    <option name="highlighting" hit="Enable highlighting" />
+    <option name="disk" hit="File on disk" />
+    <option name="file" hit="File on disk" />
+    <option name="on" hit="File on disk" />
+    <option name="frontend" hit="Frontend settings" />
+    <option name="settings" hit="Frontend settings" />
+    <option name="code" hit="Highlight code coverage using:" />
+    <option name="coverage" hit="Highlight code coverage using:" />
+    <option name="highlight" hit="Highlight code coverage using:" />
+    <option name="using" hit="Highlight code coverage using:" />
+    <option name="highlighting" hit="Highlighting" />
+    <option name="code" hit="If disabled, highlighting shows only code coverage" />
+    <option name="coverage" hit="If disabled, highlighting shows only code coverage" />
+    <option name="disabled" hit="If disabled, highlighting shows only code coverage" />
+    <option name="highlighting" hit="If disabled, highlighting shows only code coverage" />
+    <option name="if" hit="If disabled, highlighting shows only code coverage" />
+    <option name="only" hit="If disabled, highlighting shows only code coverage" />
+    <option name="shows" hit="If disabled, highlighting shows only code coverage" />
+    <option name="internal" hit="Internal Options" />
+    <option name="options" hit="Internal Options" />
+    <option name="background" hit="Line background" />
+    <option name="line" hit="Line background" />
+    <option name="gutter" hit="Markers in the left gutter" />
+    <option name="in" hit="Markers in the left gutter" />
+    <option name="left" hit="Markers in the left gutter" />
+    <option name="markers" hit="Markers in the left gutter" />
+    <option name="the" hit="Markers in the left gutter" />
+    <option name="coverage" hit="Show document coverage indicator" />
+    <option name="document" hit="Show document coverage indicator" />
+    <option name="indicator" hit="Show document coverage indicator" />
+    <option name="show" hit="Show document coverage indicator" />
+    <option name="highlighting" hit="Use highlighting to show unit test results" />
+    <option name="results" hit="Use highlighting to show unit test results" />
+    <option name="show" hit="Use highlighting to show unit test results" />
+    <option name="test" hit="Use highlighting to show unit test results" />
+    <option name="to" hit="Use highlighting to show unit test results" />
+    <option name="unit" hit="Use highlighting to show unit test results" />
+    <option name="use" hit="Use highlighting to show unit test results" />
+    <option name="colorblind" hit="Use shaped markers (colorblind mode)" />
+    <option name="markers" hit="Use shaped markers (colorblind mode)" />
+    <option name="mode" hit="Use shaped markers (colorblind mode)" />
+    <option name="shaped" hit="Use shaped markers (colorblind mode)" />
+    <option name="use" hit="Use shaped markers (colorblind mode)" />
+    <option name="iddqd" hit="iddqd" />
+  </configurable>
+  <configurable id="RiderDotCoverFilteringPageId" configurable_name="Filtering">
+    <option name="" hit=" Exclude auto-properties from coverage results" />
+    <option name="auto-properties" hit=" Exclude auto-properties from coverage results" />
+    <option name="coverage" hit=" Exclude auto-properties from coverage results" />
+    <option name="exclude" hit=" Exclude auto-properties from coverage results" />
+    <option name="from" hit=" Exclude auto-properties from coverage results" />
+    <option name="results" hit=" Exclude auto-properties from coverage results" />
+    <option name="" hit=" dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="a" hit=" dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="analysis" hit=" dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="and" hit=" dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="applies" hit=" dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="assemblies" hit=" dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="classes" hit=" dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="coverage" hit=" dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="dotcover" hit=" dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="during" hit=" dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="exclude" hit=" dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="filters" hit=" dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="from" hit=" dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="methods" hit=" dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="session" hit=" dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="speed" hit=" dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="the" hit=" dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="these" hit=" dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="to" hit=" dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="unnecessary" hit=" dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="up" hit=" dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="use" hit=" dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="" hit=" dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="and" hit=" dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="applies" hit=" dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="auto-generated" hit=" dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="coverage" hit=" dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="dotcover" hit=" dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="e" hit=" dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="exclude" hit=" dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="files" hit=" dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="filters" hit=" dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="from" hit=" dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="g" hit=" dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="in" hit=" dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="noise" hit=" dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="reduce" hit=" dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="results" hit=" dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="the" hit=" dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="these" hit=" dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="to" hit=" dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="tree" hit=" dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="unnecessary" hit=" dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="use" hit=" dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="analyze" hit="Analyze code only in" />
+    <option name="code" hit="Analyze code only in" />
+    <option name="in" hit="Analyze code only in" />
+    <option name="only" hit="Analyze code only in" />
+    <option name="coverage" hit="Coverage Results Filters" />
+    <option name="filters" hit="Coverage Results Filters" />
+    <option name="results" hit="Coverage Results Filters" />
+    <option name="analyze" hit="Do not analyze code in" />
+    <option name="code" hit="Do not analyze code in" />
+    <option name="do" hit="Do not analyze code in" />
+    <option name="in" hit="Do not analyze code in" />
+    <option name="not" hit="Do not analyze code in" />
+    <option name="analyze" hit="Do not analyze code marked with attributes" />
+    <option name="attributes" hit="Do not analyze code marked with attributes" />
+    <option name="code" hit="Do not analyze code marked with attributes" />
+    <option name="do" hit="Do not analyze code marked with attributes" />
+    <option name="marked" hit="Do not analyze code marked with attributes" />
+    <option name="not" hit="Do not analyze code marked with attributes" />
+    <option name="with" hit="Do not analyze code marked with attributes" />
+    <option name="auto-properties" hit="Exclude auto-properties from coverage results" />
+    <option name="coverage" hit="Exclude auto-properties from coverage results" />
+    <option name="exclude" hit="Exclude auto-properties from coverage results" />
+    <option name="from" hit="Exclude auto-properties from coverage results" />
+    <option name="results" hit="Exclude auto-properties from coverage results" />
+    <option name="are" hit="Exclude file masks (?, *, ** wildcards are supported)" />
+    <option name="exclude" hit="Exclude file masks (?, *, ** wildcards are supported)" />
+    <option name="file" hit="Exclude file masks (?, *, ** wildcards are supported)" />
+    <option name="masks" hit="Exclude file masks (?, *, ** wildcards are supported)" />
+    <option name="supported" hit="Exclude file masks (?, *, ** wildcards are supported)" />
+    <option name="wildcards" hit="Exclude file masks (?, *, ** wildcards are supported)" />
+    <option name="filtering" hit="Filtering" />
+    <option name="coverage" hit="Runtime Coverage Filters" />
+    <option name="filters" hit="Runtime Coverage Filters" />
+    <option name="runtime" hit="Runtime Coverage Filters" />
+    <option name="a" hit="dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="analysis" hit="dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="and" hit="dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="applies" hit="dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="assemblies" hit="dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="classes" hit="dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="coverage" hit="dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="dotcover" hit="dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="during" hit="dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="exclude" hit="dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="filters" hit="dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="from" hit="dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="methods" hit="dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="session" hit="dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="speed" hit="dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="the" hit="dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="these" hit="dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="to" hit="dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="unnecessary" hit="dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="up" hit="dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="use" hit="dotCover applies these filters during a coverage session. Use these filters to exclude unnecessary assemblies/classes/methods from analysis and speed up the session." />
+    <option name="and" hit="dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="applies" hit="dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="auto-generated" hit="dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="coverage" hit="dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="dotcover" hit="dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="e" hit="dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="exclude" hit="dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="files" hit="dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="filters" hit="dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="from" hit="dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="g" hit="dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="in" hit="dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="noise" hit="dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="reduce" hit="dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="results" hit="dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="the" hit="dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="these" hit="dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="to" hit="dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="tree" hit="dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="unnecessary" hit="dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="use" hit="dotCover applies these filters to coverage results. Use these filters to exclude unnecessary (e.g., auto-generated) files from the results and reduce &quot;noise&quot; in the coverage tree." />
+    <option name="iddqd" hit="iddqd" />
+  </configurable>
+  <configurable id="RiderDotCoverContinuousTestingPageId" configurable_name="Continuous Testing">
+    <option name="" hit=" Build" />
+    <option name="build" hit=" Build" />
+    <option name="" hit=" On Save and Shortcut triggers, automatically build:" />
+    <option name="and" hit=" On Save and Shortcut triggers, automatically build:" />
+    <option name="automatically" hit=" On Save and Shortcut triggers, automatically build:" />
+    <option name="build" hit=" On Save and Shortcut triggers, automatically build:" />
+    <option name="on" hit=" On Save and Shortcut triggers, automatically build:" />
+    <option name="save" hit=" On Save and Shortcut triggers, automatically build:" />
+    <option name="shortcut" hit=" On Save and Shortcut triggers, automatically build:" />
+    <option name="triggers" hit=" On Save and Shortcut triggers, automatically build:" />
+    <option name="" hit=" Save" />
+    <option name="save" hit=" Save" />
+    <option name="" hit=" Trigger Continuous Testing on:" />
+    <option name="continuous" hit=" Trigger Continuous Testing on:" />
+    <option name="on" hit=" Trigger Continuous Testing on:" />
+    <option name="testing" hit=" Trigger Continuous Testing on:" />
+    <option name="trigger" hit=" Trigger Continuous Testing on:" />
+    <option name="" hit=" Use Psi-based changes detection" />
+    <option name="changes" hit=" Use Psi-based changes detection" />
+    <option name="detection" hit=" Use Psi-based changes detection" />
+    <option name="psi-based" hit=" Use Psi-based changes detection" />
+    <option name="use" hit=" Use Psi-based changes detection" />
+    <option name="" hit=" Use the new coverage indicator" />
+    <option name="coverage" hit=" Use the new coverage indicator" />
+    <option name="indicator" hit=" Use the new coverage indicator" />
+    <option name="new" hit=" Use the new coverage indicator" />
+    <option name="the" hit=" Use the new coverage indicator" />
+    <option name="use" hit=" Use the new coverage indicator" />
+    <option name="" hit=" When running tests, shadow-copy:" />
+    <option name="running" hit=" When running tests, shadow-copy:" />
+    <option name="shadow-copy" hit=" When running tests, shadow-copy:" />
+    <option name="tests" hit=" When running tests, shadow-copy:" />
+    <option name="when" hit=" When running tests, shadow-copy:" />
+    <option name="all" hit="All projects in solution" />
+    <option name="in" hit="All projects in solution" />
+    <option name="projects" hit="All projects in solution" />
+    <option name="solution" hit="All projects in solution" />
+    <option name="and" hit="Assemblies and symbol files" />
+    <option name="assemblies" hit="Assemblies and symbol files" />
+    <option name="files" hit="Assemblies and symbol files" />
+    <option name="symbol" hit="Assemblies and symbol files" />
+    <option name="build" hit="Build" />
+    <option name="continuous" hit="Continuous Testing" />
+    <option name="testing" hit="Continuous Testing" />
+    <option name="file" hit="File mask" />
+    <option name="mask" hit="File mask" />
+    <option name="files" hit="Files from tests start folder" />
+    <option name="folder" hit="Files from tests start folder" />
+    <option name="from" hit="Files from tests start folder" />
+    <option name="start" hit="Files from tests start folder" />
+    <option name="tests" hit="Files from tests start folder" />
+    <option name="internal" hit="Internal Options" />
+    <option name="options" hit="Internal Options" />
+    <option name="assigned" hit="Not Assigned" />
+    <option name="not" hit="Not Assigned" />
+    <option name="and" hit="On Save and Shortcut triggers, automatically build:" />
+    <option name="automatically" hit="On Save and Shortcut triggers, automatically build:" />
+    <option name="build" hit="On Save and Shortcut triggers, automatically build:" />
+    <option name="on" hit="On Save and Shortcut triggers, automatically build:" />
+    <option name="save" hit="On Save and Shortcut triggers, automatically build:" />
+    <option name="shortcut" hit="On Save and Shortcut triggers, automatically build:" />
+    <option name="triggers" hit="On Save and Shortcut triggers, automatically build:" />
+    <option name="continuous" hit="Only projects related to continuous testing sessions" />
+    <option name="only" hit="Only projects related to continuous testing sessions" />
+    <option name="projects" hit="Only projects related to continuous testing sessions" />
+    <option name="related" hit="Only projects related to continuous testing sessions" />
+    <option name="sessions" hit="Only projects related to continuous testing sessions" />
+    <option name="testing" hit="Only projects related to continuous testing sessions" />
+    <option name="to" hit="Only projects related to continuous testing sessions" />
+    <option name="analysis" hit="Projects related to continuous testing sessions and projects included in coverage analysis" />
+    <option name="and" hit="Projects related to continuous testing sessions and projects included in coverage analysis" />
+    <option name="continuous" hit="Projects related to continuous testing sessions and projects included in coverage analysis" />
+    <option name="coverage" hit="Projects related to continuous testing sessions and projects included in coverage analysis" />
+    <option name="in" hit="Projects related to continuous testing sessions and projects included in coverage analysis" />
+    <option name="included" hit="Projects related to continuous testing sessions and projects included in coverage analysis" />
+    <option name="projects" hit="Projects related to continuous testing sessions and projects included in coverage analysis" />
+    <option name="related" hit="Projects related to continuous testing sessions and projects included in coverage analysis" />
+    <option name="sessions" hit="Projects related to continuous testing sessions and projects included in coverage analysis" />
+    <option name="testing" hit="Projects related to continuous testing sessions and projects included in coverage analysis" />
+    <option name="to" hit="Projects related to continuous testing sessions and projects included in coverage analysis" />
+    <option name="save" hit="Save" />
+    <option name="shortcut" hit="Shortcut:" />
+    <option name="continuous" hit="Trigger Continuous Testing on:" />
+    <option name="on" hit="Trigger Continuous Testing on:" />
+    <option name="testing" hit="Trigger Continuous Testing on:" />
+    <option name="trigger" hit="Trigger Continuous Testing on:" />
+    <option name="changes" hit="Use Psi-based changes detection" />
+    <option name="detection" hit="Use Psi-based changes detection" />
+    <option name="psi-based" hit="Use Psi-based changes detection" />
+    <option name="use" hit="Use Psi-based changes detection" />
+    <option name="coverage" hit="Use the new coverage indicator" />
+    <option name="indicator" hit="Use the new coverage indicator" />
+    <option name="new" hit="Use the new coverage indicator" />
+    <option name="the" hit="Use the new coverage indicator" />
+    <option name="use" hit="Use the new coverage indicator" />
+    <option name="running" hit="When running tests, shadow-copy:" />
+    <option name="shadow-copy" hit="When running tests, shadow-copy:" />
+    <option name="tests" hit="When running tests, shadow-copy:" />
+    <option name="when" hit="When running tests, shadow-copy:" />
+    <option name="iddqd" hit="iddqd" />
+  </configurable>
+</options>

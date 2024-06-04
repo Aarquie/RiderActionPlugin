@@ -1,0 +1,31 @@
+<options>
+  <configurable id="fileTemplates" configurable_name="File and Code Templates">
+    <option name="c" hit="C File Header" />
+    <option name="file" hit="C File Header" />
+    <option name="header" hit="C File Header" />
+    <option name="c" hit="c.executable.CMakeLists" />
+    <option name="cmakelists" hit="c.executable.CMakeLists" />
+    <option name="executable" hit="c.executable.CMakeLists" />
+    <option name="c" hit="c.library.CMakeLists" />
+    <option name="cmakelists" hit="c.library.CMakeLists" />
+    <option name="library" hit="c.library.CMakeLists" />
+    <option name="cmakelists" hit="cpp.executable.CMakeLists" />
+    <option name="cpp" hit="cpp.executable.CMakeLists" />
+    <option name="executable" hit="cpp.executable.CMakeLists" />
+    <option name="cmakelists" hit="cpp.library.CMakeLists" />
+    <option name="cpp" hit="cpp.library.CMakeLists" />
+    <option name="library" hit="cpp.library.CMakeLists" />
+    <option name="cmakelists" hit="cuda.executable.CMakeLists" />
+    <option name="cuda" hit="cuda.executable.CMakeLists" />
+    <option name="executable" hit="cuda.executable.CMakeLists" />
+    <option name="cmakelists" hit="cuda.library.CMakeLists" />
+    <option name="cuda" hit="cuda.library.CMakeLists" />
+    <option name="library" hit="cuda.library.CMakeLists" />
+    <option name="c" hit="main.c" />
+    <option name="main" hit="main.c" />
+    <option name="cpp" hit="main.cpp" />
+    <option name="main" hit="main.cpp" />
+    <option name="cmakelists" hit="qt.CMakeLists" />
+    <option name="qt" hit="qt.CMakeLists" />
+  </configurable>
+</options>

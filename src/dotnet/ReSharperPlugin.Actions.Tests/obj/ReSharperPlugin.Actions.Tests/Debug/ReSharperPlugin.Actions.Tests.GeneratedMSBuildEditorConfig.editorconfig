@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = ReSharperPlugin.ActionsFromBackend.Tests
+build_property.ProjectDir = /Users/main/Projects/Rider Extension/resharper-rider-plugin/samples/Actions/src/dotnet/ReSharperPlugin.Actions.Tests/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

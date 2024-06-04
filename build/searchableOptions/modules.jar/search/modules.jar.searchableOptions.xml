@@ -1,0 +1,117 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="attach" path="ActionManager" hit="Attach Profiler to Process..." />
+    <option name="process" path="ActionManager" hit="Attach Profiler to Process..." />
+    <option name="profiler" path="ActionManager" hit="Attach Profiler to Process..." />
+    <option name="to" path="ActionManager" hit="Attach Profiler to Process..." />
+    <option name="an" path="ActionManager" hit="Attach to process with an available profiler" />
+    <option name="attach" path="ActionManager" hit="Attach to process with an available profiler" />
+    <option name="available" path="ActionManager" hit="Attach to process with an available profiler" />
+    <option name="process" path="ActionManager" hit="Attach to process with an available profiler" />
+    <option name="profiler" path="ActionManager" hit="Attach to process with an available profiler" />
+    <option name="to" path="ActionManager" hit="Attach to process with an available profiler" />
+    <option name="with" path="ActionManager" hit="Attach to process with an available profiler" />
+    <option name="and" path="ActionManager" hit="CPU and Memory Live Charts" />
+    <option name="charts" path="ActionManager" hit="CPU and Memory Live Charts" />
+    <option name="cpu" path="ActionManager" hit="CPU and Memory Live Charts" />
+    <option name="live" path="ActionManager" hit="CPU and Memory Live Charts" />
+    <option name="memory" path="ActionManager" hit="CPU and Memory Live Charts" />
+    <option name="call" path="ActionManager" hit="Exclude Call" />
+    <option name="exclude" path="ActionManager" hit="Exclude Call" />
+    <option name="exclude" path="ActionManager" hit="Exclude Subtree" />
+    <option name="subtree" path="ActionManager" hit="Exclude Subtree" />
+    <option name="call" path="ActionManager" hit="Focus On Call" />
+    <option name="focus" path="ActionManager" hit="Focus On Call" />
+    <option name="on" path="ActionManager" hit="Focus On Call" />
+    <option name="focus" path="ActionManager" hit="Focus On Subtree" />
+    <option name="on" path="ActionManager" hit="Focus On Subtree" />
+    <option name="subtree" path="ActionManager" hit="Focus On Subtree" />
+    <option name="dtd" path="ActionManager" hit="Generate DTD from XML File" />
+    <option name="file" path="ActionManager" hit="Generate DTD from XML File" />
+    <option name="from" path="ActionManager" hit="Generate DTD from XML File" />
+    <option name="generate" path="ActionManager" hit="Generate DTD from XML File" />
+    <option name="xml" path="ActionManager" hit="Generate DTD from XML File" />
+    <option name="document" path="ActionManager" hit="Generate XML Document from XSD Schema..." />
+    <option name="from" path="ActionManager" hit="Generate XML Document from XSD Schema..." />
+    <option name="generate" path="ActionManager" hit="Generate XML Document from XSD Schema..." />
+    <option name="schema" path="ActionManager" hit="Generate XML Document from XSD Schema..." />
+    <option name="xml" path="ActionManager" hit="Generate XML Document from XSD Schema..." />
+    <option name="xsd" path="ActionManager" hit="Generate XML Document from XSD Schema..." />
+    <option name="file" path="ActionManager" hit="Generate XSD Schema from XML File..." />
+    <option name="from" path="ActionManager" hit="Generate XSD Schema from XML File..." />
+    <option name="generate" path="ActionManager" hit="Generate XSD Schema from XML File..." />
+    <option name="schema" path="ActionManager" hit="Generate XSD Schema from XML File..." />
+    <option name="xml" path="ActionManager" hit="Generate XSD Schema from XML File..." />
+    <option name="xsd" path="ActionManager" hit="Generate XSD Schema from XML File..." />
+    <option name="back" path="ActionManager" hit="Method Back Traces" />
+    <option name="method" path="ActionManager" hit="Method Back Traces" />
+    <option name="traces" path="ActionManager" hit="Method Back Traces" />
+    <option name="callees" path="ActionManager" hit="Method Merged Callees" />
+    <option name="merged" path="ActionManager" hit="Method Merged Callees" />
+    <option name="method" path="ActionManager" hit="Method Merged Callees" />
+    <option name="flame" path="ActionManager" hit="New Flame Graph View" />
+    <option name="graph" path="ActionManager" hit="New Flame Graph View" />
+    <option name="new" path="ActionManager" hit="New Flame Graph View" />
+    <option name="view" path="ActionManager" hit="New Flame Graph View" />
+    <option name="open" path="ActionManager" hit="Open Profiler Snapshot" />
+    <option name="profiler" path="ActionManager" hit="Open Profiler Snapshot" />
+    <option name="snapshot" path="ActionManager" hit="Open Profiler Snapshot" />
+    <option name="a" path="ActionManager" hit="Open selected method Back Traces tree in a new tab" />
+    <option name="back" path="ActionManager" hit="Open selected method Back Traces tree in a new tab" />
+    <option name="in" path="ActionManager" hit="Open selected method Back Traces tree in a new tab" />
+    <option name="method" path="ActionManager" hit="Open selected method Back Traces tree in a new tab" />
+    <option name="new" path="ActionManager" hit="Open selected method Back Traces tree in a new tab" />
+    <option name="open" path="ActionManager" hit="Open selected method Back Traces tree in a new tab" />
+    <option name="selected" path="ActionManager" hit="Open selected method Back Traces tree in a new tab" />
+    <option name="tab" path="ActionManager" hit="Open selected method Back Traces tree in a new tab" />
+    <option name="traces" path="ActionManager" hit="Open selected method Back Traces tree in a new tab" />
+    <option name="tree" path="ActionManager" hit="Open selected method Back Traces tree in a new tab" />
+    <option name="a" path="ActionManager" hit="Open selected method Merged Callees tree in a new tab" />
+    <option name="callees" path="ActionManager" hit="Open selected method Merged Callees tree in a new tab" />
+    <option name="in" path="ActionManager" hit="Open selected method Merged Callees tree in a new tab" />
+    <option name="merged" path="ActionManager" hit="Open selected method Merged Callees tree in a new tab" />
+    <option name="method" path="ActionManager" hit="Open selected method Merged Callees tree in a new tab" />
+    <option name="new" path="ActionManager" hit="Open selected method Merged Callees tree in a new tab" />
+    <option name="open" path="ActionManager" hit="Open selected method Merged Callees tree in a new tab" />
+    <option name="selected" path="ActionManager" hit="Open selected method Merged Callees tree in a new tab" />
+    <option name="tab" path="ActionManager" hit="Open selected method Merged Callees tree in a new tab" />
+    <option name="tree" path="ActionManager" hit="Open selected method Merged Callees tree in a new tab" />
+    <option name="a" path="ActionManager" hit="Open selected subtree in a new tab" />
+    <option name="in" path="ActionManager" hit="Open selected subtree in a new tab" />
+    <option name="new" path="ActionManager" hit="Open selected subtree in a new tab" />
+    <option name="open" path="ActionManager" hit="Open selected subtree in a new tab" />
+    <option name="selected" path="ActionManager" hit="Open selected subtree in a new tab" />
+    <option name="subtree" path="ActionManager" hit="Open selected subtree in a new tab" />
+    <option name="tab" path="ActionManager" hit="Open selected subtree in a new tab" />
+    <option name="finder" path="ActionManager" hit="Reveal in Finder" />
+    <option name="in" path="ActionManager" hit="Reveal in Finder" />
+    <option name="reveal" path="ActionManager" hit="Reveal in Finder" />
+    <option name="settings" path="ActionManager" hit="Test Transfer Settings" />
+    <option name="test" path="ActionManager" hit="Test Transfer Settings" />
+    <option name="transfer" path="ActionManager" hit="Test Transfer Settings" />
+    <option name="validate" path="ActionManager" hit="Validate" />
+    <option name="current" path="ActionManager" hit="Validate the current XML file" />
+    <option name="file" path="ActionManager" hit="Validate the current XML file" />
+    <option name="the" path="ActionManager" hit="Validate the current XML file" />
+    <option name="validate" path="ActionManager" hit="Validate the current XML file" />
+    <option name="xml" path="ActionManager" hit="Validate the current XML file" />
+    <option name="" path="ActionManager" hit="[INTERNAL] 3 Transfer: ONE" />
+    <option name="3" path="ActionManager" hit="[INTERNAL] 3 Transfer: ONE" />
+    <option name="internal" path="ActionManager" hit="[INTERNAL] 3 Transfer: ONE" />
+    <option name="one" path="ActionManager" hit="[INTERNAL] 3 Transfer: ONE" />
+    <option name="transfer" path="ActionManager" hit="[INTERNAL] 3 Transfer: ONE" />
+    <option name="" path="ActionManager" hit="[INTERNAL] 4 Transfer: Error Dispatcher Dialog Single" />
+    <option name="4" path="ActionManager" hit="[INTERNAL] 4 Transfer: Error Dispatcher Dialog Single" />
+    <option name="dialog" path="ActionManager" hit="[INTERNAL] 4 Transfer: Error Dispatcher Dialog Single" />
+    <option name="dispatcher" path="ActionManager" hit="[INTERNAL] 4 Transfer: Error Dispatcher Dialog Single" />
+    <option name="error" path="ActionManager" hit="[INTERNAL] 4 Transfer: Error Dispatcher Dialog Single" />
+    <option name="internal" path="ActionManager" hit="[INTERNAL] 4 Transfer: Error Dispatcher Dialog Single" />
+    <option name="single" path="ActionManager" hit="[INTERNAL] 4 Transfer: Error Dispatcher Dialog Single" />
+    <option name="transfer" path="ActionManager" hit="[INTERNAL] 4 Transfer: Error Dispatcher Dialog Single" />
+    <option name="" path="ActionManager" hit="[INTERNAL] 5 Transfer: StartWizardAction" />
+    <option name="5" path="ActionManager" hit="[INTERNAL] 5 Transfer: StartWizardAction" />
+    <option name="internal" path="ActionManager" hit="[INTERNAL] 5 Transfer: StartWizardAction" />
+    <option name="startwizardaction" path="ActionManager" hit="[INTERNAL] 5 Transfer: StartWizardAction" />
+    <option name="transfer" path="ActionManager" hit="[INTERNAL] 5 Transfer: StartWizardAction" />
+  </configurable>
+</options>

@@ -1,0 +1,36 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="fix" path="ActionManager" hit="Fix Stylelint Problems" />
+    <option name="problems" path="ActionManager" hit="Fix Stylelint Problems" />
+    <option name="stylelint" path="ActionManager" hit="Fix Stylelint Problems" />
+    <option name="--fix" path="ActionManager" hit="Fix Stylelint problems by calling 'stylelint --fix'" />
+    <option name="by" path="ActionManager" hit="Fix Stylelint problems by calling 'stylelint --fix'" />
+    <option name="calling" path="ActionManager" hit="Fix Stylelint problems by calling 'stylelint --fix'" />
+    <option name="fix" path="ActionManager" hit="Fix Stylelint problems by calling 'stylelint --fix'" />
+    <option name="problems" path="ActionManager" hit="Fix Stylelint problems by calling 'stylelint --fix'" />
+    <option name="stylelint" path="ActionManager" hit="Fix Stylelint problems by calling 'stylelint --fix'" />
+  </configurable>
+  <configurable id="configurable.stylesheets.stylelint" configurable_name="Stylelint">
+    <option name="actions" hit="All actions on save " />
+    <option name="all" hit="All actions on save " />
+    <option name="on" hit="All actions on save " />
+    <option name="save" hit="All actions on save " />
+    <option name="" hit="Configuration file:" />
+    <option name="configuration" hit="Configuration file:" />
+    <option name="file" hit="Configuration file:" />
+    <option name="enable" hit="Enable" />
+    <option name="files" hit="Run for files:" />
+    <option name="for" hit="Run for files:" />
+    <option name="run" hit="Run for files:" />
+    <option name="--fix" hit="Run stylelint --fix on save" />
+    <option name="on" hit="Run stylelint --fix on save" />
+    <option name="r" hit="Run stylelint --fix on save" />
+    <option name="save" hit="Run stylelint --fix on save" />
+    <option name="stylelint" hit="Run stylelint --fix on save" />
+    <option name="un" hit="Run stylelint --fix on save" />
+    <option name="stylelint" hit="Stylelint" />
+    <option name="" hit="Stylelint package:" />
+    <option name="package" hit="Stylelint package:" />
+    <option name="stylelint" hit="Stylelint package:" />
+  </configurable>
+</options>

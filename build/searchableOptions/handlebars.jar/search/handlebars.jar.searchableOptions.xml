@@ -1,0 +1,16 @@
+<options>
+  <configurable id="reference.settingsdialog.IDE.editor.colors.Handlebars/Mustache" configurable_name="Handlebars/Mustache">
+    <option name="handlebars" hit="Handlebars/Mustache" />
+    <option name="mustache" hit="Handlebars/Mustache" />
+    <option name="comments" hit="Comments" />
+    <option name="data" hit="Data Prefix" />
+    <option name="prefix" hit="Data Prefix" />
+    <option name="character" hit="Escape Character" />
+    <option name="escape" hit="Escape Character" />
+    <option name="identifiers" hit="Identifiers" />
+    <option name="mustaches" hit="Mustaches" />
+    <option name="operators" hit="Operators" />
+    <option name="primitives" hit="Primitives" />
+    <option name="strings" hit="Strings" />
+  </configurable>
+</options>

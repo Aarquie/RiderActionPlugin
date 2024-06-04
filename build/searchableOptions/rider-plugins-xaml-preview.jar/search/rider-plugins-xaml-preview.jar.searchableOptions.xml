@@ -1,0 +1,50 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="actual" path="ActionManager" hit="Actual Size" />
+    <option name="size" path="ActionManager" hit="Actual Size" />
+    <option name="adjust" path="ActionManager" hit="Adjust XAML (WPF) preview size, so it fits preview editor" />
+    <option name="editor" path="ActionManager" hit="Adjust XAML (WPF) preview size, so it fits preview editor" />
+    <option name="fits" path="ActionManager" hit="Adjust XAML (WPF) preview size, so it fits preview editor" />
+    <option name="it" path="ActionManager" hit="Adjust XAML (WPF) preview size, so it fits preview editor" />
+    <option name="preview" path="ActionManager" hit="Adjust XAML (WPF) preview size, so it fits preview editor" />
+    <option name="size" path="ActionManager" hit="Adjust XAML (WPF) preview size, so it fits preview editor" />
+    <option name="so" path="ActionManager" hit="Adjust XAML (WPF) preview size, so it fits preview editor" />
+    <option name="wpf" path="ActionManager" hit="Adjust XAML (WPF) preview size, so it fits preview editor" />
+    <option name="xaml" path="ActionManager" hit="Adjust XAML (WPF) preview size, so it fits preview editor" />
+    <option name="content" path="ActionManager" hit="Fit Content" />
+    <option name="fit" path="ActionManager" hit="Fit Content" />
+    <option name="currently" path="ActionManager" hit="Move XAML (WPF) preview to the currently highlighted element" />
+    <option name="element" path="ActionManager" hit="Move XAML (WPF) preview to the currently highlighted element" />
+    <option name="highlighted" path="ActionManager" hit="Move XAML (WPF) preview to the currently highlighted element" />
+    <option name="move" path="ActionManager" hit="Move XAML (WPF) preview to the currently highlighted element" />
+    <option name="preview" path="ActionManager" hit="Move XAML (WPF) preview to the currently highlighted element" />
+    <option name="the" path="ActionManager" hit="Move XAML (WPF) preview to the currently highlighted element" />
+    <option name="to" path="ActionManager" hit="Move XAML (WPF) preview to the currently highlighted element" />
+    <option name="wpf" path="ActionManager" hit="Move XAML (WPF) preview to the currently highlighted element" />
+    <option name="xaml" path="ActionManager" hit="Move XAML (WPF) preview to the currently highlighted element" />
+    <option name="element" path="ActionManager" hit="Move to Selected Element" />
+    <option name="move" path="ActionManager" hit="Move to Selected Element" />
+    <option name="selected" path="ActionManager" hit="Move to Selected Element" />
+    <option name="to" path="ActionManager" hit="Move to Selected Element" />
+    <option name="original" path="ActionManager" hit="Restore original XAML (WPF) preview size" />
+    <option name="preview" path="ActionManager" hit="Restore original XAML (WPF) preview size" />
+    <option name="restore" path="ActionManager" hit="Restore original XAML (WPF) preview size" />
+    <option name="size" path="ActionManager" hit="Restore original XAML (WPF) preview size" />
+    <option name="wpf" path="ActionManager" hit="Restore original XAML (WPF) preview size" />
+    <option name="xaml" path="ActionManager" hit="Restore original XAML (WPF) preview size" />
+    <option name="in" path="ActionManager" hit="Zoom In" />
+    <option name="zoom" path="ActionManager" hit="Zoom In" />
+    <option name="out" path="ActionManager" hit="Zoom Out" />
+    <option name="zoom" path="ActionManager" hit="Zoom Out" />
+    <option name="in" path="ActionManager" hit="Zoom in XAML (WPF) preview" />
+    <option name="preview" path="ActionManager" hit="Zoom in XAML (WPF) preview" />
+    <option name="wpf" path="ActionManager" hit="Zoom in XAML (WPF) preview" />
+    <option name="xaml" path="ActionManager" hit="Zoom in XAML (WPF) preview" />
+    <option name="zoom" path="ActionManager" hit="Zoom in XAML (WPF) preview" />
+    <option name="out" path="ActionManager" hit="Zoom out XAML (WPF) preview" />
+    <option name="preview" path="ActionManager" hit="Zoom out XAML (WPF) preview" />
+    <option name="wpf" path="ActionManager" hit="Zoom out XAML (WPF) preview" />
+    <option name="xaml" path="ActionManager" hit="Zoom out XAML (WPF) preview" />
+    <option name="zoom" path="ActionManager" hit="Zoom out XAML (WPF) preview" />
+  </configurable>
+</options>

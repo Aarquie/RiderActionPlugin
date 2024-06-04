@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ReSharperPlugin.Actions</id>
+    <version>9999.0.0</version>
+    <title>Actions</title>
+    <authors>Author</authors>
+    <description>Description</description>
+    <releaseNotes>• Initial version</releaseNotes>
+    <copyright>Copyright 2024 Maintainers of Actions</copyright>
+    <tags>resharper plugin</tags>
+    <repository type="git" commit="118e99cddf6e65fcc8ba1c47e7cd60f9056c9a58" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="Wave" version="233.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Runtime.InteropServices.RuntimeInformation" targetFramework=".NETFramework4.7.2" />
+      <frameworkAssembly assemblyName="System.Xaml" targetFramework=".NETFramework4.7.2" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="/Users/main/Projects/Rider Extension/resharper-rider-plugin/samples/Actions/dependencies.json" target="dependencies.json" />
+    <file src="/Users/main/Projects/Rider Extension/resharper-rider-plugin/samples/Actions/src/dotnet/ReSharperPlugin.Actions/bin/ReSharperPlugin.Actions/Debug/ReSharperPlugin.Actions.dll" target="dotFiles/ReSharperPlugin.Actions.dll" />
+    <file src="/Users/main/Projects/Rider Extension/resharper-rider-plugin/samples/Actions/src/dotnet/ReSharperPlugin.Actions/bin/ReSharperPlugin.Actions/Debug/ReSharperPlugin.Actions.pdb" target="dotFiles/ReSharperPlugin.Actions.pdb" />
+  </files>
+</package>

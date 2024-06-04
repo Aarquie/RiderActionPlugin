@@ -1,0 +1,1638 @@
+/Users/main/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.rider/riderRD/2024.1/f2b801fd987fbe249222ea8de791bce38384b5c3/riderRD-2024.1/lib/ReSharperHost/macos-arm64/Rider.Backend --runtimeconfig /Users/main/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.rider/riderRD/2024.1/f2b801fd987fbe249222ea8de791bce38384b5c3/riderRD-2024.1/lib/ReSharperHost/Rider.Backend.netcore.runtimeconfig.json --Port=50909 --Internal --enablecpp
+There is more than one package with the same ID JetBrains.Platform.UIInteractive.Common in the current deployed packages list. An item with the same key has already been added. Key: JetBrains.Platform.UIInteractive.Common
+
+--- EXCEPTION #1/2 [ArgumentException]
+Message = “An item with the same key has already been added. Key: JetBrains.Platform.UIInteractive.Common”
+ExceptionPath = Root.InnerException
+ClassName = System.ArgumentException
+Data.ThreadLocalDebugInfo = Environment::Create
+HResult = E_INVALIDARG=COR_E_ARGUMENT=WIN32_ERROR_INVALID_PARAMETER=80070057
+Source = System.Private.CoreLib
+StackTraceString = “
+  at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior) in TryInsert.il:line IL_0136 mvid 87BE
+     at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value) in Add.il:line IL_0000 mvid 87BE
+     at JetBrains.Application.Environment.DeployedPackagesLoader.CreateExpandLocationResolver(ICollection`1 metadata, EFlags& flags) in CreateExpandLocationResolver.il:line IL_001C mvid 8B01
+”
+
+--- Outer ---
+
+--- EXCEPTION #2/2 [LoggerException]
+Message = “There is more than one package with the same ID JetBrains.Platform.UIInteractive.Common in the current deployed packages list. An item with the same key has already been added. Key: JetBrains.Platform.UIInteractive.Common”
+ExceptionPath = Root
+ClassName = JetBrains.Util.LoggerException
+InnerException = “Exception #1 at Root.InnerException”
+HResult = COR_E_APPLICATION=80131600
+StackTraceString = “
+  at JetBrains.Util.ILoggerEx.Error[T1](ILogger this, Exception ex, String message, T1 t1) in Error.il:line IL_002E mvid 7D84
+     at JetBrains.Application.Environment.DeployedPackagesLoader.CreateExpandLocationResolver(ICollection`1 metadata, EFlags& flags) in CreateExpandLocationResolver.il:line IL_001C mvid 8B01
+     at JetBrains.Application.Environment.DeployedPackagesLoader.Load(Lifetime lifetime, DeployedPackagesIdentity identity, Lazy`1 taskerForNugets, Diagnostyx diag) in Load.il:line IL_0093 mvid 8B01
+     at JetBrains.Application.Environment.DeployedPackagesCache.LoadWithCaching(Lifetime lifetime, DeployedPackagesIdentity identity, Lazy`1 taskerForNugets) in LoadWithCaching.il:line IL_0067 mvid 8B01
+     at JetBrains.Application.Environment.DeployedPackages.LoadWithCaching(Lifetime lifetime, DeployedPackagesIdentity identity, Lazy`1 taskerForNugets) in LoadWithCaching.il:line IL_001C mvid 8B01
+     at JetBrains.Application.Environment.HostParameters.CollectProductPackagesInDirectoryFlatHostMixin.JetBrains.Application.Environment.HostParameters.IHaveFullPartCatalogSetHostMixin.GetFullPartCatalogSet(Lifetime lifetime)
+     at JetBrains.Application.Environment.HostParameters.JetHostParametersCaller.GetFullPartCatalogSet(Lifetime lifetime) in GetFullPartCatalogSet.il:line IL_0049 mvid 8B01
+     at JetBrains.Application.Environment.JetEnvironment..ctor(Lifetime lifetime, JetHostParametersCaller host)
+     at JetBrains.Application.Environment.JetEnvironment.<>c__DisplayClass11_0.<InternalCreate>b__0() in JetEnvironment.il:line IL_0000 mvid 8B01 or JetEnvironment.il:line IL_0095 mvid 8B01
+     at JetBrains.Threading.ReentrancyGuard.Execute(String name, Action action) in Execute.il:line IL_014D mvid 7D84
+     at JetBrains.Application.Environment.JetEnvironment.InternalCreate(LifetimeDefinition lifetimeDefinition, JetHostParametersCaller host, JetEnvironment& environment) in InternalCreate.il:line IL_0067 mvid 8B01
+     at JetBrains.Application.Environment.JetEnvironment.CreateAndRun(Full hostparams) in CreateAndRun.il:line IL_0017 mvid 8B01
+     at JetBrains.Application.Environment.JetHostItems.CreateAndRun(Full input) in CreateAndRun.il:line IL_000E mvid 8B01
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.MainX(Assembly assembly, HostInfo hostInfo, String[] args) in MainX.il:line IL_0089 mvid D690
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.<>c.<Main>b__4_0(Lifetime lifetime) in RiderBackendProgram.il:line IL_002B mvid D690
+     at JetBrains.Lifetimes.Lifetime.Using[T](Func`2 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.Main() in Main.il:line IL_0045 mvid D690
+”
+
+The AssemblyMasterBinderOnDiskFiles was given two assemblies with the same name “JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325” at paths ““JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325” @ /Users/main/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.rider/riderRD/2024.1/f2b801fd987fbe249222ea8de791bce38384b5c3/riderRD-2024.1/plugins/dotTrace.dotMemory/DotFiles/JetBrains.Platform.UIInteractive.Shell.Common.dll” and /Users/main/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.rider/riderRD/2024.1/f2b801fd987fbe249222ea8de791bce38384b5c3/riderRD-2024.1/lib/ReSharperHost/JetBrains.Platform.UIInteractive.Shell.Common.dll.
+
+--- EXCEPTION #1/1 [LoggerException]
+Message = “The AssemblyMasterBinderOnDiskFiles was given two assemblies with the same name “JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325” at paths ““JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325” @ /Users/main/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.rider/riderRD/2024.1/f2b801fd987fbe249222ea8de791bce38384b5c3/riderRD-2024.1/plugins/dotTrace.dotMemory/DotFiles/JetBrains.Platform.UIInteractive.Shell.Common.dll” and /Users/main/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.rider/riderRD/2024.1/f2b801fd987fbe249222ea8de791bce38384b5c3/riderRD-2024.1/lib/ReSharperHost/JetBrains.Platform.UIInteractive.Shell.Common.dll.”
+ExceptionPath = Root
+ClassName = JetBrains.Util.LoggerException
+HResult = COR_E_APPLICATION=80131600
+StackTraceString = “
+  at JetBrains.Util.ILoggerEx.LogMessage[T1,T2,T3](ILogger this, LoggingLevel level, String message, T1 t1, T2 t2, T3 t3) in LogMessage.il:line IL_002E mvid 7D84
+     at JetBrains.Util.ILoggerEx.Error[T1,T2,T3](ILogger this, String message, T1 t1, T2 t2, T3 t3) in Error.il:line IL_0000 mvid 7D84
+     at JetBrains.Application.Bindings.AssemblyMasterBinderOnDiskFiles.GetPathByNameCore(AssemblyNameInfo name, OnError onerror, IModuleReferenceResolveContext ctx) in GetPathByNameCore.il:line IL_0100 mvid 8E87
+     at JetBrains.Application.Bindings.AssemblyMasterBinderOnDiskFiles.JetBrains.Application.Bindings.IAssemblyMasterBinder.BindToMetadataAccess(AssemblyNameInfo assembly, IModuleReferenceResolveContext ctx, OnError onerror)
+     at JetBrains.Application.Bindings.MetadataLoaderAssemblyResolverOnMasterBinder.JetBrains.Metadata.Reader.API.IAssemblyResolver.ResolveAssembly(AssemblyNameInfo name, IAssemblyLocation& assemblyLocation, IModuleReferenceResolveContext ctx)
+     at JetBrains.Metadata.Reader.API.MetadataLoader.TryLoad(AssemblyNameInfo assemblyName, Func`2 loadReferencedAssembly, Boolean loadElementTypes, IMetadataAssembly originator, Func`1 checkForInterrupt) in TryLoad.il:line IL_00A2 mvid 6526
+     at JetBrains.Application.Bindings.AssemblyBinderExtensions.BindToMetadataAssembly(IAssemblyMasterBinder thіs, AssemblyNameInfo assembly, MetadataLoader loader, OnError onerror) in BindToMetadataAssembly.il:line IL_003E mvid 8E87
+     at JetBrains.Application.Table.Emit.EmitCatalogTables.Assemblies.PreCreateAssemblyForCataloging(AssemblyNameInfo assnameAsRequested, EmitTimeTables tables, IAssemblyMasterBinder masterbinder, MetadataLoader metaloader, ILogger logger) in PreCreateAssemblyForCataloging.il:line IL_004D mvid 8E87
+     at JetBrains.Application.Table.Emit.EmitCatalogTables.<>c__DisplayClass0_0.<CreateCatalogTablesWithMetadataReader>b__0(Lifetime lifetime) in EmitCatalogTables.il:line IL_0024 mvid 8E87
+     at JetBrains.Lifetimes.Lifetime.Using(Action`1 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Application.Table.Emit.EmitCatalogTables.CreateCatalogTablesWithMetadataReader(IEnumerable`1 assemblies, IAssemblyMasterBinder masterbinder, ICollection`1 traitcalc, Stream output, ILogger logger) in CreateCatalogTablesWithMetadataReader.il:line IL_009D mvid 8E87
+     at JetBrains.Application.BuildScript.Application.Catalogs.PartCatalogs.CreateWithMetadataReaderRaw(Lifetime lifetime, IEnumerable`1 assemblies, IAssemblyMasterBinder masterbinder, ILogger logger) in CreateWithMetadataReaderRaw.il:line IL_0006 mvid 8B01
+     at JetBrains.Application.Environment.DeployedPackagesLoader.CreateAdHocCatalogForUncatalogedAssemblies(Lifetime lifeCreationProcess, ICollection`1 assembliesForAdHocCataloging, DeployedPackagesMasterBinderData binderlist, ICollection`1 catables) in CreateAdHocCatalogForUncatalogedAssemblies.il:line IL_0054 mvid 8B01
+     at JetBrains.Application.Environment.DeployedPackagesLoader.Load(Lifetime lifetime, DeployedPackagesIdentity identity, Lazy`1 taskerForNugets, Diagnostyx diag) in Load.il:line IL_00E0 mvid 8B01
+     at JetBrains.Application.Environment.DeployedPackagesCache.LoadWithCaching(Lifetime lifetime, DeployedPackagesIdentity identity, Lazy`1 taskerForNugets) in LoadWithCaching.il:line IL_0067 mvid 8B01
+     at JetBrains.Application.Environment.DeployedPackages.LoadWithCaching(Lifetime lifetime, DeployedPackagesIdentity identity, Lazy`1 taskerForNugets) in LoadWithCaching.il:line IL_001C mvid 8B01
+     at JetBrains.Application.Environment.HostParameters.CollectProductPackagesInDirectoryFlatHostMixin.JetBrains.Application.Environment.HostParameters.IHaveFullPartCatalogSetHostMixin.GetFullPartCatalogSet(Lifetime lifetime)
+     at JetBrains.Application.Environment.HostParameters.JetHostParametersCaller.GetFullPartCatalogSet(Lifetime lifetime) in GetFullPartCatalogSet.il:line IL_0049 mvid 8B01
+     at JetBrains.Application.Environment.JetEnvironment..ctor(Lifetime lifetime, JetHostParametersCaller host)
+     at JetBrains.Application.Environment.JetEnvironment.<>c__DisplayClass11_0.<InternalCreate>b__0() in JetEnvironment.il:line IL_0000 mvid 8B01 or JetEnvironment.il:line IL_0095 mvid 8B01
+     at JetBrains.Threading.ReentrancyGuard.Execute(String name, Action action) in Execute.il:line IL_014D mvid 7D84
+     at JetBrains.Application.Environment.JetEnvironment.InternalCreate(LifetimeDefinition lifetimeDefinition, JetHostParametersCaller host, JetEnvironment& environment) in InternalCreate.il:line IL_0067 mvid 8B01
+     at JetBrains.Application.Environment.JetEnvironment.CreateAndRun(Full hostparams) in CreateAndRun.il:line IL_0017 mvid 8B01
+     at JetBrains.Application.Environment.JetHostItems.CreateAndRun(Full input) in CreateAndRun.il:line IL_000E mvid 8B01
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.MainX(Assembly assembly, HostInfo hostInfo, String[] args) in MainX.il:line IL_0089 mvid D690
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.<>c.<Main>b__4_0(Lifetime lifetime) in RiderBackendProgram.il:line IL_002B mvid D690
+     at JetBrains.Lifetimes.Lifetime.Using[T](Func`2 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.Main() in Main.il:line IL_0045 mvid D690
+”
+
+Warning: While cataloging the assembly “JetBrains.Debugger.Tools.ProcessEnumerator.Core, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325”, could not load the assembly reference named “System.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”.
+Warning: While cataloging the assembly “JetBrains.Platform.MsBuildTask, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325”, could not load the assembly reference named “Microsoft.Build.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”.
+Warning: While cataloging the assembly “JetBrains.Platform.MsBuildTask, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325”, could not load the assembly reference named “Microsoft.Build, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”.
+Warning: While cataloging the assembly “JetBrains.ReSharper.Features.Internal, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325”, could not load the assembly reference named “Microsoft.Build, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”.
+Warning: While cataloging the assembly “JetBrains.EntityFramework.Runner620, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325”, could not load the assembly reference named “EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”.
+Warning: While cataloging the assembly “JetBrains.JITDebuggerLauncher, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325”, could not load the assembly reference named “System.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”.
+Warning: While cataloging the assembly “JetBrains.ReSharper.Features.WinForms.Designer.External, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325”, could not load the assembly reference named “System.Drawing.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”.
+Warning: While cataloging the assembly “Rider.SqlProj.Worker, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325”, could not load the assembly reference named “Microsoft.Data.Tools.Schema.Sql, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”.
+Warning: While cataloging the assembly “Rider.SqlProj.Worker, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325”, could not load the assembly reference named “Microsoft.SqlServer.TransactSql.ScriptDom, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91”.
+Warning: While cataloging the assembly “Rider.SqlProj.Worker, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325”, could not load the assembly reference named “Microsoft.Data.Tools.Schema.Utilities.Sql, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”.
+Warning: While cataloging the assembly “Rider.SqlProj.Worker, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325”, could not load the assembly reference named “Microsoft.Data.Tools.Utilities, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”.
+Warning: While cataloging the assembly “Rider.SqlProj.Worker.Extensions, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325”, could not load the assembly reference named “Microsoft.Data.Tools.Schema.Sql, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”.
+Warning: While cataloging the assembly “JetBrains.Common.Util, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325”, could not load the assembly reference named “System.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”.
+Warning: While cataloging the assembly “JetBrains.Platform.SDK.Helper, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325”, could not load the assembly reference named “Microsoft.Build.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”.
+Warning: While cataloging the assembly “JetBrains.Platform.SDK.MsBuild, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325”, could not load the assembly reference named “Microsoft.Build.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”.
+Error registering mapping for catalog assembly “JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325”. An item with the same key has already been added. Key: JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325
+
+--- EXCEPTION #1/2 [ArgumentException]
+Message = “An item with the same key has already been added. Key: JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325”
+ExceptionPath = Root.InnerException
+ClassName = System.ArgumentException
+Data.ThreadLocalDebugInfo = Environment::Create
+HResult = E_INVALIDARG=COR_E_ARGUMENT=WIN32_ERROR_INVALID_PARAMETER=80070057
+Source = System.Private.CoreLib
+StackTraceString = “
+  at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior) in TryInsert.il:line IL_0000 mvid 87BE
+     at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value) in Add.il:line IL_0000 mvid 87BE
+     at JetBrains.Application.BuildScript.Application.Catalogs.PartCatalogZoneMapping.Calculate(PartCatalog catalog, ILogger logger) in Calculate.il:line IL_0045 mvid 8B01
+”
+
+--- Outer ---
+
+--- EXCEPTION #2/2 [LoggerException]
+Message = “Error registering mapping for catalog assembly “JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325”. An item with the same key has already been added. Key: JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325”
+ExceptionPath = Root
+ClassName = JetBrains.Util.LoggerException
+InnerException = “Exception #1 at Root.InnerException”
+HResult = COR_E_APPLICATION=80131600
+StackTraceString = “
+  at JetBrains.Util.ILoggerEx.Error[T1](ILogger this, Exception ex, String message, T1 t1) in Error.il:line IL_002E mvid 7D84
+     at JetBrains.Application.BuildScript.Application.Catalogs.PartCatalogZoneMapping.Calculate(PartCatalog catalog, ILogger logger) in Calculate.il:line IL_0045 mvid 8B01
+     at JetBrains.Application.BuildScript.Application.Catalogs.PartCatalogZoneMapping.GetOrCreate(PartCatalog catalog) in GetOrCreate.il:line IL_0010 mvid 8B01
+     at JetBrains.Application.BuildScript.Application.Catalogs.CalculateModuleZoneTraitsForPartCatalogTables.JetBrains.Application.Table.Emit.ICalculateTraitsForPartCatalogTables.CalculateTraits(EmitTimeTables tables, OneToSetMap`2 typetraits)
+     at JetBrains.Application.Table.Emit.TraitsInCatalogTables.CalculateTraits(EmitTimeTables tables, ICollection`1 calculators) in CalculateTraits.il:line IL_006E mvid 8E87
+     at JetBrains.Application.Table.Emit.EmitCatalogTables.CreateCatalogTablesWithMetadataReader(IEnumerable`1 assemblies, IAssemblyMasterBinder masterbinder, ICollection`1 traitcalc, Stream output, ILogger logger) in CreateCatalogTablesWithMetadataReader.il:line IL_00D7 mvid 8E87
+     at JetBrains.Application.BuildScript.Application.Catalogs.PartCatalogs.CreateWithMetadataReaderRaw(Lifetime lifetime, IEnumerable`1 assemblies, IAssemblyMasterBinder masterbinder, ILogger logger) in CreateWithMetadataReaderRaw.il:line IL_0006 mvid 8B01
+     at JetBrains.Application.Environment.DeployedPackagesLoader.CreateAdHocCatalogForUncatalogedAssemblies(Lifetime lifeCreationProcess, ICollection`1 assembliesForAdHocCataloging, DeployedPackagesMasterBinderData binderlist, ICollection`1 catables) in CreateAdHocCatalogForUncatalogedAssemblies.il:line IL_0054 mvid 8B01
+     at JetBrains.Application.Environment.DeployedPackagesLoader.Load(Lifetime lifetime, DeployedPackagesIdentity identity, Lazy`1 taskerForNugets, Diagnostyx diag) in Load.il:line IL_00E0 mvid 8B01
+     at JetBrains.Application.Environment.DeployedPackagesCache.LoadWithCaching(Lifetime lifetime, DeployedPackagesIdentity identity, Lazy`1 taskerForNugets) in LoadWithCaching.il:line IL_0067 mvid 8B01
+     at JetBrains.Application.Environment.DeployedPackages.LoadWithCaching(Lifetime lifetime, DeployedPackagesIdentity identity, Lazy`1 taskerForNugets) in LoadWithCaching.il:line IL_001C mvid 8B01
+     at JetBrains.Application.Environment.HostParameters.CollectProductPackagesInDirectoryFlatHostMixin.JetBrains.Application.Environment.HostParameters.IHaveFullPartCatalogSetHostMixin.GetFullPartCatalogSet(Lifetime lifetime)
+     at JetBrains.Application.Environment.HostParameters.JetHostParametersCaller.GetFullPartCatalogSet(Lifetime lifetime) in GetFullPartCatalogSet.il:line IL_0049 mvid 8B01
+     at JetBrains.Application.Environment.JetEnvironment..ctor(Lifetime lifetime, JetHostParametersCaller host)
+     at JetBrains.Application.Environment.JetEnvironment.<>c__DisplayClass11_0.<InternalCreate>b__0() in JetEnvironment.il:line IL_0000 mvid 8B01 or JetEnvironment.il:line IL_0095 mvid 8B01
+     at JetBrains.Threading.ReentrancyGuard.Execute(String name, Action action) in Execute.il:line IL_014D mvid 7D84
+     at JetBrains.Application.Environment.JetEnvironment.InternalCreate(LifetimeDefinition lifetimeDefinition, JetHostParametersCaller host, JetEnvironment& environment) in InternalCreate.il:line IL_0067 mvid 8B01
+     at JetBrains.Application.Environment.JetEnvironment.CreateAndRun(Full hostparams) in CreateAndRun.il:line IL_0017 mvid 8B01
+     at JetBrains.Application.Environment.JetHostItems.CreateAndRun(Full input) in CreateAndRun.il:line IL_000E mvid 8B01
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.MainX(Assembly assembly, HostInfo hostInfo, String[] args) in MainX.il:line IL_0089 mvid D690
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.<>c.<Main>b__4_0(Lifetime lifetime) in RiderBackendProgram.il:line IL_002B mvid D690
+     at JetBrains.Lifetimes.Lifetime.Using[T](Func`2 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.Main() in Main.il:line IL_0045 mvid D690
+”
+
+Duplicate assembly JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325 in catalog tables being merged.
+
+--- EXCEPTION #1/1 [LoggerException]
+Message = “Duplicate assembly JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325 in catalog tables being merged.”
+ExceptionPath = Root
+ClassName = JetBrains.Util.LoggerException
+HResult = COR_E_APPLICATION=80131600
+StackTraceString = “
+  at JetBrains.Util.ILoggerEx.LogMessage[T1](ILogger this, LoggingLevel level, String message, T1 t1) in LogMessage.il:line IL_002E mvid 7D84
+     at JetBrains.Util.ILoggerEx.Error[T1](ILogger this, String message, T1 t1) in Error.il:line IL_0000 mvid 7D84
+     at JetBrains.Application.Table.Emit.CatalogTablesMerger.MergeCatalogTables(CatalogTables[] olds, Stream output)
+     at JetBrains.Application.Environment.DeployedPackagesLoader.MergeCatalogs(ICollection`1 catables)
+     at JetBrains.Application.Environment.DeployedPackagesLoader.Load(Lifetime lifetime, DeployedPackagesIdentity identity, Lazy`1 taskerForNugets, Diagnostyx diag) in Load.il:line IL_00EC mvid 8B01
+     at JetBrains.Application.Environment.DeployedPackagesCache.LoadWithCaching(Lifetime lifetime, DeployedPackagesIdentity identity, Lazy`1 taskerForNugets) in LoadWithCaching.il:line IL_0067 mvid 8B01
+     at JetBrains.Application.Environment.DeployedPackages.LoadWithCaching(Lifetime lifetime, DeployedPackagesIdentity identity, Lazy`1 taskerForNugets) in LoadWithCaching.il:line IL_001C mvid 8B01
+     at JetBrains.Application.Environment.HostParameters.CollectProductPackagesInDirectoryFlatHostMixin.JetBrains.Application.Environment.HostParameters.IHaveFullPartCatalogSetHostMixin.GetFullPartCatalogSet(Lifetime lifetime)
+     at JetBrains.Application.Environment.HostParameters.JetHostParametersCaller.GetFullPartCatalogSet(Lifetime lifetime) in GetFullPartCatalogSet.il:line IL_0049 mvid 8B01
+     at JetBrains.Application.Environment.JetEnvironment..ctor(Lifetime lifetime, JetHostParametersCaller host)
+     at JetBrains.Application.Environment.JetEnvironment.<>c__DisplayClass11_0.<InternalCreate>b__0() in JetEnvironment.il:line IL_0000 mvid 8B01 or JetEnvironment.il:line IL_0095 mvid 8B01
+     at JetBrains.Threading.ReentrancyGuard.Execute(String name, Action action) in Execute.il:line IL_014D mvid 7D84
+     at JetBrains.Application.Environment.JetEnvironment.InternalCreate(LifetimeDefinition lifetimeDefinition, JetHostParametersCaller host, JetEnvironment& environment) in InternalCreate.il:line IL_0067 mvid 8B01
+     at JetBrains.Application.Environment.JetEnvironment.CreateAndRun(Full hostparams) in CreateAndRun.il:line IL_0017 mvid 8B01
+     at JetBrains.Application.Environment.JetHostItems.CreateAndRun(Full input) in CreateAndRun.il:line IL_000E mvid 8B01
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.MainX(Assembly assembly, HostInfo hostInfo, String[] args) in MainX.il:line IL_0089 mvid D690
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.<>c.<Main>b__4_0(Lifetime lifetime) in RiderBackendProgram.il:line IL_002B mvid D690
+     at JetBrains.Lifetimes.Lifetime.Using[T](Func`2 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.Main() in Main.il:line IL_0045 mvid D690
+”
+
+Warning: Could not cache the loaded set of deployed application packages for use on the next run.
+The AssemblyMasterBinderOnDiskFiles was given two assemblies with the same name “JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325” at paths ““JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325” @ /Users/main/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.rider/riderRD/2024.1/f2b801fd987fbe249222ea8de791bce38384b5c3/riderRD-2024.1/plugins/dotTrace.dotMemory/DotFiles/JetBrains.Platform.UIInteractive.Shell.Common.dll” and /Users/main/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.rider/riderRD/2024.1/f2b801fd987fbe249222ea8de791bce38384b5c3/riderRD-2024.1/lib/ReSharperHost/JetBrains.Platform.UIInteractive.Shell.Common.dll.
+
+--- EXCEPTION #1/1 [LoggerException]
+Message = “The AssemblyMasterBinderOnDiskFiles was given two assemblies with the same name “JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325” at paths ““JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325” @ /Users/main/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.rider/riderRD/2024.1/f2b801fd987fbe249222ea8de791bce38384b5c3/riderRD-2024.1/plugins/dotTrace.dotMemory/DotFiles/JetBrains.Platform.UIInteractive.Shell.Common.dll” and /Users/main/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.rider/riderRD/2024.1/f2b801fd987fbe249222ea8de791bce38384b5c3/riderRD-2024.1/lib/ReSharperHost/JetBrains.Platform.UIInteractive.Shell.Common.dll.”
+ExceptionPath = Root
+ClassName = JetBrains.Util.LoggerException
+HResult = COR_E_APPLICATION=80131600
+StackTraceString = “
+  at JetBrains.Util.ILoggerEx.LogMessage[T1,T2,T3](ILogger this, LoggingLevel level, String message, T1 t1, T2 t2, T3 t3) in LogMessage.il:line IL_002E mvid 7D84
+     at JetBrains.Util.ILoggerEx.Error[T1,T2,T3](ILogger this, String message, T1 t1, T2 t2, T3 t3) in Error.il:line IL_0000 mvid 7D84
+     at JetBrains.Application.Bindings.AssemblyMasterBinderOnDiskFiles.GetPathByNameCore(AssemblyNameInfo name, OnError onerror, IModuleReferenceResolveContext ctx) in GetPathByNameCore.il:line IL_0100 mvid 8E87
+     at JetBrains.Application.Bindings.AssemblyMasterBinderOnDiskFiles.<>c__DisplayClass16_0.<JetBrains.Application.Bindings.IAssemblyMasterBinder.BindToRuntimeAssembly>b__0(AssemblyNameInfo _)
+     at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory) in GetOrAdd.il:line IL_0048 mvid 32ED or GetOrAdd.il:line IL_0059 mvid 32ED
+     at JetBrains.Application.Bindings.AssemblyMasterBinderOnDiskFiles.JetBrains.Application.Bindings.IAssemblyMasterBinder.BindToRuntimeAssembly(AssemblyNameInfo name, OnError onerror)
+     at JetBrains.Application.Parts.AssemblyBinderOnMaster.JetBrains.Application.Bindings.IAssemblyBinder.BindToRuntimeAssembly(OnError onerror)
+     at JetBrains.Application.Table.AssemblyBinderWithMvidValidation.JetBrains.Application.Bindings.IAssemblyBinder.BindToRuntimeAssembly(OnError onerror)
+     at JetBrains.Application.Table.TablePartCatalogStorage.<>c__DisplayClass68_1.<.cctor>b__3(Int32`1 tk) in TablePartCatalogStorage.il:line IL_0061 mvid 8E87
+     at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory) in GetOrAdd.il:line IL_0048 mvid 32ED or GetOrAdd.il:line IL_0059 mvid 32ED
+     at JetBrains.Application.Table.TablePartCatalogStorage.TypeBind(Int32`1 token) in TypeBind.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Extensibility.PartCatalogTypeComponentDescriptor.DoGetDependenciesNoCache() in DoGetDependenciesNoCache.il:line IL_0007 mvid 8E87
+     at JetBrains.Application.Components.SingletonDescriptor`1.DoGetDependenciesNoCacheValidated() in DoGetDependenciesNoCacheValidated.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.SingletonDescriptor`1.TryGetCachedDependencies(Boolean allowGetValueIfNotAlive) in TryGetCachedDependencies.il:line IL_0062 mvid 8E87
+     at JetBrains.Application.Components.SingletonDescriptor`1.DoGetDependencies() in DoGetDependencies.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.GetDependencies() in GetDependencies.il:line IL_001A mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.get_HasDependencies()
+     at JetBrains.Application.Components.AsyncDescriptorBase.TryGetDependencyValues() in TryGetDependencyValues.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.TryGetOrCreateValue() in TryGetOrCreateValue.il:line IL_0012 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.GetValue() in GetValue.il:line IL_000C mvid 8E87
+     at JetBrains.Application.Components.InitializationStrategyBase.InitDescriptorSync(Lifetime lifetime, IComponentContainer container, IComponentDescriptor descriptor, ContainerStrategyStage stage) in InitDescriptorSync.il:line IL_0017 mvid 8E87
+     at JetBrains.Application.Components.LifecycleInitializationStrategy.DoSchedule(Lifetime lifetime, ICollection`1 descriptors, String containerId, IComponentContainer container) in DoSchedule.il:line IL_0030 mvid 8E87
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.Schedule(Lifetime lifetime, ICollection`1 dscs, String containedId, IComponentContainer container) in Schedule.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.InstantiateDescriptors(ICollection`1 descriptors) in InstantiateDescriptors.il:line IL_0046 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.ComposeDescriptors(ICollection`1 descriptors) in ComposeDescriptors.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.Compose() in Compose.il:line IL_00C9 mvid 8E87
+     at JetBrains.Application.Components.ComponentContainer.Compose() in Compose.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Environment.JetEnvironment..ctor(Lifetime lifetime, JetHostParametersCaller host)
+     at JetBrains.Application.Environment.JetEnvironment.<>c__DisplayClass11_0.<InternalCreate>b__0() in JetEnvironment.il:line IL_0000 mvid 8B01 or JetEnvironment.il:line IL_0255 mvid 8B01
+     at JetBrains.Threading.ReentrancyGuard.Execute(String name, Action action) in Execute.il:line IL_014D mvid 7D84
+     at JetBrains.Application.Environment.JetEnvironment.InternalCreate(LifetimeDefinition lifetimeDefinition, JetHostParametersCaller host, JetEnvironment& environment) in InternalCreate.il:line IL_0067 mvid 8B01
+     at JetBrains.Application.Environment.JetEnvironment.CreateAndRun(Full hostparams) in CreateAndRun.il:line IL_0017 mvid 8B01
+     at JetBrains.Application.Environment.JetHostItems.CreateAndRun(Full input) in CreateAndRun.il:line IL_000E mvid 8B01
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.MainX(Assembly assembly, HostInfo hostInfo, String[] args) in MainX.il:line IL_0089 mvid D690
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.<>c.<Main>b__4_0(Lifetime lifetime) in RiderBackendProgram.il:line IL_002B mvid D690
+     at JetBrains.Lifetimes.Lifetime.Using[T](Func`2 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.Main() in Main.il:line IL_0045 mvid D690
+”
+
+The AssemblyMasterBinderOnDiskFiles was given two assemblies with the same name “JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325” at paths ““JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325” @ /Users/main/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.rider/riderRD/2024.1/f2b801fd987fbe249222ea8de791bce38384b5c3/riderRD-2024.1/plugins/dotTrace.dotMemory/DotFiles/JetBrains.Platform.UIInteractive.Shell.Common.dll” and /Users/main/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.rider/riderRD/2024.1/f2b801fd987fbe249222ea8de791bce38384b5c3/riderRD-2024.1/lib/ReSharperHost/JetBrains.Platform.UIInteractive.Shell.Common.dll.
+
+--- EXCEPTION #1/1 [LoggerException]
+Message = “The AssemblyMasterBinderOnDiskFiles was given two assemblies with the same name “JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325” at paths ““JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325” @ /Users/main/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.rider/riderRD/2024.1/f2b801fd987fbe249222ea8de791bce38384b5c3/riderRD-2024.1/plugins/dotTrace.dotMemory/DotFiles/JetBrains.Platform.UIInteractive.Shell.Common.dll” and /Users/main/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.rider/riderRD/2024.1/f2b801fd987fbe249222ea8de791bce38384b5c3/riderRD-2024.1/lib/ReSharperHost/JetBrains.Platform.UIInteractive.Shell.Common.dll.”
+ExceptionPath = Root
+ClassName = JetBrains.Util.LoggerException
+HResult = COR_E_APPLICATION=80131600
+StackTraceString = “
+  at JetBrains.Util.ILoggerEx.LogMessage[T1,T2,T3](ILogger this, LoggingLevel level, String message, T1 t1, T2 t2, T3 t3) in LogMessage.il:line IL_002E mvid 7D84
+     at JetBrains.Util.ILoggerEx.Error[T1,T2,T3](ILogger this, String message, T1 t1, T2 t2, T3 t3) in Error.il:line IL_0000 mvid 7D84
+     at JetBrains.Application.Bindings.AssemblyMasterBinderOnDiskFiles.GetPathByNameCore(AssemblyNameInfo name, OnError onerror, IModuleReferenceResolveContext ctx) in GetPathByNameCore.il:line IL_0100 mvid 8E87
+     at JetBrains.Application.Bindings.AssemblyMasterBinderOnDiskFiles.<>c__DisplayClass16_0.<JetBrains.Application.Bindings.IAssemblyMasterBinder.BindToRuntimeAssembly>b__0(AssemblyNameInfo _)
+     at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory) in GetOrAdd.il:line IL_0048 mvid 32ED or GetOrAdd.il:line IL_0059 mvid 32ED
+     at JetBrains.Application.Bindings.AssemblyMasterBinderOnDiskFiles.JetBrains.Application.Bindings.IAssemblyMasterBinder.BindToRuntimeAssembly(AssemblyNameInfo name, OnError onerror)
+     at JetBrains.Application.Parts.AssemblyBinderOnMaster.JetBrains.Application.Bindings.IAssemblyBinder.BindToRuntimeAssembly(OnError onerror)
+     at JetBrains.Application.Table.AssemblyBinderWithMvidValidation.JetBrains.Application.Bindings.IAssemblyBinder.BindToRuntimeAssembly(OnError onerror)
+     at JetBrains.Application.Table.TablePartCatalogStorage.<>c__DisplayClass68_1.<.cctor>b__3(Int32`1 tk) in TablePartCatalogStorage.il:line IL_0061 mvid 8E87
+     at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory) in GetOrAdd.il:line IL_0048 mvid 32ED or GetOrAdd.il:line IL_0059 mvid 32ED
+     at JetBrains.Application.Table.TablePartCatalogStorage.TypeBind(Int32`1 token) in TypeBind.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Extensibility.PartCatalogTypeComponentDescriptor.DoGetDependenciesNoCache() in DoGetDependenciesNoCache.il:line IL_0007 mvid 8E87
+     at JetBrains.Application.Components.SingletonDescriptor`1.DoGetDependenciesNoCacheValidated() in DoGetDependenciesNoCacheValidated.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.SingletonDescriptor`1.TryGetCachedDependencies(Boolean allowGetValueIfNotAlive) in TryGetCachedDependencies.il:line IL_0062 mvid 8E87
+     at JetBrains.Application.Components.SingletonDescriptor`1.DoGetDependencies() in DoGetDependencies.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.GetDependencies() in GetDependencies.il:line IL_001A mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.WarmUpDescriptors(Lifetime lifetime, ICollection`1 descriptors, String containerId) in WarmUpDescriptors.il:line IL_0056 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.<>c__DisplayClass25_0.<InstantiateDescriptors>b__0() in ComponentStorage.il:line IL_0000 mvid 8E87
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 87BE
+     at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread) in ExecuteWithThreadLocal.il:line IL_0096 mvid 87BE
+     at System.Threading.Tasks.Task.ExecuteEntry() in ExecuteEntry.il:line IL_0036 mvid 87BE
+     at JetBrains.Application.Threading.Tasks.Scheduler.JetScheduler.ExecuteTask(Task task) in ExecuteTask.il:line IL_0014 mvid 7D84
+     at JetBrains.Application.Threading.Tasks.Scheduler.JetSchedulerThread.EnqueueNextTask() in EnqueueNextTask.il:line IL_0015 mvid 7D84
+     at JetBrains.Application.Threading.Tasks.Scheduler.JetSchedulerThread.ThreadPoolProc() in ThreadPoolProc.il:line IL_0197 mvid 7D84
+     at JetBrains.Application.Threading.Tasks.Scheduler.JetSchedulerThread.StartProc() in StartProc.il:line IL_0000 mvid 7D84
+     at System.Threading.Thread.StartHelper.Callback(Object state) in Callback.il:line IL_0000 mvid 87BE
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 87BE
+”
+
+Cannot index assemblies in the application packages. There are at least two assemblies with the same name “JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325” in packages JetBrains.Platform.UIInteractive.Common and JetBrains.Platform.UIInteractive.Common. An item with the same key has already been added. Key: JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325
+
+--- EXCEPTION #1/2 [ArgumentException]
+Message = “An item with the same key has already been added. Key: JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325”
+ExceptionPath = Root.InnerException
+ClassName = System.ArgumentException
+Data.ThreadLocalDebugInfo = Environment::Create
+Data.AllPackages.#000 = JetBrains.Debugger.Debugger.BrowserHub
+Data.AllPackages.#001 = JetBrains.Debugger.Debugger.Host.Core
+Data.AllPackages.#002 = JetBrains.Debugger.Debugger.Host
+Data.AllPackages.#003 = JetBrains.Debugger.Debugger.Worker.Core
+Data.AllPackages.#004 = JetBrains.Debugger.Debugger.Worker
+Data.AllPackages.#005 = JetBrains.Debugger.Libs
+Data.AllPackages.#006 = JetBrains.Debugger.Tools.ProcessEnumerator.Core
+Data.AllPackages.#007 = JetBrains.ExternalAnnotations
+Data.AllPackages.#008 = JetBrains.Platform.Core.Ide
+Data.AllPackages.#009 = JetBrains.Platform.Core.IisExpress
+Data.AllPackages.#010 = JetBrains.Platform.Core.MsBuild
+Data.AllPackages.#011 = JetBrains.Platform.Core.Shell
+Data.AllPackages.#012 = JetBrains.Platform.Core.Symbols
+Data.AllPackages.#013 = JetBrains.Platform.Core.Text
+Data.AllPackages.#014 = JetBrains.Platform.Core.ViewModels
+Data.AllPackages.#015 = JetBrains.Platform.Installer
+Data.AllPackages.#016 = JetBrains.Platform.Interop.CommandLine
+Data.AllPackages.#017 = JetBrains.Platform.Interop.dotMemoryUnit.Interop.Console
+Data.AllPackages.#018 = JetBrains.Platform.Interop.dotMemoryUnit.Interop.Ide
+Data.AllPackages.#019 = JetBrains.Platform.RdProtocol
+Data.AllPackages.#020 = JetBrains.Platform.UIInteractive.Common
+Data.AllPackages.#021 = JetBrains.Platform.UIInteractive.Shell
+Data.AllPackages.#022 = JetBrains.Platform.UIInteractive.Wpf.Symbols
+Data.AllPackages.#023 = JetBrains.Psi.Features.AI.Src.Core
+Data.AllPackages.#024 = JetBrains.Psi.Features.Core
+Data.AllPackages.#025 = JetBrains.Psi.Features.Cpp.Src.AI
+Data.AllPackages.#026 = JetBrains.Psi.Features.Cpp.Src.Core
+Data.AllPackages.#027 = JetBrains.Psi.Features.SolutionBuilder
+Data.AllPackages.#028 = JetBrains.Psi.Features.src
+Data.AllPackages.#029 = JetBrains.Psi.Features.Tasks
+Data.AllPackages.#030 = JetBrains.Psi.Features.UnitTesting
+Data.AllPackages.#031 = JetBrains.Psi.Features.Web.Core
+Data.AllPackages.#032 = JetBrains.ReSharperAutomationTools.src.CommandLineCore
+Data.AllPackages.#033 = JetBrains.ReSharperAutomationTools.src.Roslyn
+Data.AllPackages.#034 = JetBrains.ReSharperCpp.RiderPlugin
+Data.AllPackages.#035 = JetBrains.Rider.BrowserHotReload
+Data.AllPackages.#036 = JetBrains.Rider.External.Iis
+Data.AllPackages.#037 = JetBrains.Rider.External.Templating.TemplateEngine
+Data.AllPackages.#038 = JetBrains.Rider.External.Wcf.SvcUtil
+Data.AllPackages.#039 = JetBrains.Rider.Native.Core.windows-x64.Release
+Data.AllPackages.#040 = JetBrains.Rider.Native.Core.windows-x86.Release
+Data.AllPackages.#041 = JetBrains.Rider.RdBackend.Common
+Data.AllPackages.#042 = JetBrains.Rider.Rider.Backend
+Data.AllPackages.#043 = JetBrains.Rider.RiderProduct
+Data.AllPackages.#044 = JetBrains.Rider.XamlHotReload
+Data.AllPackages.#045 = JetBrains.dotCommon.Core
+Data.AllPackages.#046 = JetBrains.dotCommon.Ide.Common
+Data.AllPackages.#047 = JetBrains.dotCommon.Ide.Rider
+Data.AllPackages.#048 = JetBrains.dotCommon.Native.Core.linux-x64.Release
+Data.AllPackages.#049 = JetBrains.dotCommon.Native.Core.macos-arm64.Release
+Data.AllPackages.#050 = JetBrains.dotCommon.Native.Core.macos-x64.Release
+Data.AllPackages.#051 = JetBrains.dotCommon.Native.Core.windows-x64.Release
+Data.AllPackages.#052 = JetBrains.dotCommon.Native.Core.windows-x86.Release
+Data.AllPackages.#053 = JetBrains.dotCommon.Psi.Navigation
+Data.AllPackages.#054 = JetBrains.dotCommon.Psi.UnitTesting
+Data.AllPackages.#055 = JetBrains.EtwService.Core
+Data.AllPackages.#056 = JetBrains.EtwService.Msi.windows-x64
+Data.AllPackages.#057 = JetBrains.EtwService.Native.Core.linux-x64.Release
+Data.AllPackages.#058 = JetBrains.EtwService.Native.Core.macos-arm64.Release
+Data.AllPackages.#059 = JetBrains.EtwService.Native.Core.macos-x64.Release
+Data.AllPackages.#060 = JetBrains.EtwService.Native.Core.windows-x64.Release
+Data.AllPackages.#061 = JetBrains.EtwService.Native.Core.windows-x86.Release
+Data.AllPackages.#062 = JetBrains.Profiler.Kernel.Core
+Data.AllPackages.#063 = JetBrains.Profiler.Kernel.ProfilingInstance
+Data.AllPackages.#064 = JetBrains.Profiler.Kernel.Windows.Engine
+Data.AllPackages.#065 = JetBrains.Profiler.Kernel.Windows.Remotable
+Data.AllPackages.#066 = JetBrains.Profiler.Kernel.Windows.RemoteApi
+Data.AllPackages.#067 = JetBrains.Profiler.Native.Core.linux-x64.Release
+Data.AllPackages.#068 = JetBrains.Profiler.Native.Core.macos-arm64.Release
+Data.AllPackages.#069 = JetBrains.Profiler.Native.Core.macos-x64.Release
+Data.AllPackages.#070 = JetBrains.Profiler.Native.Core.windows-x64.Release
+Data.AllPackages.#071 = JetBrains.Profiler.Native.Core.windows-x86.Release
+Data.AllPackages.#072 = JetBrains.Profiler.Snapshot
+Data.AllPackages.#073 = JetBrains.dotCover.Core
+Data.AllPackages.#074 = JetBrains.dotCover.Ide
+Data.AllPackages.#075 = JetBrains.dotCover.Interactive.Core
+Data.AllPackages.#076 = JetBrains.dotCover.OutOfProcess
+Data.AllPackages.#077 = JetBrains.dotCover.RiderPlugin
+Data.AllPackages.#078 = JetBrains.dotCommon.AvaloniaExternal
+Data.AllPackages.#079 = JetBrains.dotCommon.ExternalStorage
+Data.AllPackages.#080 = JetBrains.dotCommon.Timeline
+Data.AllPackages.#081 = JetBrains.dotCommon.UIInteractive.Avalonia.UI.Avalonia
+Data.AllPackages.#082 = JetBrains.dotCommon.UIInteractive.Shell
+Data.AllPackages.#083 = JetBrains.dotMemory.Core
+Data.AllPackages.#084 = JetBrains.dotMemory.Home.GUI.Avalonia
+Data.AllPackages.#085 = JetBrains.dotMemory.Home.Presentation
+Data.AllPackages.#086 = JetBrains.dotMemory.Ide.Core
+Data.AllPackages.#087 = JetBrains.dotMemory.Ide.Rider
+Data.AllPackages.#088 = JetBrains.dotMemory.Presentation.Avalonia.Common
+Data.AllPackages.#089 = JetBrains.dotMemory.Presentation.ViewModels
+Data.AllPackages.#090 = JetBrains.dotMemory.Profiling
+Data.AllPackages.#091 = JetBrains.dotMemory.Resources
+Data.AllPackages.#092 = JetBrains.dotMemory.StandaloneComponents
+Data.AllPackages.#093 = JetBrains.dotTrace.Core
+Data.AllPackages.#094 = JetBrains.dotTrace.Ide.Core
+Data.AllPackages.#095 = JetBrains.dotTrace.Ide.Rider.dotTrace
+Data.AllPackages.#096 = JetBrains.dotTrace.Ide.Rider.dotTraceMemoryPlugin
+Data.AllPackages.#097 = JetBrains.dotTrace.Ide.Rider.dotTraceMemoryPluginActivator
+Data.AllPackages.#098 = JetBrains.Platform.Standalone.Avalonia.Shell
+Data.AllPackages.#099 = JetBrains.Platform.Standalone.Shell
+Data.AllPackages.#100 = JetBrains.Platform.UIInteractive.Avalonia.Ide
+Data.AllPackages.#101 = JetBrains.Platform.UIInteractive.Avalonia.Shell
+Data.AllPackages.#102 = JetBrains.Platform.UIInteractive.Common
+Data.AllPackages.#103 = JetBrains.Profiler.Configurator.Common
+Data.AllPackages.#104 = JetBrains.Profiler.Home.GUI.Avalonia
+Data.AllPackages.#105 = JetBrains.Profiler.Home.Presentation
+Data.AllPackages.#106 = JetBrains.Profiler.Kernel.ProfilingSessions
+Data.AllPackages.#107 = JetBrains.DPA.Core
+Data.AllPackages.#108 = JetBrains.DPA.Ide.Core
+Data.AllPackages.#109 = JetBrains.DPA.Ide.Rider
+Data.AllPackages.#110 = JetBrains.DPA.Monitoring
+Data.AllPackages.#111 = JetBrains.Plugins.resharper-fsharp.ReSharper.FSharp.src.FSharp
+Data.AllPackages.#112 = JetBrains.Plugins.resharper-fsharp.ReSharper.FSharp.src.FSharp.RiderPlugin
+Data.AllPackages.#113 = JetBrains.Plugins._ReSharperFSharp.Pregenerated.BackendModel
+Data.AllPackages.#114 = JetBrains.unreal-link
+Data.AllPackages.#115 = me.seclerp.rider.plugins.efcore
+Data.AllPackages.#116 = org.jetbrains.fortea
+Data.AllPackages.#117 = com.intellij.resharper.unity
+Data.AllPackages.#118 = com.jetbrains.rider.plugins.actions
+HResult = E_INVALIDARG=COR_E_ARGUMENT=WIN32_ERROR_INVALID_PARAMETER=80070057
+Source = System.Private.CoreLib
+StackTraceString = “
+  at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior) in TryInsert.il:line IL_0000 mvid 87BE
+     at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value) in Add.il:line IL_0000 mvid 87BE
+     at JetBrains.Application.Environment.ApplicationPackages.<>c.<.cctor>b__7_0(IEnumerable`1 apppkgs) in ApplicationPackages.il:line IL_0059 mvid 8B01
+”
+
+--- Outer ---
+
+--- EXCEPTION #2/2 [LoggerException]
+Message = “Cannot index assemblies in the application packages. There are at least two assemblies with the same name “JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325” in packages JetBrains.Platform.UIInteractive.Common and JetBrains.Platform.UIInteractive.Common. An item with the same key has already been added. Key: JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325”
+ExceptionPath = Root
+ClassName = JetBrains.Util.LoggerException
+InnerException = “Exception #1 at Root.InnerException”
+HResult = COR_E_APPLICATION=80131600
+StackTraceString = “
+  at JetBrains.Util.ILoggerEx.Error[T1,T2,T3](ILogger this, Exception ex, String message, T1 t1, T2 t2, T3 t3) in Error.il:line IL_002E mvid 7D84
+     at JetBrains.Application.Environment.ApplicationPackages.<>c.<.cctor>b__7_0(IEnumerable`1 apppkgs) in ApplicationPackages.il:line IL_0059 mvid 8B01
+     at JetBrains.Util.Concurrency.LocalLazy`2.CreateValue() in CreateValue.il:line IL_0013 mvid 7D84
+     at JetBrains.Util.Concurrency.LocalLazy`2.CreateValueWithMode() in CreateValueWithMode.il:line IL_0046 mvid 7D84
+     at JetBrains.Util.Concurrency.LocalLazy`2.GetValue() in GetValue.il:line IL_000E mvid 7D84
+     at JetBrains.Application.Environment.ApplicationPackages.FindPackageWithAssembly(AssemblyNameInfo name, OnError onerror) in FindPackageWithAssembly.il:line IL_0014 mvid 8B01 or FindPackageWithAssembly.il:line IL_0022 mvid 8B01
+     at JetBrains.Application.Environment.ApplicationPackages.FindPackageWithAssembly(Assembly assembly, OnError onerror) in FindPackageWithAssembly.il:line IL_0014 mvid 8B01 or FindPackageWithAssembly.il:line IL_0022 mvid 8B01
+     at JetBrains.Application.HostProductInfoComponent.<>c__DisplayClass2_0.<.ctor>b__0() in HostProductInfoComponent.il:line IL_0000 mvid 8B01
+     at System.Lazy`1.PublicationOnlyViaFactory(LazyHelper initializer) in PublicationOnlyViaFactory.il:line IL_0011 mvid 87BE
+     at System.Lazy`1.CreateValue() in CreateValue.il:line IL_0059 mvid 87BE
+     at JetBrains.Application.HostProductInfoComponent.get_Version()
+     at JetBrains.Application.Extensions.JetPackageRepositoryFactoryEnvironmentComponent..ctor(IProductInfo product, IEnumerable`1 parameters)
+     at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+     at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr) in InvokeDirectByRefWithFewArgs.il:line IL_007E mvid 87BE
+     at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture) in InvokeWithFewArgs.il:line IL_00A7 mvid 87BE
+     at JetBrains.Application.Components.ConstructiorBindigns.Activate(ISingletonDescriptor descriptor, Object[] dependencies) in Activate.il:line IL_0035 mvid 8E87
+     at JetBrains.Application.Extensibility.PartCatalogTypeComponentDescriptor.DoCreateInstance(ConstructiorBindigns bindings, Object[] dependencies) in DoCreateInstance.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.SingletonDescriptor`1.CreateInstance(Object[] dependencies) in CreateInstance.il:line IL_005F mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.CreateInstanceWithReadLock() in CreateInstanceWithReadLock.il:line IL_0046 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.CreateInstance() in CreateInstance.il:line IL_0052 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.TryGetSyncImpl() in TryGetSyncImpl.il:line IL_00DD mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.StateWithPriorityCache`1.TryGetSync() in TryGetSync.il:line IL_0010 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.TryActivate(Object[] dependencyValues) in TryActivate.il:line IL_000B mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.TryGetOrCreateValue() in TryGetOrCreateValue.il:line IL_002F mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.GetValue() in GetValue.il:line IL_000C mvid 8E87
+     at JetBrains.Application.Components.InitializationStrategyBase.InitDescriptorSync(Lifetime lifetime, IComponentContainer container, IComponentDescriptor descriptor, ContainerStrategyStage stage) in InitDescriptorSync.il:line IL_0017 mvid 8E87
+     at JetBrains.Application.Components.LifecycleInitializationStrategy.DoSchedule(Lifetime lifetime, ICollection`1 descriptors, String containerId, IComponentContainer container) in DoSchedule.il:line IL_0070 mvid 8E87
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.Schedule(Lifetime lifetime, ICollection`1 dscs, String containedId, IComponentContainer container) in Schedule.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.InstantiateDescriptors(ICollection`1 descriptors) in InstantiateDescriptors.il:line IL_0046 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.ComposeDescriptors(ICollection`1 descriptors) in ComposeDescriptors.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.Compose() in Compose.il:line IL_00C9 mvid 8E87
+     at JetBrains.Application.Components.ComponentContainer.Compose() in Compose.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Environment.JetEnvironment..ctor(Lifetime lifetime, JetHostParametersCaller host)
+     at JetBrains.Application.Environment.JetEnvironment.<>c__DisplayClass11_0.<InternalCreate>b__0() in JetEnvironment.il:line IL_0000 mvid 8B01 or JetEnvironment.il:line IL_0255 mvid 8B01
+     at JetBrains.Threading.ReentrancyGuard.Execute(String name, Action action) in Execute.il:line IL_014D mvid 7D84
+     at JetBrains.Application.Environment.JetEnvironment.InternalCreate(LifetimeDefinition lifetimeDefinition, JetHostParametersCaller host, JetEnvironment& environment) in InternalCreate.il:line IL_0067 mvid 8B01
+     at JetBrains.Application.Environment.JetEnvironment.CreateAndRun(Full hostparams) in CreateAndRun.il:line IL_0017 mvid 8B01
+     at JetBrains.Application.Environment.JetHostItems.CreateAndRun(Full input) in CreateAndRun.il:line IL_000E mvid 8B01
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.MainX(Assembly assembly, HostInfo hostInfo, String[] args) in MainX.il:line IL_0089 mvid D690
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.<>c.<Main>b__4_0(Lifetime lifetime) in RiderBackendProgram.il:line IL_002B mvid D690
+     at JetBrains.Lifetimes.Lifetime.Using[T](Func`2 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.Main() in Main.il:line IL_0045 mvid D690
+”
+
+Cannot index assemblies in the application packages. There are at least two assemblies with the same simple name “JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325” in packages JetBrains.Platform.UIInteractive.Common and JetBrains.Platform.UIInteractive.Common. An item with the same key has already been added. Key: JetBrains.Platform.UIInteractive.Shell.Common
+
+--- EXCEPTION #1/2 [ArgumentException]
+Message = “An item with the same key has already been added. Key: JetBrains.Platform.UIInteractive.Shell.Common”
+ExceptionPath = Root.InnerException
+ClassName = System.ArgumentException
+Data.ThreadLocalDebugInfo = Environment::Create
+Data.AllPackages.#000 = JetBrains.Debugger.Debugger.BrowserHub
+Data.AllPackages.#001 = JetBrains.Debugger.Debugger.Host.Core
+Data.AllPackages.#002 = JetBrains.Debugger.Debugger.Host
+Data.AllPackages.#003 = JetBrains.Debugger.Debugger.Worker.Core
+Data.AllPackages.#004 = JetBrains.Debugger.Debugger.Worker
+Data.AllPackages.#005 = JetBrains.Debugger.Libs
+Data.AllPackages.#006 = JetBrains.Debugger.Tools.ProcessEnumerator.Core
+Data.AllPackages.#007 = JetBrains.ExternalAnnotations
+Data.AllPackages.#008 = JetBrains.Platform.Core.Ide
+Data.AllPackages.#009 = JetBrains.Platform.Core.IisExpress
+Data.AllPackages.#010 = JetBrains.Platform.Core.MsBuild
+Data.AllPackages.#011 = JetBrains.Platform.Core.Shell
+Data.AllPackages.#012 = JetBrains.Platform.Core.Symbols
+Data.AllPackages.#013 = JetBrains.Platform.Core.Text
+Data.AllPackages.#014 = JetBrains.Platform.Core.ViewModels
+Data.AllPackages.#015 = JetBrains.Platform.Installer
+Data.AllPackages.#016 = JetBrains.Platform.Interop.CommandLine
+Data.AllPackages.#017 = JetBrains.Platform.Interop.dotMemoryUnit.Interop.Console
+Data.AllPackages.#018 = JetBrains.Platform.Interop.dotMemoryUnit.Interop.Ide
+Data.AllPackages.#019 = JetBrains.Platform.RdProtocol
+Data.AllPackages.#020 = JetBrains.Platform.UIInteractive.Common
+Data.AllPackages.#021 = JetBrains.Platform.UIInteractive.Shell
+Data.AllPackages.#022 = JetBrains.Platform.UIInteractive.Wpf.Symbols
+Data.AllPackages.#023 = JetBrains.Psi.Features.AI.Src.Core
+Data.AllPackages.#024 = JetBrains.Psi.Features.Core
+Data.AllPackages.#025 = JetBrains.Psi.Features.Cpp.Src.AI
+Data.AllPackages.#026 = JetBrains.Psi.Features.Cpp.Src.Core
+Data.AllPackages.#027 = JetBrains.Psi.Features.SolutionBuilder
+Data.AllPackages.#028 = JetBrains.Psi.Features.src
+Data.AllPackages.#029 = JetBrains.Psi.Features.Tasks
+Data.AllPackages.#030 = JetBrains.Psi.Features.UnitTesting
+Data.AllPackages.#031 = JetBrains.Psi.Features.Web.Core
+Data.AllPackages.#032 = JetBrains.ReSharperAutomationTools.src.CommandLineCore
+Data.AllPackages.#033 = JetBrains.ReSharperAutomationTools.src.Roslyn
+Data.AllPackages.#034 = JetBrains.ReSharperCpp.RiderPlugin
+Data.AllPackages.#035 = JetBrains.Rider.BrowserHotReload
+Data.AllPackages.#036 = JetBrains.Rider.External.Iis
+Data.AllPackages.#037 = JetBrains.Rider.External.Templating.TemplateEngine
+Data.AllPackages.#038 = JetBrains.Rider.External.Wcf.SvcUtil
+Data.AllPackages.#039 = JetBrains.Rider.Native.Core.windows-x64.Release
+Data.AllPackages.#040 = JetBrains.Rider.Native.Core.windows-x86.Release
+Data.AllPackages.#041 = JetBrains.Rider.RdBackend.Common
+Data.AllPackages.#042 = JetBrains.Rider.Rider.Backend
+Data.AllPackages.#043 = JetBrains.Rider.RiderProduct
+Data.AllPackages.#044 = JetBrains.Rider.XamlHotReload
+Data.AllPackages.#045 = JetBrains.dotCommon.Core
+Data.AllPackages.#046 = JetBrains.dotCommon.Ide.Common
+Data.AllPackages.#047 = JetBrains.dotCommon.Ide.Rider
+Data.AllPackages.#048 = JetBrains.dotCommon.Native.Core.linux-x64.Release
+Data.AllPackages.#049 = JetBrains.dotCommon.Native.Core.macos-arm64.Release
+Data.AllPackages.#050 = JetBrains.dotCommon.Native.Core.macos-x64.Release
+Data.AllPackages.#051 = JetBrains.dotCommon.Native.Core.windows-x64.Release
+Data.AllPackages.#052 = JetBrains.dotCommon.Native.Core.windows-x86.Release
+Data.AllPackages.#053 = JetBrains.dotCommon.Psi.Navigation
+Data.AllPackages.#054 = JetBrains.dotCommon.Psi.UnitTesting
+Data.AllPackages.#055 = JetBrains.EtwService.Core
+Data.AllPackages.#056 = JetBrains.EtwService.Msi.windows-x64
+Data.AllPackages.#057 = JetBrains.EtwService.Native.Core.linux-x64.Release
+Data.AllPackages.#058 = JetBrains.EtwService.Native.Core.macos-arm64.Release
+Data.AllPackages.#059 = JetBrains.EtwService.Native.Core.macos-x64.Release
+Data.AllPackages.#060 = JetBrains.EtwService.Native.Core.windows-x64.Release
+Data.AllPackages.#061 = JetBrains.EtwService.Native.Core.windows-x86.Release
+Data.AllPackages.#062 = JetBrains.Profiler.Kernel.Core
+Data.AllPackages.#063 = JetBrains.Profiler.Kernel.ProfilingInstance
+Data.AllPackages.#064 = JetBrains.Profiler.Kernel.Windows.Engine
+Data.AllPackages.#065 = JetBrains.Profiler.Kernel.Windows.Remotable
+Data.AllPackages.#066 = JetBrains.Profiler.Kernel.Windows.RemoteApi
+Data.AllPackages.#067 = JetBrains.Profiler.Native.Core.linux-x64.Release
+Data.AllPackages.#068 = JetBrains.Profiler.Native.Core.macos-arm64.Release
+Data.AllPackages.#069 = JetBrains.Profiler.Native.Core.macos-x64.Release
+Data.AllPackages.#070 = JetBrains.Profiler.Native.Core.windows-x64.Release
+Data.AllPackages.#071 = JetBrains.Profiler.Native.Core.windows-x86.Release
+Data.AllPackages.#072 = JetBrains.Profiler.Snapshot
+Data.AllPackages.#073 = JetBrains.dotCover.Core
+Data.AllPackages.#074 = JetBrains.dotCover.Ide
+Data.AllPackages.#075 = JetBrains.dotCover.Interactive.Core
+Data.AllPackages.#076 = JetBrains.dotCover.OutOfProcess
+Data.AllPackages.#077 = JetBrains.dotCover.RiderPlugin
+Data.AllPackages.#078 = JetBrains.dotCommon.AvaloniaExternal
+Data.AllPackages.#079 = JetBrains.dotCommon.ExternalStorage
+Data.AllPackages.#080 = JetBrains.dotCommon.Timeline
+Data.AllPackages.#081 = JetBrains.dotCommon.UIInteractive.Avalonia.UI.Avalonia
+Data.AllPackages.#082 = JetBrains.dotCommon.UIInteractive.Shell
+Data.AllPackages.#083 = JetBrains.dotMemory.Core
+Data.AllPackages.#084 = JetBrains.dotMemory.Home.GUI.Avalonia
+Data.AllPackages.#085 = JetBrains.dotMemory.Home.Presentation
+Data.AllPackages.#086 = JetBrains.dotMemory.Ide.Core
+Data.AllPackages.#087 = JetBrains.dotMemory.Ide.Rider
+Data.AllPackages.#088 = JetBrains.dotMemory.Presentation.Avalonia.Common
+Data.AllPackages.#089 = JetBrains.dotMemory.Presentation.ViewModels
+Data.AllPackages.#090 = JetBrains.dotMemory.Profiling
+Data.AllPackages.#091 = JetBrains.dotMemory.Resources
+Data.AllPackages.#092 = JetBrains.dotMemory.StandaloneComponents
+Data.AllPackages.#093 = JetBrains.dotTrace.Core
+Data.AllPackages.#094 = JetBrains.dotTrace.Ide.Core
+Data.AllPackages.#095 = JetBrains.dotTrace.Ide.Rider.dotTrace
+Data.AllPackages.#096 = JetBrains.dotTrace.Ide.Rider.dotTraceMemoryPlugin
+Data.AllPackages.#097 = JetBrains.dotTrace.Ide.Rider.dotTraceMemoryPluginActivator
+Data.AllPackages.#098 = JetBrains.Platform.Standalone.Avalonia.Shell
+Data.AllPackages.#099 = JetBrains.Platform.Standalone.Shell
+Data.AllPackages.#100 = JetBrains.Platform.UIInteractive.Avalonia.Ide
+Data.AllPackages.#101 = JetBrains.Platform.UIInteractive.Avalonia.Shell
+Data.AllPackages.#102 = JetBrains.Platform.UIInteractive.Common
+Data.AllPackages.#103 = JetBrains.Profiler.Configurator.Common
+Data.AllPackages.#104 = JetBrains.Profiler.Home.GUI.Avalonia
+Data.AllPackages.#105 = JetBrains.Profiler.Home.Presentation
+Data.AllPackages.#106 = JetBrains.Profiler.Kernel.ProfilingSessions
+Data.AllPackages.#107 = JetBrains.DPA.Core
+Data.AllPackages.#108 = JetBrains.DPA.Ide.Core
+Data.AllPackages.#109 = JetBrains.DPA.Ide.Rider
+Data.AllPackages.#110 = JetBrains.DPA.Monitoring
+Data.AllPackages.#111 = JetBrains.Plugins.resharper-fsharp.ReSharper.FSharp.src.FSharp
+Data.AllPackages.#112 = JetBrains.Plugins.resharper-fsharp.ReSharper.FSharp.src.FSharp.RiderPlugin
+Data.AllPackages.#113 = JetBrains.Plugins._ReSharperFSharp.Pregenerated.BackendModel
+Data.AllPackages.#114 = JetBrains.unreal-link
+Data.AllPackages.#115 = me.seclerp.rider.plugins.efcore
+Data.AllPackages.#116 = org.jetbrains.fortea
+Data.AllPackages.#117 = com.intellij.resharper.unity
+Data.AllPackages.#118 = com.jetbrains.rider.plugins.actions
+HResult = E_INVALIDARG=COR_E_ARGUMENT=WIN32_ERROR_INVALID_PARAMETER=80070057
+Source = System.Private.CoreLib
+StackTraceString = “
+  at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior) in TryInsert.il:line IL_00C9 mvid 87BE
+     at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value) in Add.il:line IL_0000 mvid 87BE
+     at JetBrains.Application.Environment.ApplicationPackages.<>c.<.cctor>b__7_0(IEnumerable`1 apppkgs) in ApplicationPackages.il:line IL_00DA mvid 8B01
+”
+
+--- Outer ---
+
+--- EXCEPTION #2/2 [LoggerException]
+Message = “Cannot index assemblies in the application packages. There are at least two assemblies with the same simple name “JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325” in packages JetBrains.Platform.UIInteractive.Common and JetBrains.Platform.UIInteractive.Common. An item with the same key has already been added. Key: JetBrains.Platform.UIInteractive.Shell.Common”
+ExceptionPath = Root
+ClassName = JetBrains.Util.LoggerException
+InnerException = “Exception #1 at Root.InnerException”
+HResult = COR_E_APPLICATION=80131600
+StackTraceString = “
+  at JetBrains.Util.ILoggerEx.Error[T1,T2,T3](ILogger this, Exception ex, String message, T1 t1, T2 t2, T3 t3) in Error.il:line IL_002E mvid 7D84
+     at JetBrains.Application.Environment.ApplicationPackages.<>c.<.cctor>b__7_0(IEnumerable`1 apppkgs) in ApplicationPackages.il:line IL_00DA mvid 8B01
+     at JetBrains.Util.Concurrency.LocalLazy`2.CreateValue() in CreateValue.il:line IL_0013 mvid 7D84
+     at JetBrains.Util.Concurrency.LocalLazy`2.CreateValueWithMode() in CreateValueWithMode.il:line IL_0046 mvid 7D84
+     at JetBrains.Util.Concurrency.LocalLazy`2.GetValue() in GetValue.il:line IL_000E mvid 7D84
+     at JetBrains.Application.Environment.ApplicationPackages.FindPackageWithAssembly(AssemblyNameInfo name, OnError onerror) in FindPackageWithAssembly.il:line IL_0014 mvid 8B01 or FindPackageWithAssembly.il:line IL_0022 mvid 8B01
+     at JetBrains.Application.Environment.ApplicationPackages.FindPackageWithAssembly(Assembly assembly, OnError onerror) in FindPackageWithAssembly.il:line IL_0014 mvid 8B01 or FindPackageWithAssembly.il:line IL_0022 mvid 8B01
+     at JetBrains.Application.HostProductInfoComponent.<>c__DisplayClass2_0.<.ctor>b__0() in HostProductInfoComponent.il:line IL_0000 mvid 8B01
+     at System.Lazy`1.PublicationOnlyViaFactory(LazyHelper initializer) in PublicationOnlyViaFactory.il:line IL_0011 mvid 87BE
+     at System.Lazy`1.CreateValue() in CreateValue.il:line IL_0059 mvid 87BE
+     at JetBrains.Application.HostProductInfoComponent.get_Version()
+     at JetBrains.Application.Extensions.JetPackageRepositoryFactoryEnvironmentComponent..ctor(IProductInfo product, IEnumerable`1 parameters)
+     at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+     at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr) in InvokeDirectByRefWithFewArgs.il:line IL_007E mvid 87BE
+     at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture) in InvokeWithFewArgs.il:line IL_00A7 mvid 87BE
+     at JetBrains.Application.Components.ConstructiorBindigns.Activate(ISingletonDescriptor descriptor, Object[] dependencies) in Activate.il:line IL_0035 mvid 8E87
+     at JetBrains.Application.Extensibility.PartCatalogTypeComponentDescriptor.DoCreateInstance(ConstructiorBindigns bindings, Object[] dependencies) in DoCreateInstance.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.SingletonDescriptor`1.CreateInstance(Object[] dependencies) in CreateInstance.il:line IL_005F mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.CreateInstanceWithReadLock() in CreateInstanceWithReadLock.il:line IL_0046 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.CreateInstance() in CreateInstance.il:line IL_0052 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.TryGetSyncImpl() in TryGetSyncImpl.il:line IL_00DD mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.StateWithPriorityCache`1.TryGetSync() in TryGetSync.il:line IL_0010 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.TryActivate(Object[] dependencyValues) in TryActivate.il:line IL_000B mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.TryGetOrCreateValue() in TryGetOrCreateValue.il:line IL_002F mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.GetValue() in GetValue.il:line IL_000C mvid 8E87
+     at JetBrains.Application.Components.InitializationStrategyBase.InitDescriptorSync(Lifetime lifetime, IComponentContainer container, IComponentDescriptor descriptor, ContainerStrategyStage stage) in InitDescriptorSync.il:line IL_0017 mvid 8E87
+     at JetBrains.Application.Components.LifecycleInitializationStrategy.DoSchedule(Lifetime lifetime, ICollection`1 descriptors, String containerId, IComponentContainer container) in DoSchedule.il:line IL_0070 mvid 8E87
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.Schedule(Lifetime lifetime, ICollection`1 dscs, String containedId, IComponentContainer container) in Schedule.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.InstantiateDescriptors(ICollection`1 descriptors) in InstantiateDescriptors.il:line IL_0046 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.ComposeDescriptors(ICollection`1 descriptors) in ComposeDescriptors.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.Compose() in Compose.il:line IL_00C9 mvid 8E87
+     at JetBrains.Application.Components.ComponentContainer.Compose() in Compose.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Environment.JetEnvironment..ctor(Lifetime lifetime, JetHostParametersCaller host)
+     at JetBrains.Application.Environment.JetEnvironment.<>c__DisplayClass11_0.<InternalCreate>b__0() in JetEnvironment.il:line IL_0000 mvid 8B01 or JetEnvironment.il:line IL_0255 mvid 8B01
+     at JetBrains.Threading.ReentrancyGuard.Execute(String name, Action action) in Execute.il:line IL_014D mvid 7D84
+     at JetBrains.Application.Environment.JetEnvironment.InternalCreate(LifetimeDefinition lifetimeDefinition, JetHostParametersCaller host, JetEnvironment& environment) in InternalCreate.il:line IL_0067 mvid 8B01
+     at JetBrains.Application.Environment.JetEnvironment.CreateAndRun(Full hostparams) in CreateAndRun.il:line IL_0017 mvid 8B01
+     at JetBrains.Application.Environment.JetHostItems.CreateAndRun(Full input) in CreateAndRun.il:line IL_000E mvid 8B01
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.MainX(Assembly assembly, HostInfo hostInfo, String[] args) in MainX.il:line IL_0089 mvid D690
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.<>c.<Main>b__4_0(Lifetime lifetime) in RiderBackendProgram.il:line IL_002B mvid D690
+     at JetBrains.Lifetimes.Lifetime.Using[T](Func`2 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.Main() in Main.il:line IL_0045 mvid D690
+”
+
+The same key already exists in tree
+
+--- EXCEPTION #1/2 [ArgumentException]
+Message = “The same key already exists in tree”
+ExceptionPath = Root.InnerException
+ClassName = System.ArgumentException
+Data.Key = JetBrains.Platform.UIInteractive.Shell.Common.dll
+Data.OldValue = “JetBrains.Platform.UIInteractive.Shell.Common.dll @ JetBrains.Platform.UIInteractive.Common”
+Data.NewValue = “JetBrains.Platform.UIInteractive.Shell.Common.dll @ JetBrains.Platform.UIInteractive.Common”
+Data.ThreadLocalDebugInfo = DeferStartingShellIdle
+HResult = E_INVALIDARG=COR_E_ARGUMENT=WIN32_ERROR_INVALID_PARAMETER=80070057
+Source = JetBrains.Platform.Util
+StackTraceString = “
+  at JetBrains.Util.Collections.JetBinaryTree.JetBinaryTree`2.AddOrReplace(TKeyType key, TDataType data, Boolean allowReplace) in AddOrReplace.il:line IL_00AC mvid CE2E
+     at JetBrains.Util.Collections.JetBinaryTree.JetBinaryTree`2.Add(TKeyType key, TDataType data) in Add.il:line IL_0000 mvid CE2E
+     at JetBrains.Application.ApplicationPackagesFiles.<>c__DisplayClass1_0.<.ctor>g__MakeTree|0() in ApplicationPackagesFiles.il:line IL_0032 mvid 8B01
+”
+
+--- Outer ---
+
+--- EXCEPTION #2/2 [LoggerException]
+Message = “The same key already exists in tree”
+ExceptionPath = Root
+ClassName = JetBrains.Util.LoggerException
+Data.ManagedThreadName = <NULL>
+InnerException = “Exception #1 at Root.InnerException”
+HResult = COR_E_APPLICATION=80131600
+StackTraceString = “
+  at JetBrains.Util.ILoggerEx.LogException(ILogger this, LoggingLevel level, Exception exception, ExceptionOrigin exceptionOrigin, String comment) in LogException.il:line IL_002E mvid 7D84
+     at JetBrains.Util.ILoggerEx.Error(ILogger this, Exception exception, ExceptionOrigin origin, String comment) in Error.il:line IL_0000 mvid 7D84
+     at JetBrains.Application.ApplicationPackagesFiles.<>c__DisplayClass1_0.<.ctor>g__MakeTree|0() in ApplicationPackagesFiles.il:line IL_0032 mvid 8B01
+     at System.Lazy`1.PublicationOnlyViaFactory(LazyHelper initializer) in PublicationOnlyViaFactory.il:line IL_0011 mvid 87BE
+     at System.Lazy`1.CreateValue() in CreateValue.il:line IL_0059 mvid 87BE or CreateValue.il:line IL_0074 mvid 87BE
+     at JetBrains.Application.ApplicationPackagesFiles.GetFiles(RelativePath root) in GetFiles.il:line IL_0000 mvid 8B01
+     at JetBrains.Application.ApplicationPackagesFilesEx.GetExtensionsFiles(ApplicationPackagesFiles applicationPackagesFiles, RelativePath root)
+     at JetBrains.Application.ApplicationPackagesFilesEx.GetExtensionsFileSystemPaths(ApplicationPackagesFiles applicationPackagesFiles, RelativePath root)
+     at JetBrains.Application.I18n.CultureContextComponentBase.ResolveResourcesFile(String baseName) in ResolveResourcesFile.il:line IL_004D mvid 8B01
+     at JetBrains.Application.I18n.CultureContextComponentBase.CreateResourceManager(String baseName, Assembly assembly) in CreateResourceManager.il:line IL_0000 mvid 8B01
+     at JetBrains.Application.Resources.Strings.<>c__DisplayClass1_0.<.cctor>b__3() in Strings.il:line IL_0000 mvid 8B01
+     at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+     at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor) in ExecutionAndPublication.il:line IL_0022 mvid 87BE
+     at System.Lazy`1.CreateValue() in CreateValue.il:line IL_0059 mvid 87BE or CreateValue.il:line IL_0074 mvid 87BE
+     at JetBrains.Application.Resources.Strings.get_ResourceManager()
+     at JetBrains.Application.Resources.Strings.get_ThisComputer_Text()
+     at JetBrains.Application.Settings.Storage.DefaultFileStorages.GlobalPerProductStorage..ctor(Lifetime lifetime, AnyProductSettingsLocation settingsLocation, IThreading threading, IFileSystemTracker filetracker, IApplicationHost product, IFileSettingsStorageBehavior behavior, InternKeyPathComponent interned, GlobalSettingsSanboxing globalSettingsSanboxing)
+     at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+     at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture) in InvokeWithManyArgs.il:line IL_0243 mvid 87BE
+     at JetBrains.Application.Components.ConstructiorBindigns.Activate(ISingletonDescriptor descriptor, Object[] dependencies) in Activate.il:line IL_0035 mvid 8E87
+     at JetBrains.Application.Extensibility.PartCatalogTypeComponentDescriptor.DoCreateInstance(ConstructiorBindigns bindings, Object[] dependencies) in DoCreateInstance.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.SingletonDescriptor`1.CreateInstance(Object[] dependencies) in CreateInstance.il:line IL_005F mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.CreateInstanceWithReadLock() in CreateInstanceWithReadLock.il:line IL_0046 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.CreateInstance() in CreateInstance.il:line IL_0052 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.TryGetSyncImpl() in TryGetSyncImpl.il:line IL_00DD mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.StateWithPriorityCache`1.TryGetSync() in TryGetSync.il:line IL_0010 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.TryActivate(Object[] dependencyValues) in TryActivate.il:line IL_000B mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.TryGetOrCreateValue() in TryGetOrCreateValue.il:line IL_002F mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.GetValue() in GetValue.il:line IL_000C mvid 8E87
+     at JetBrains.Application.Components.InitializationStrategyBase.InitDescriptorSync(Lifetime lifetime, IComponentContainer container, IComponentDescriptor descriptor, ContainerStrategyStage stage)
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.<CreateDescriptorAsync>g__CreateValueDescriptorSafe|28_1(Lifetime lifetime, IComponentContainer container, IValueDescriptor descriptor, ContainerStrategyStage stage, ILogger logger) in AsyncInitializationStrategyBase.il:line IL_0000 mvid 8E87 or AsyncInitializationStrategyBase.il:line IL_0043 mvid 8E87
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.<>c__DisplayClass28_0.<CreateDescriptorAsync>b__0() in AsyncInitializationStrategyBase.il:line IL_0000 mvid 8E87 or AsyncInitializationStrategyBase.il:line IL_0043 mvid 8E87
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 87BE
+     at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread) in ExecuteWithThreadLocal.il:line IL_0096 mvid 87BE
+     at System.Threading.Tasks.Task.ExecuteEntry() in ExecuteEntry.il:line IL_0036 mvid 87BE
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.InlineScheduler.Run(Func`1 checkForInterrupt) in Run.il:line IL_000F mvid 8E87
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.ProcessByInlineScheduler(Func`2 asyncPart, Action syncPart) in ProcessByInlineScheduler.il:line IL_0086 mvid 8E87
+     at JetBrains.Application.Components.AsyncParallelLifecycleInitializationStrategy.<>c__DisplayClass5_0.<<DoSchedule>g__InitAsync|0>d.MoveNext() in DoSchedule.il:line IL_0005 mvid 8E87 or DoSchedule.il:line IL_015B mvid 8E87
+     at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine) in Start.il:line IL_0028 mvid 87BE
+     at JetBrains.Application.Components.AsyncParallelLifecycleInitializationStrategy.<>c__DisplayClass5_0.<DoSchedule>g__InitAsync|0() in AsyncParallelLifecycleInitializationStrategy.il:line IL_001C mvid 8E87
+     at JetBrains.Application.Components.AsyncParallelLifecycleInitializationStrategy.DoSchedule(Lifetime lt, ICollection`1 descriptors, String containerId, IComponentContainer container) in DoSchedule.il:line IL_0005 mvid 8E87 or DoSchedule.il:line IL_015B mvid 8E87
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.Schedule(Lifetime lifetime, ICollection`1 dscs, String containedId, IComponentContainer container) in Schedule.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.InstantiateDescriptors(ICollection`1 descriptors) in InstantiateDescriptors.il:line IL_0046 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.ComposeDescriptors(ICollection`1 descriptors) in ComposeDescriptors.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.Compose() in Compose.il:line IL_00C9 mvid 8E87
+     at JetBrains.Application.Components.ComponentContainer.Compose() in Compose.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Environment.RunsProducts.RunProduct(Lifetime lifetimeProduct, JetEnvironment environment, JetEnvironmentZones zones, RunningProducts runningProducts, ZoneUserPreferenceChecker zoneUserPreferenceChecker, ITimebombZoneFilter timebombZoneFilter, ZoneLicenseChecker zoneLicenseChecker, IInitializationStrategyProvider myInitializationStrategyProvider, IEnumerable`1 shellComponentContainerExtenders, IProperty`1 timebombedZones, ILogger logger) in RunProduct.il:line IL_020C mvid 8B01
+     at JetBrains.Application.Environment.RunsProducts.<>c__DisplayClass5_0.<.ctor>b__2(Lifetime lifetimeShouldStart) in RunsProducts.il:line IL_0000 mvid 8B01 or RunsProducts.il:line IL_000B mvid 8B01
+     at JetBrains.Lifetimes.SequentialLifetimes.<>c__DisplayClass4_0.<Next>b__0(LifetimeDefinition lifetimeDefinition) in SequentialLifetimes.il:line IL_0000 mvid A5E3
+     at JetBrains.Lifetimes.LifetimeDefinition.ExecuteOrTerminateOnFail(Action`1 atomicAction) in ExecuteOrTerminateOnFail.il:line IL_0014 mvid A5E3
+     at JetBrains.Lifetimes.SequentialLifetimes.<>c__DisplayClass5_0.<DefineNext>b__0(LifetimeDefinition definition) in SequentialLifetimes.il:line IL_0000 mvid A5E3
+     at JetBrains.Lifetimes.SequentialLifetimes.TrySetNewAndTerminateOld(LifetimeDefinition newLifetimeDefinition, Action`1 actionWithNewLifetime) in TrySetNewAndTerminateOld.il:line IL_003C mvid A5E3
+     at JetBrains.Lifetimes.SequentialLifetimes.DefineNext(Action`1 atomicAction) in DefineNext.il:line IL_0040 mvid A5E3
+     at JetBrains.Lifetimes.SequentialLifetimes.Next(Action`1 atomicAction) in Next.il:line IL_002D mvid A5E3
+     at JetBrains.DataFlow.IPropertyEx.<>c__DisplayClass38_0.<WhenTrue>b__0(PropertyChangedEventArgs`1 args)
+     at JetBrains.DataFlow.Signal`1.Fire(TValue value, Object cookie) in Fire.il:line IL_0054 mvid 7D84
+     at JetBrains.DataFlow.Property`1.SetValue(TValue value, Object cookie) in SetValue.il:line IL_000D mvid 7D84
+     at JetBrains.DataFlow.Property`1.set_Value(TValue value)
+     at JetBrains.Application.Environment.RunsProducts.<>c__DisplayClass5_2.<.ctor>b__5() in RunsProducts.il:line IL_0000 mvid 8B01 or RunsProducts.il:line IL_000B mvid 8B01
+     at JetBrains.Threading.ReentrancyGuardEx.<>c__DisplayClass0_1.<Queue>b__3() in ReentrancyGuardEx.il:line IL_001C mvid 7D84
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o)
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 87BE
+     at JetBrains.Threading.ReentrancyGuard.QueuedAction.<>c__DisplayClass2_0.<.ctor>b__0() in QueuedAction.il:line IL_0000 mvid 7D84
+     at JetBrains.Threading.ReentrancyGuard.Execute(String name, Action action) in Execute.il:line IL_014D mvid 7D84
+     at JetBrains.Threading.ReentrancyGuard.ExecutePendingActions() in ExecutePendingActions.il:line IL_0053 mvid 7D84
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o)
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 87BE
+     at JetBrains.Threading.JetDispatcher.Closure.Execute() in Execute.il:line IL_017B mvid 7D84
+     at JetBrains.Threading.JetDispatcher.ProcessQueue(Int32 nMinBucket, Int32 nProcessQueueGeneration) in ProcessQueue.il:line IL_01D0 mvid 7D84
+     at JetBrains.Threading.JetDispatcher.<>c__DisplayClass58_0.<ScheduleQueueProcessingOnNativeMarshaller>g__ProcessQueueWithPriority|0() in JetDispatcher.il:line IL_0000 mvid 7D84
+     at JetBrains.Threading.RunsAndSleeps.RunOrSleep(Func`1 FCondition, IProperty`1 propCondition, TimeSpan timeout, OnWaitTimeout ontimeout) in RunOrSleep.il:line IL_03AC mvid 7D84
+     at JetBrains.Threading.JetDispatcher.Run(IProperty`1 condition, TimeSpan timeout, Boolean bThrowOnTimeout) in Run.il:line IL_0005 mvid 7D84
+     at JetBrains.Application.Environment.IJetHostEx.<>c__DisplayClass3_0.<RunHostMessageLoop>b__0(Lifetime lifetime) in IJetHostEx.il:line IL_0025 mvid 8B01
+     at JetBrains.Lifetimes.Lifetime.Using(Action`1 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Application.Environment.IJetHostEx.RunHostMessageLoop(IComponentContainer containerEnv) in RunHostMessageLoop.il:line IL_0030 mvid 8B01
+     at JetBrains.Application.Environment.HostParameters.MessagePumpMainLoopHostMixin.JetBrains.Application.Environment.HostParameters.IRunMainLoopHostMixin.RunMainLoop(ComponentContainer containerEnv)
+     at JetBrains.Application.Environment.HostParameters.JetHostParametersCaller.RunMainLoop(ComponentContainer containerEnv) in RunMainLoop.il:line IL_009F mvid 8B01
+     at JetBrains.Application.Environment.JetEnvironment.<>c__DisplayClass14_0.<InternalRun>b__0() in JetEnvironment.il:line IL_0000 mvid 8B01
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o)
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 87BE
+     at JetBrains.Threading.JetDispatcher.Closure.Execute() in Execute.il:line IL_017B mvid 7D84
+     at JetBrains.Threading.JetDispatcher.Invoke(OuterLifetime lifetime, String name, Action action, TaskPriority priority, Nullable`1 limit) in Invoke.il:line IL_0000 mvid 7D84 or Invoke.il:line IL_006A mvid 7D84
+     at JetBrains.Threading.JetDispatcher.Invoke(String name, Action action, TaskPriority priority) in Invoke.il:line IL_0000 mvid 7D84 or Invoke.il:line IL_006A mvid 7D84
+     at JetBrains.Application.Environment.JetEnvironment.InternalRun(JetHostParametersCaller host, ComponentContainer containerEnv) in InternalRun.il:line IL_004A mvid 8B01
+     at JetBrains.Application.Environment.JetEnvironment.CreateAndRun(Full hostparams) in CreateAndRun.il:line IL_002E mvid 8B01
+     at JetBrains.Application.Environment.JetHostItems.CreateAndRun(Full input) in CreateAndRun.il:line IL_000E mvid 8B01
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.MainX(Assembly assembly, HostInfo hostInfo, String[] args) in MainX.il:line IL_0089 mvid D690
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.<>c.<Main>b__4_0(Lifetime lifetime) in RiderBackendProgram.il:line IL_002B mvid D690
+     at JetBrains.Lifetimes.Lifetime.Using[T](Func`2 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.Main() in Main.il:line IL_0045 mvid D690
+”
+
+The same key already exists in tree
+
+--- EXCEPTION #1/2 [ArgumentException]
+Message = “The same key already exists in tree”
+ExceptionPath = Root.InnerException
+ClassName = System.ArgumentException
+Data.Key = JetBrains.Platform.UIInteractive.Shell.Common.dll
+Data.OldValue = “JetBrains.Platform.UIInteractive.Shell.Common.dll @ JetBrains.Platform.UIInteractive.Common”
+Data.NewValue = “JetBrains.Platform.UIInteractive.Shell.Common.dll @ JetBrains.Platform.UIInteractive.Common”
+HResult = E_INVALIDARG=COR_E_ARGUMENT=WIN32_ERROR_INVALID_PARAMETER=80070057
+Source = JetBrains.Platform.Util
+StackTraceString = “
+  at JetBrains.Util.Collections.JetBinaryTree.JetBinaryTree`2.AddOrReplace(TKeyType key, TDataType data, Boolean allowReplace) in AddOrReplace.il:line IL_00AC mvid CE2E
+     at JetBrains.Util.Collections.JetBinaryTree.JetBinaryTree`2.Add(TKeyType key, TDataType data) in Add.il:line IL_0000 mvid CE2E
+     at JetBrains.Application.ApplicationPackagesFiles.<>c__DisplayClass1_0.<.ctor>g__MakeTree|0() in ApplicationPackagesFiles.il:line IL_0032 mvid 8B01
+”
+
+--- Outer ---
+
+--- EXCEPTION #2/2 [LoggerException]
+Message = “The same key already exists in tree”
+ExceptionPath = Root
+ClassName = JetBrains.Util.LoggerException
+InnerException = “Exception #1 at Root.InnerException”
+HResult = COR_E_APPLICATION=80131600
+StackTraceString = “
+  at JetBrains.Util.ILoggerEx.LogException(ILogger this, LoggingLevel level, Exception exception, ExceptionOrigin exceptionOrigin, String comment) in LogException.il:line IL_002E mvid 7D84
+     at JetBrains.Util.ILoggerEx.Error(ILogger this, Exception exception, ExceptionOrigin origin, String comment) in Error.il:line IL_0000 mvid 7D84
+     at JetBrains.Application.ApplicationPackagesFiles.<>c__DisplayClass1_0.<.ctor>g__MakeTree|0() in ApplicationPackagesFiles.il:line IL_0032 mvid 8B01
+     at System.Lazy`1.PublicationOnlyViaFactory(LazyHelper initializer) in PublicationOnlyViaFactory.il:line IL_0011 mvid 87BE
+     at System.Lazy`1.CreateValue() in CreateValue.il:line IL_0059 mvid 87BE or CreateValue.il:line IL_0074 mvid 87BE
+     at JetBrains.Application.ApplicationPackagesFiles.GetFiles(RelativePath root) in GetFiles.il:line IL_0000 mvid 8B01
+     at JetBrains.Application.ApplicationPackagesFilesEx.GetExtensionsFiles(ApplicationPackagesFiles applicationPackagesFiles, RelativePath root)
+     at JetBrains.Application.ApplicationPackagesFilesEx.GetExtensionsFileSystemPaths(ApplicationPackagesFiles applicationPackagesFiles, RelativePath root)
+     at JetBrains.Application.I18n.CultureContextComponentBase.ResolveResourcesFile(String baseName) in ResolveResourcesFile.il:line IL_004D mvid 8B01
+     at JetBrains.Application.I18n.CultureContextComponentBase.CreateResourceManager(String baseName, Assembly assembly) in CreateResourceManager.il:line IL_0000 mvid 8B01
+     at JetBrains.ReSharper.Features.Inspections.Resources.Strings.<>c__DisplayClass1_0.<.cctor>b__3() in Strings.il:line IL_0000 mvid 985E
+     at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+     at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor) in ExecutionAndPublication.il:line IL_0022 mvid 87BE
+     at System.Lazy`1.CreateValue() in CreateValue.il:line IL_0059 mvid 87BE or CreateValue.il:line IL_0074 mvid 87BE
+     at JetBrains.ReSharper.Features.Inspections.Resources.Strings.get_ResourceManager()
+     at JetBrains.ReSharper.Features.Inspections.Resources.Strings.get_RefreshActionText()
+     at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+     at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr) in InvokeWithNoArgs.il:line IL_0024 mvid 87BE
+     at JetBrains.Application.I18n.JetResourceManager.GetString(Type resourceType, String resourceName) in GetString.il:line IL_000B mvid 8B01
+     at JetBrains.Application.UI.ActionsRevised.Loader.ActionDef.get_Text()
+     at JetBrains.Application.UI.ActionsRevised.Loader.ActionDefs.ApplyAcceleratorsForMenuActions() in ApplyAcceleratorsForMenuActions.il:line IL_008A mvid 8B01
+     at JetBrains.Application.UI.ActionsRevised.Loader.ActionDefs..ctor(ActionsScheme scheme, CultureContextComponent cultureContextComponent, CultureContextComponentPluginActivator cultureContextComponentPluginActivator)
+     at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+     at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr) in InvokeDirectByRefWithFewArgs.il:line IL_007E mvid 87BE
+     at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture) in InvokeWithFewArgs.il:line IL_00A7 mvid 87BE
+     at JetBrains.Application.Components.ConstructiorBindigns.Activate(ISingletonDescriptor descriptor, Object[] dependencies) in Activate.il:line IL_0035 mvid 8E87
+     at JetBrains.Application.Extensibility.PartCatalogTypeComponentDescriptor.DoCreateInstance(ConstructiorBindigns bindings, Object[] dependencies) in DoCreateInstance.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.SingletonDescriptor`1.CreateInstance(Object[] dependencies) in CreateInstance.il:line IL_005F mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.CreateInstance() in CreateInstance.il:line IL_0033 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.TryGetSyncImpl()
+     at JetBrains.Application.Components.AsyncDescriptorBase.StateWithPriorityCache`1.TryGetSync() in TryGetSync.il:line IL_0010 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.TryActivate(Object[] dependencyValues) in TryActivate.il:line IL_000B mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.TryGetOrCreateValue() in TryGetOrCreateValue.il:line IL_002F mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.GetValue() in GetValue.il:line IL_000C mvid 8E87
+     at JetBrains.Application.Components.InitializationStrategyBase.InitDescriptorSync(Lifetime lifetime, IComponentContainer container, IComponentDescriptor descriptor, ContainerStrategyStage stage) in InitDescriptorSync.il:line IL_0017 mvid 8E87
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.<CreateDescriptorAsync>g__CreateValueDescriptorSafe|28_1(Lifetime lifetime, IComponentContainer container, IValueDescriptor descriptor, ContainerStrategyStage stage, ILogger logger) in AsyncInitializationStrategyBase.il:line IL_0000 mvid 8E87 or AsyncInitializationStrategyBase.il:line IL_0043 mvid 8E87
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.<>c__DisplayClass28_0.<CreateDescriptorAsync>b__0() in AsyncInitializationStrategyBase.il:line IL_0000 mvid 8E87 or AsyncInitializationStrategyBase.il:line IL_0043 mvid 8E87
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 87BE
+     at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread) in ExecuteWithThreadLocal.il:line IL_0096 mvid 87BE
+     at System.Threading.Tasks.Task.ExecuteEntry() in ExecuteEntry.il:line IL_0036 mvid 87BE
+     at JetBrains.Application.Threading.Tasks.Scheduler.JetScheduler.ExecuteTask(Task task) in ExecuteTask.il:line IL_0014 mvid 7D84
+     at JetBrains.Application.Threading.Tasks.Scheduler.JetSchedulerThread.EnqueueNextTask() in EnqueueNextTask.il:line IL_0015 mvid 7D84
+     at JetBrains.Application.Threading.Tasks.Scheduler.JetSchedulerThread.ThreadPoolProc() in ThreadPoolProc.il:line IL_0197 mvid 7D84
+     at JetBrains.Application.Threading.Tasks.Scheduler.JetSchedulerThread.StartProc() in StartProc.il:line IL_0000 mvid 7D84
+     at System.Threading.Thread.StartCallback() in StartCallback.il:line IL_000E mvid 87BE
+”
+
+The same key already exists in tree
+
+--- EXCEPTION #1/2 [ArgumentException]
+Message = “The same key already exists in tree”
+ExceptionPath = Root.InnerException
+ClassName = System.ArgumentException
+Data.Key = JetBrains.Platform.UIInteractive.Shell.Common.xml
+Data.OldValue = “JetBrains.Platform.UIInteractive.Shell.Common.xml @ JetBrains.Platform.UIInteractive.Common”
+Data.NewValue = “JetBrains.Platform.UIInteractive.Shell.Common.xml @ JetBrains.Platform.UIInteractive.Common”
+HResult = E_INVALIDARG=COR_E_ARGUMENT=WIN32_ERROR_INVALID_PARAMETER=80070057
+Source = JetBrains.Platform.Util
+StackTraceString = “
+  at JetBrains.Util.Collections.JetBinaryTree.JetBinaryTree`2.AddOrReplace(TKeyType key, TDataType data, Boolean allowReplace) in AddOrReplace.il:line IL_00AC mvid CE2E
+     at JetBrains.Util.Collections.JetBinaryTree.JetBinaryTree`2.Add(TKeyType key, TDataType data) in Add.il:line IL_0000 mvid CE2E
+     at JetBrains.Application.ApplicationPackagesFiles.<>c__DisplayClass1_0.<.ctor>g__MakeTree|0() in ApplicationPackagesFiles.il:line IL_0032 mvid 8B01
+”
+
+--- Outer ---
+
+--- EXCEPTION #2/2 [LoggerException]
+Message = “The same key already exists in tree”
+ExceptionPath = Root
+ClassName = JetBrains.Util.LoggerException
+InnerException = “Exception #1 at Root.InnerException”
+HResult = COR_E_APPLICATION=80131600
+StackTraceString = “
+  at JetBrains.Util.ILoggerEx.LogException(ILogger this, LoggingLevel level, Exception exception, ExceptionOrigin exceptionOrigin, String comment) in LogException.il:line IL_002E mvid 7D84
+     at JetBrains.Util.ILoggerEx.Error(ILogger this, Exception exception, ExceptionOrigin origin, String comment) in Error.il:line IL_0000 mvid 7D84
+     at JetBrains.Application.ApplicationPackagesFiles.<>c__DisplayClass1_0.<.ctor>g__MakeTree|0() in ApplicationPackagesFiles.il:line IL_0032 mvid 8B01
+     at System.Lazy`1.PublicationOnlyViaFactory(LazyHelper initializer) in PublicationOnlyViaFactory.il:line IL_0011 mvid 87BE
+     at System.Lazy`1.CreateValue() in CreateValue.il:line IL_0059 mvid 87BE or CreateValue.il:line IL_0074 mvid 87BE
+     at JetBrains.Application.ApplicationPackagesFiles.GetFiles(RelativePath root) in GetFiles.il:line IL_0000 mvid 8B01
+     at JetBrains.Application.ApplicationPackagesFilesEx.GetExtensionsFiles(ApplicationPackagesFiles applicationPackagesFiles, RelativePath root)
+     at JetBrains.Application.ApplicationPackagesFilesEx.GetExtensionsFileSystemPaths(ApplicationPackagesFiles applicationPackagesFiles, RelativePath root)
+     at JetBrains.Application.I18n.CultureContextComponentBase.ResolveResourcesFile(String baseName) in ResolveResourcesFile.il:line IL_004D mvid 8B01
+     at JetBrains.Application.I18n.CultureContextComponentBase.CreateResourceManager(String baseName, Assembly assembly) in CreateResourceManager.il:line IL_0000 mvid 8B01
+     at JetBrains.ReSharper.Features.Inspections.Resources.Strings.<>c__DisplayClass1_0.<.cctor>b__3() in Strings.il:line IL_0000 mvid 985E
+     at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+     at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor) in ExecutionAndPublication.il:line IL_0022 mvid 87BE
+     at System.Lazy`1.CreateValue() in CreateValue.il:line IL_0059 mvid 87BE or CreateValue.il:line IL_0074 mvid 87BE
+     at JetBrains.ReSharper.Features.Inspections.Resources.Strings.get_ResourceManager()
+     at JetBrains.ReSharper.Features.Inspections.Resources.Strings.get_RefreshActionText()
+     at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+     at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr) in InvokeWithNoArgs.il:line IL_0024 mvid 87BE
+     at JetBrains.Application.I18n.JetResourceManager.GetString(Type resourceType, String resourceName) in GetString.il:line IL_000B mvid 8B01
+     at JetBrains.Application.UI.ActionsRevised.Loader.ActionDef.get_Text()
+     at JetBrains.Application.UI.ActionsRevised.Loader.ActionDefs.ApplyAcceleratorsForMenuActions() in ApplyAcceleratorsForMenuActions.il:line IL_008A mvid 8B01
+     at JetBrains.Application.UI.ActionsRevised.Loader.ActionDefs..ctor(ActionsScheme scheme, CultureContextComponent cultureContextComponent, CultureContextComponentPluginActivator cultureContextComponentPluginActivator)
+     at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+     at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr) in InvokeDirectByRefWithFewArgs.il:line IL_007E mvid 87BE
+     at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture) in InvokeWithFewArgs.il:line IL_00A7 mvid 87BE
+     at JetBrains.Application.Components.ConstructiorBindigns.Activate(ISingletonDescriptor descriptor, Object[] dependencies) in Activate.il:line IL_0035 mvid 8E87
+     at JetBrains.Application.Extensibility.PartCatalogTypeComponentDescriptor.DoCreateInstance(ConstructiorBindigns bindings, Object[] dependencies) in DoCreateInstance.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.SingletonDescriptor`1.CreateInstance(Object[] dependencies) in CreateInstance.il:line IL_005F mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.CreateInstance() in CreateInstance.il:line IL_0033 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.TryGetSyncImpl()
+     at JetBrains.Application.Components.AsyncDescriptorBase.StateWithPriorityCache`1.TryGetSync() in TryGetSync.il:line IL_0010 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.TryActivate(Object[] dependencyValues) in TryActivate.il:line IL_000B mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.TryGetOrCreateValue() in TryGetOrCreateValue.il:line IL_002F mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.GetValue() in GetValue.il:line IL_000C mvid 8E87
+     at JetBrains.Application.Components.InitializationStrategyBase.InitDescriptorSync(Lifetime lifetime, IComponentContainer container, IComponentDescriptor descriptor, ContainerStrategyStage stage) in InitDescriptorSync.il:line IL_0017 mvid 8E87
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.<CreateDescriptorAsync>g__CreateValueDescriptorSafe|28_1(Lifetime lifetime, IComponentContainer container, IValueDescriptor descriptor, ContainerStrategyStage stage, ILogger logger) in AsyncInitializationStrategyBase.il:line IL_0000 mvid 8E87 or AsyncInitializationStrategyBase.il:line IL_0043 mvid 8E87
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.<>c__DisplayClass28_0.<CreateDescriptorAsync>b__0() in AsyncInitializationStrategyBase.il:line IL_0000 mvid 8E87 or AsyncInitializationStrategyBase.il:line IL_0043 mvid 8E87
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 87BE
+     at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread) in ExecuteWithThreadLocal.il:line IL_0096 mvid 87BE
+     at System.Threading.Tasks.Task.ExecuteEntry() in ExecuteEntry.il:line IL_0036 mvid 87BE
+     at JetBrains.Application.Threading.Tasks.Scheduler.JetScheduler.ExecuteTask(Task task) in ExecuteTask.il:line IL_0014 mvid 7D84
+     at JetBrains.Application.Threading.Tasks.Scheduler.JetSchedulerThread.EnqueueNextTask() in EnqueueNextTask.il:line IL_0015 mvid 7D84
+     at JetBrains.Application.Threading.Tasks.Scheduler.JetSchedulerThread.ThreadPoolProc() in ThreadPoolProc.il:line IL_0197 mvid 7D84
+     at JetBrains.Application.Threading.Tasks.Scheduler.JetSchedulerThread.StartProc() in StartProc.il:line IL_0000 mvid 7D84
+     at System.Threading.Thread.StartCallback() in StartCallback.il:line IL_000E mvid 87BE
+”
+
+The same key already exists in tree
+
+--- EXCEPTION #1/2 [ArgumentException]
+Message = “The same key already exists in tree”
+ExceptionPath = Root.InnerException
+ClassName = System.ArgumentException
+Data.Key = JetBrains.Platform.UIInteractive.Shell.Common.xml
+Data.OldValue = “JetBrains.Platform.UIInteractive.Shell.Common.xml @ JetBrains.Platform.UIInteractive.Common”
+Data.NewValue = “JetBrains.Platform.UIInteractive.Shell.Common.xml @ JetBrains.Platform.UIInteractive.Common”
+Data.ThreadLocalDebugInfo = DeferStartingShellIdle
+HResult = E_INVALIDARG=COR_E_ARGUMENT=WIN32_ERROR_INVALID_PARAMETER=80070057
+Source = JetBrains.Platform.Util
+StackTraceString = “
+  at JetBrains.Util.Collections.JetBinaryTree.JetBinaryTree`2.AddOrReplace(TKeyType key, TDataType data, Boolean allowReplace) in AddOrReplace.il:line IL_00AC mvid CE2E
+     at JetBrains.Util.Collections.JetBinaryTree.JetBinaryTree`2.Add(TKeyType key, TDataType data) in Add.il:line IL_0000 mvid CE2E
+     at JetBrains.Application.ApplicationPackagesFiles.<>c__DisplayClass1_0.<.ctor>g__MakeTree|0() in ApplicationPackagesFiles.il:line IL_0032 mvid 8B01
+”
+
+--- Outer ---
+
+--- EXCEPTION #2/2 [LoggerException]
+Message = “The same key already exists in tree”
+ExceptionPath = Root
+ClassName = JetBrains.Util.LoggerException
+Data.ManagedThreadName = <NULL>
+InnerException = “Exception #1 at Root.InnerException”
+HResult = COR_E_APPLICATION=80131600
+StackTraceString = “
+  at JetBrains.Util.ILoggerEx.LogException(ILogger this, LoggingLevel level, Exception exception, ExceptionOrigin exceptionOrigin, String comment) in LogException.il:line IL_002E mvid 7D84
+     at JetBrains.Util.ILoggerEx.Error(ILogger this, Exception exception, ExceptionOrigin origin, String comment) in Error.il:line IL_0000 mvid 7D84
+     at JetBrains.Application.ApplicationPackagesFiles.<>c__DisplayClass1_0.<.ctor>g__MakeTree|0() in ApplicationPackagesFiles.il:line IL_0032 mvid 8B01
+     at System.Lazy`1.PublicationOnlyViaFactory(LazyHelper initializer) in PublicationOnlyViaFactory.il:line IL_0011 mvid 87BE
+     at System.Lazy`1.CreateValue() in CreateValue.il:line IL_0059 mvid 87BE or CreateValue.il:line IL_0074 mvid 87BE
+     at JetBrains.Application.ApplicationPackagesFiles.GetFiles(RelativePath root) in GetFiles.il:line IL_0000 mvid 8B01
+     at JetBrains.Application.ApplicationPackagesFilesEx.GetExtensionsFiles(ApplicationPackagesFiles applicationPackagesFiles, RelativePath root)
+     at JetBrains.Application.ApplicationPackagesFilesEx.GetExtensionsFileSystemPaths(ApplicationPackagesFiles applicationPackagesFiles, RelativePath root)
+     at JetBrains.Application.I18n.CultureContextComponentBase.ResolveResourcesFile(String baseName) in ResolveResourcesFile.il:line IL_004D mvid 8B01
+     at JetBrains.Application.I18n.CultureContextComponentBase.CreateResourceManager(String baseName, Assembly assembly) in CreateResourceManager.il:line IL_0000 mvid 8B01
+     at JetBrains.Application.Resources.Strings.<>c__DisplayClass1_0.<.cctor>b__3() in Strings.il:line IL_0000 mvid 8B01
+     at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+     at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor) in ExecutionAndPublication.il:line IL_0022 mvid 87BE
+     at System.Lazy`1.CreateValue() in CreateValue.il:line IL_0059 mvid 87BE or CreateValue.il:line IL_0074 mvid 87BE
+     at JetBrains.Application.Resources.Strings.get_ResourceManager()
+     at JetBrains.Application.Resources.Strings.get_ThisComputer_Text()
+     at JetBrains.Application.Settings.Storage.DefaultFileStorages.GlobalPerProductStorage..ctor(Lifetime lifetime, AnyProductSettingsLocation settingsLocation, IThreading threading, IFileSystemTracker filetracker, IApplicationHost product, IFileSettingsStorageBehavior behavior, InternKeyPathComponent interned, GlobalSettingsSanboxing globalSettingsSanboxing)
+     at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+     at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture) in InvokeWithManyArgs.il:line IL_0243 mvid 87BE
+     at JetBrains.Application.Components.ConstructiorBindigns.Activate(ISingletonDescriptor descriptor, Object[] dependencies) in Activate.il:line IL_0035 mvid 8E87
+     at JetBrains.Application.Extensibility.PartCatalogTypeComponentDescriptor.DoCreateInstance(ConstructiorBindigns bindings, Object[] dependencies) in DoCreateInstance.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.SingletonDescriptor`1.CreateInstance(Object[] dependencies) in CreateInstance.il:line IL_005F mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.CreateInstanceWithReadLock() in CreateInstanceWithReadLock.il:line IL_0046 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.CreateInstance() in CreateInstance.il:line IL_0052 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.TryGetSyncImpl() in TryGetSyncImpl.il:line IL_00DD mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.StateWithPriorityCache`1.TryGetSync() in TryGetSync.il:line IL_0010 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.TryActivate(Object[] dependencyValues) in TryActivate.il:line IL_000B mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.TryGetOrCreateValue() in TryGetOrCreateValue.il:line IL_002F mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.GetValue() in GetValue.il:line IL_000C mvid 8E87
+     at JetBrains.Application.Components.InitializationStrategyBase.InitDescriptorSync(Lifetime lifetime, IComponentContainer container, IComponentDescriptor descriptor, ContainerStrategyStage stage)
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.<CreateDescriptorAsync>g__CreateValueDescriptorSafe|28_1(Lifetime lifetime, IComponentContainer container, IValueDescriptor descriptor, ContainerStrategyStage stage, ILogger logger) in AsyncInitializationStrategyBase.il:line IL_0000 mvid 8E87 or AsyncInitializationStrategyBase.il:line IL_0043 mvid 8E87
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.<>c__DisplayClass28_0.<CreateDescriptorAsync>b__0() in AsyncInitializationStrategyBase.il:line IL_0000 mvid 8E87 or AsyncInitializationStrategyBase.il:line IL_0043 mvid 8E87
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 87BE
+     at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread) in ExecuteWithThreadLocal.il:line IL_0096 mvid 87BE
+     at System.Threading.Tasks.Task.ExecuteEntry() in ExecuteEntry.il:line IL_0036 mvid 87BE
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.InlineScheduler.Run(Func`1 checkForInterrupt) in Run.il:line IL_000F mvid 8E87
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.ProcessByInlineScheduler(Func`2 asyncPart, Action syncPart) in ProcessByInlineScheduler.il:line IL_0086 mvid 8E87
+     at JetBrains.Application.Components.AsyncParallelLifecycleInitializationStrategy.<>c__DisplayClass5_0.<<DoSchedule>g__InitAsync|0>d.MoveNext() in DoSchedule.il:line IL_0005 mvid 8E87 or DoSchedule.il:line IL_015B mvid 8E87
+     at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine) in Start.il:line IL_0028 mvid 87BE
+     at JetBrains.Application.Components.AsyncParallelLifecycleInitializationStrategy.<>c__DisplayClass5_0.<DoSchedule>g__InitAsync|0() in AsyncParallelLifecycleInitializationStrategy.il:line IL_001C mvid 8E87
+     at JetBrains.Application.Components.AsyncParallelLifecycleInitializationStrategy.DoSchedule(Lifetime lt, ICollection`1 descriptors, String containerId, IComponentContainer container) in DoSchedule.il:line IL_0005 mvid 8E87 or DoSchedule.il:line IL_015B mvid 8E87
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.Schedule(Lifetime lifetime, ICollection`1 dscs, String containedId, IComponentContainer container) in Schedule.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.InstantiateDescriptors(ICollection`1 descriptors) in InstantiateDescriptors.il:line IL_0046 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.ComposeDescriptors(ICollection`1 descriptors) in ComposeDescriptors.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.Compose() in Compose.il:line IL_00C9 mvid 8E87
+     at JetBrains.Application.Components.ComponentContainer.Compose() in Compose.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Environment.RunsProducts.RunProduct(Lifetime lifetimeProduct, JetEnvironment environment, JetEnvironmentZones zones, RunningProducts runningProducts, ZoneUserPreferenceChecker zoneUserPreferenceChecker, ITimebombZoneFilter timebombZoneFilter, ZoneLicenseChecker zoneLicenseChecker, IInitializationStrategyProvider myInitializationStrategyProvider, IEnumerable`1 shellComponentContainerExtenders, IProperty`1 timebombedZones, ILogger logger) in RunProduct.il:line IL_020C mvid 8B01
+     at JetBrains.Application.Environment.RunsProducts.<>c__DisplayClass5_0.<.ctor>b__2(Lifetime lifetimeShouldStart) in RunsProducts.il:line IL_0000 mvid 8B01 or RunsProducts.il:line IL_000B mvid 8B01
+     at JetBrains.Lifetimes.SequentialLifetimes.<>c__DisplayClass4_0.<Next>b__0(LifetimeDefinition lifetimeDefinition) in SequentialLifetimes.il:line IL_0000 mvid A5E3
+     at JetBrains.Lifetimes.LifetimeDefinition.ExecuteOrTerminateOnFail(Action`1 atomicAction) in ExecuteOrTerminateOnFail.il:line IL_0014 mvid A5E3
+     at JetBrains.Lifetimes.SequentialLifetimes.<>c__DisplayClass5_0.<DefineNext>b__0(LifetimeDefinition definition) in SequentialLifetimes.il:line IL_0000 mvid A5E3
+     at JetBrains.Lifetimes.SequentialLifetimes.TrySetNewAndTerminateOld(LifetimeDefinition newLifetimeDefinition, Action`1 actionWithNewLifetime) in TrySetNewAndTerminateOld.il:line IL_003C mvid A5E3
+     at JetBrains.Lifetimes.SequentialLifetimes.DefineNext(Action`1 atomicAction) in DefineNext.il:line IL_0040 mvid A5E3
+     at JetBrains.Lifetimes.SequentialLifetimes.Next(Action`1 atomicAction) in Next.il:line IL_002D mvid A5E3
+     at JetBrains.DataFlow.IPropertyEx.<>c__DisplayClass38_0.<WhenTrue>b__0(PropertyChangedEventArgs`1 args)
+     at JetBrains.DataFlow.Signal`1.Fire(TValue value, Object cookie) in Fire.il:line IL_0054 mvid 7D84
+     at JetBrains.DataFlow.Property`1.SetValue(TValue value, Object cookie) in SetValue.il:line IL_000D mvid 7D84
+     at JetBrains.DataFlow.Property`1.set_Value(TValue value)
+     at JetBrains.Application.Environment.RunsProducts.<>c__DisplayClass5_2.<.ctor>b__5() in RunsProducts.il:line IL_0000 mvid 8B01 or RunsProducts.il:line IL_000B mvid 8B01
+     at JetBrains.Threading.ReentrancyGuardEx.<>c__DisplayClass0_1.<Queue>b__3() in ReentrancyGuardEx.il:line IL_001C mvid 7D84
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o)
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 87BE
+     at JetBrains.Threading.ReentrancyGuard.QueuedAction.<>c__DisplayClass2_0.<.ctor>b__0() in QueuedAction.il:line IL_0000 mvid 7D84
+     at JetBrains.Threading.ReentrancyGuard.Execute(String name, Action action) in Execute.il:line IL_014D mvid 7D84
+     at JetBrains.Threading.ReentrancyGuard.ExecutePendingActions() in ExecutePendingActions.il:line IL_0053 mvid 7D84
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o)
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 87BE
+     at JetBrains.Threading.JetDispatcher.Closure.Execute() in Execute.il:line IL_017B mvid 7D84
+     at JetBrains.Threading.JetDispatcher.ProcessQueue(Int32 nMinBucket, Int32 nProcessQueueGeneration) in ProcessQueue.il:line IL_01D0 mvid 7D84
+     at JetBrains.Threading.JetDispatcher.<>c__DisplayClass58_0.<ScheduleQueueProcessingOnNativeMarshaller>g__ProcessQueueWithPriority|0() in JetDispatcher.il:line IL_0000 mvid 7D84
+     at JetBrains.Threading.RunsAndSleeps.RunOrSleep(Func`1 FCondition, IProperty`1 propCondition, TimeSpan timeout, OnWaitTimeout ontimeout) in RunOrSleep.il:line IL_03AC mvid 7D84
+     at JetBrains.Threading.JetDispatcher.Run(IProperty`1 condition, TimeSpan timeout, Boolean bThrowOnTimeout) in Run.il:line IL_0005 mvid 7D84
+     at JetBrains.Application.Environment.IJetHostEx.<>c__DisplayClass3_0.<RunHostMessageLoop>b__0(Lifetime lifetime) in IJetHostEx.il:line IL_0025 mvid 8B01
+     at JetBrains.Lifetimes.Lifetime.Using(Action`1 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Application.Environment.IJetHostEx.RunHostMessageLoop(IComponentContainer containerEnv) in RunHostMessageLoop.il:line IL_0030 mvid 8B01
+     at JetBrains.Application.Environment.HostParameters.MessagePumpMainLoopHostMixin.JetBrains.Application.Environment.HostParameters.IRunMainLoopHostMixin.RunMainLoop(ComponentContainer containerEnv)
+     at JetBrains.Application.Environment.HostParameters.JetHostParametersCaller.RunMainLoop(ComponentContainer containerEnv) in RunMainLoop.il:line IL_009F mvid 8B01
+     at JetBrains.Application.Environment.JetEnvironment.<>c__DisplayClass14_0.<InternalRun>b__0() in JetEnvironment.il:line IL_0000 mvid 8B01
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o)
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 87BE
+     at JetBrains.Threading.JetDispatcher.Closure.Execute() in Execute.il:line IL_017B mvid 7D84
+     at JetBrains.Threading.JetDispatcher.Invoke(OuterLifetime lifetime, String name, Action action, TaskPriority priority, Nullable`1 limit) in Invoke.il:line IL_0000 mvid 7D84 or Invoke.il:line IL_006A mvid 7D84
+     at JetBrains.Threading.JetDispatcher.Invoke(String name, Action action, TaskPriority priority) in Invoke.il:line IL_0000 mvid 7D84 or Invoke.il:line IL_006A mvid 7D84
+     at JetBrains.Application.Environment.JetEnvironment.InternalRun(JetHostParametersCaller host, ComponentContainer containerEnv) in InternalRun.il:line IL_004A mvid 8B01
+     at JetBrains.Application.Environment.JetEnvironment.CreateAndRun(Full hostparams) in CreateAndRun.il:line IL_002E mvid 8B01
+     at JetBrains.Application.Environment.JetHostItems.CreateAndRun(Full input) in CreateAndRun.il:line IL_000E mvid 8B01
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.MainX(Assembly assembly, HostInfo hostInfo, String[] args) in MainX.il:line IL_0089 mvid D690
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.<>c.<Main>b__4_0(Lifetime lifetime) in RiderBackendProgram.il:line IL_002B mvid D690
+     at JetBrains.Lifetimes.Lifetime.Using[T](Func`2 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.Main() in Main.il:line IL_0045 mvid D690
+”
+
+Cannot index assemblies in the application packages. There are at least two assemblies with the same name “JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325” in packages JetBrains.Platform.UIInteractive.Common and JetBrains.Platform.UIInteractive.Common. An item with the same key has already been added. Key: JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325
+
+--- EXCEPTION #1/2 [ArgumentException]
+Message = “An item with the same key has already been added. Key: JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325”
+ExceptionPath = Root.InnerException
+ClassName = System.ArgumentException
+Data.ThreadLocalDebugInfo = Environment::Create
+Data.AllPackages.#000 = JetBrains.Debugger.Debugger.BrowserHub
+Data.AllPackages.#001 = JetBrains.Debugger.Debugger.Host.Core
+Data.AllPackages.#002 = JetBrains.Debugger.Debugger.Host
+Data.AllPackages.#003 = JetBrains.Debugger.Debugger.Worker.Core
+Data.AllPackages.#004 = JetBrains.Debugger.Debugger.Worker
+Data.AllPackages.#005 = JetBrains.Debugger.Libs
+Data.AllPackages.#006 = JetBrains.Debugger.Tools.ProcessEnumerator.Core
+Data.AllPackages.#007 = JetBrains.ExternalAnnotations
+Data.AllPackages.#008 = JetBrains.Platform.Core.Ide
+Data.AllPackages.#009 = JetBrains.Platform.Core.IisExpress
+Data.AllPackages.#010 = JetBrains.Platform.Core.MsBuild
+Data.AllPackages.#011 = JetBrains.Platform.Core.Shell
+Data.AllPackages.#012 = JetBrains.Platform.Core.Symbols
+Data.AllPackages.#013 = JetBrains.Platform.Core.Text
+Data.AllPackages.#014 = JetBrains.Platform.Core.ViewModels
+Data.AllPackages.#015 = JetBrains.Platform.Installer
+Data.AllPackages.#016 = JetBrains.Platform.Interop.CommandLine
+Data.AllPackages.#017 = JetBrains.Platform.Interop.dotMemoryUnit.Interop.Console
+Data.AllPackages.#018 = JetBrains.Platform.Interop.dotMemoryUnit.Interop.Ide
+Data.AllPackages.#019 = JetBrains.Platform.RdProtocol
+Data.AllPackages.#020 = JetBrains.Platform.UIInteractive.Common
+Data.AllPackages.#021 = JetBrains.Platform.UIInteractive.Shell
+Data.AllPackages.#022 = JetBrains.Platform.UIInteractive.Wpf.Symbols
+Data.AllPackages.#023 = JetBrains.Psi.Features.AI.Src.Core
+Data.AllPackages.#024 = JetBrains.Psi.Features.Core
+Data.AllPackages.#025 = JetBrains.Psi.Features.Cpp.Src.AI
+Data.AllPackages.#026 = JetBrains.Psi.Features.Cpp.Src.Core
+Data.AllPackages.#027 = JetBrains.Psi.Features.SolutionBuilder
+Data.AllPackages.#028 = JetBrains.Psi.Features.src
+Data.AllPackages.#029 = JetBrains.Psi.Features.Tasks
+Data.AllPackages.#030 = JetBrains.Psi.Features.UnitTesting
+Data.AllPackages.#031 = JetBrains.Psi.Features.Web.Core
+Data.AllPackages.#032 = JetBrains.ReSharperAutomationTools.src.CommandLineCore
+Data.AllPackages.#033 = JetBrains.ReSharperAutomationTools.src.Roslyn
+Data.AllPackages.#034 = JetBrains.ReSharperCpp.RiderPlugin
+Data.AllPackages.#035 = JetBrains.Rider.BrowserHotReload
+Data.AllPackages.#036 = JetBrains.Rider.External.Iis
+Data.AllPackages.#037 = JetBrains.Rider.External.Templating.TemplateEngine
+Data.AllPackages.#038 = JetBrains.Rider.External.Wcf.SvcUtil
+Data.AllPackages.#039 = JetBrains.Rider.Native.Core.windows-x64.Release
+Data.AllPackages.#040 = JetBrains.Rider.Native.Core.windows-x86.Release
+Data.AllPackages.#041 = JetBrains.Rider.RdBackend.Common
+Data.AllPackages.#042 = JetBrains.Rider.Rider.Backend
+Data.AllPackages.#043 = JetBrains.Rider.RiderProduct
+Data.AllPackages.#044 = JetBrains.Rider.XamlHotReload
+Data.AllPackages.#045 = JetBrains.dotCommon.Core
+Data.AllPackages.#046 = JetBrains.dotCommon.Ide.Common
+Data.AllPackages.#047 = JetBrains.dotCommon.Ide.Rider
+Data.AllPackages.#048 = JetBrains.dotCommon.Native.Core.linux-x64.Release
+Data.AllPackages.#049 = JetBrains.dotCommon.Native.Core.macos-arm64.Release
+Data.AllPackages.#050 = JetBrains.dotCommon.Native.Core.macos-x64.Release
+Data.AllPackages.#051 = JetBrains.dotCommon.Native.Core.windows-x64.Release
+Data.AllPackages.#052 = JetBrains.dotCommon.Native.Core.windows-x86.Release
+Data.AllPackages.#053 = JetBrains.dotCommon.Psi.Navigation
+Data.AllPackages.#054 = JetBrains.dotCommon.Psi.UnitTesting
+Data.AllPackages.#055 = JetBrains.EtwService.Core
+Data.AllPackages.#056 = JetBrains.EtwService.Msi.windows-x64
+Data.AllPackages.#057 = JetBrains.EtwService.Native.Core.linux-x64.Release
+Data.AllPackages.#058 = JetBrains.EtwService.Native.Core.macos-arm64.Release
+Data.AllPackages.#059 = JetBrains.EtwService.Native.Core.macos-x64.Release
+Data.AllPackages.#060 = JetBrains.EtwService.Native.Core.windows-x64.Release
+Data.AllPackages.#061 = JetBrains.EtwService.Native.Core.windows-x86.Release
+Data.AllPackages.#062 = JetBrains.Profiler.Kernel.Core
+Data.AllPackages.#063 = JetBrains.Profiler.Kernel.ProfilingInstance
+Data.AllPackages.#064 = JetBrains.Profiler.Kernel.Windows.Engine
+Data.AllPackages.#065 = JetBrains.Profiler.Kernel.Windows.Remotable
+Data.AllPackages.#066 = JetBrains.Profiler.Kernel.Windows.RemoteApi
+Data.AllPackages.#067 = JetBrains.Profiler.Native.Core.linux-x64.Release
+Data.AllPackages.#068 = JetBrains.Profiler.Native.Core.macos-arm64.Release
+Data.AllPackages.#069 = JetBrains.Profiler.Native.Core.macos-x64.Release
+Data.AllPackages.#070 = JetBrains.Profiler.Native.Core.windows-x64.Release
+Data.AllPackages.#071 = JetBrains.Profiler.Native.Core.windows-x86.Release
+Data.AllPackages.#072 = JetBrains.Profiler.Snapshot
+Data.AllPackages.#073 = JetBrains.dotCover.Core
+Data.AllPackages.#074 = JetBrains.dotCover.Ide
+Data.AllPackages.#075 = JetBrains.dotCover.Interactive.Core
+Data.AllPackages.#076 = JetBrains.dotCover.OutOfProcess
+Data.AllPackages.#077 = JetBrains.dotCover.RiderPlugin
+Data.AllPackages.#078 = JetBrains.dotCommon.AvaloniaExternal
+Data.AllPackages.#079 = JetBrains.dotCommon.ExternalStorage
+Data.AllPackages.#080 = JetBrains.dotCommon.Timeline
+Data.AllPackages.#081 = JetBrains.dotCommon.UIInteractive.Avalonia.UI.Avalonia
+Data.AllPackages.#082 = JetBrains.dotCommon.UIInteractive.Shell
+Data.AllPackages.#083 = JetBrains.dotMemory.Core
+Data.AllPackages.#084 = JetBrains.dotMemory.Home.GUI.Avalonia
+Data.AllPackages.#085 = JetBrains.dotMemory.Home.Presentation
+Data.AllPackages.#086 = JetBrains.dotMemory.Ide.Core
+Data.AllPackages.#087 = JetBrains.dotMemory.Ide.Rider
+Data.AllPackages.#088 = JetBrains.dotMemory.Presentation.Avalonia.Common
+Data.AllPackages.#089 = JetBrains.dotMemory.Presentation.ViewModels
+Data.AllPackages.#090 = JetBrains.dotMemory.Profiling
+Data.AllPackages.#091 = JetBrains.dotMemory.Resources
+Data.AllPackages.#092 = JetBrains.dotMemory.StandaloneComponents
+Data.AllPackages.#093 = JetBrains.dotTrace.Core
+Data.AllPackages.#094 = JetBrains.dotTrace.Ide.Core
+Data.AllPackages.#095 = JetBrains.dotTrace.Ide.Rider.dotTrace
+Data.AllPackages.#096 = JetBrains.dotTrace.Ide.Rider.dotTraceMemoryPlugin
+Data.AllPackages.#097 = JetBrains.dotTrace.Ide.Rider.dotTraceMemoryPluginActivator
+Data.AllPackages.#098 = JetBrains.Platform.Standalone.Avalonia.Shell
+Data.AllPackages.#099 = JetBrains.Platform.Standalone.Shell
+Data.AllPackages.#100 = JetBrains.Platform.UIInteractive.Avalonia.Ide
+Data.AllPackages.#101 = JetBrains.Platform.UIInteractive.Avalonia.Shell
+Data.AllPackages.#102 = JetBrains.Platform.UIInteractive.Common
+Data.AllPackages.#103 = JetBrains.Profiler.Configurator.Common
+Data.AllPackages.#104 = JetBrains.Profiler.Home.GUI.Avalonia
+Data.AllPackages.#105 = JetBrains.Profiler.Home.Presentation
+Data.AllPackages.#106 = JetBrains.Profiler.Kernel.ProfilingSessions
+Data.AllPackages.#107 = JetBrains.DPA.Core
+Data.AllPackages.#108 = JetBrains.DPA.Ide.Core
+Data.AllPackages.#109 = JetBrains.DPA.Ide.Rider
+Data.AllPackages.#110 = JetBrains.DPA.Monitoring
+Data.AllPackages.#111 = JetBrains.Plugins.resharper-fsharp.ReSharper.FSharp.src.FSharp
+Data.AllPackages.#112 = JetBrains.Plugins.resharper-fsharp.ReSharper.FSharp.src.FSharp.RiderPlugin
+Data.AllPackages.#113 = JetBrains.Plugins._ReSharperFSharp.Pregenerated.BackendModel
+Data.AllPackages.#114 = JetBrains.unreal-link
+Data.AllPackages.#115 = me.seclerp.rider.plugins.efcore
+Data.AllPackages.#116 = org.jetbrains.fortea
+Data.AllPackages.#117 = com.intellij.resharper.unity
+Data.AllPackages.#118 = com.jetbrains.rider.plugins.actions
+HResult = E_INVALIDARG=COR_E_ARGUMENT=WIN32_ERROR_INVALID_PARAMETER=80070057
+Source = System.Private.CoreLib
+StackTraceString = “
+  at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior) in TryInsert.il:line IL_0000 mvid 87BE
+     at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value) in Add.il:line IL_0000 mvid 87BE
+     at JetBrains.Application.Environment.ApplicationPackages.<>c.<.cctor>b__7_0(IEnumerable`1 apppkgs) in ApplicationPackages.il:line IL_0059 mvid 8B01
+”
+
+--- Outer ---
+
+--- EXCEPTION #2/2 [LoggerException]
+Message = “Cannot index assemblies in the application packages. There are at least two assemblies with the same name “JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325” in packages JetBrains.Platform.UIInteractive.Common and JetBrains.Platform.UIInteractive.Common. An item with the same key has already been added. Key: JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325”
+ExceptionPath = Root
+ClassName = JetBrains.Util.LoggerException
+Data.ManagedThreadName = <NULL>
+InnerException = “Exception #1 at Root.InnerException”
+HResult = COR_E_APPLICATION=80131600
+StackTraceString = “
+  at JetBrains.Util.ILoggerEx.Error[T1,T2,T3](ILogger this, Exception ex, String message, T1 t1, T2 t2, T3 t3) in Error.il:line IL_002E mvid 7D84
+     at JetBrains.Application.Environment.ApplicationPackages.<>c.<.cctor>b__7_0(IEnumerable`1 apppkgs) in ApplicationPackages.il:line IL_0059 mvid 8B01
+     at JetBrains.Util.Concurrency.LocalLazy`2.CreateValue() in CreateValue.il:line IL_0013 mvid 7D84
+     at JetBrains.Util.Concurrency.LocalLazy`2.CreateValueWithMode() in CreateValueWithMode.il:line IL_0046 mvid 7D84
+     at JetBrains.Util.Concurrency.LocalLazy`2.GetValue() in GetValue.il:line IL_000E mvid 7D84
+     at JetBrains.Application.Environment.ApplicationPackages.FindPackageWithAssembly(AssemblyNameInfo name, OnError onerror) in FindPackageWithAssembly.il:line IL_0014 mvid 8B01 or FindPackageWithAssembly.il:line IL_0022 mvid 8B01
+     at JetBrains.Application.Environment.ApplicationPackages.FindPackageWithAssembly(Assembly assembly, OnError onerror) in FindPackageWithAssembly.il:line IL_0014 mvid 8B01 or FindPackageWithAssembly.il:line IL_0022 mvid 8B01
+     at JetBrains.Application.HostProductInfoComponent.<>c__DisplayClass2_0.<.ctor>b__0() in HostProductInfoComponent.il:line IL_0000 mvid 8B01
+     at System.Lazy`1.PublicationOnlyViaFactory(LazyHelper initializer) in PublicationOnlyViaFactory.il:line IL_0011 mvid 87BE
+     at System.Lazy`1.CreateValue() in CreateValue.il:line IL_0059 mvid 87BE
+     at JetBrains.Application.HostProductInfoComponent.get_Version()
+     at JetBrains.Application.Extensions.JetPackageRepositoryFactoryEnvironmentComponent..ctor(IProductInfo product, IEnumerable`1 parameters)
+     at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+     at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr) in InvokeDirectByRefWithFewArgs.il:line IL_007E mvid 87BE
+     at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture) in InvokeWithFewArgs.il:line IL_00A7 mvid 87BE
+     at JetBrains.Application.Components.ConstructiorBindigns.Activate(ISingletonDescriptor descriptor, Object[] dependencies) in Activate.il:line IL_0035 mvid 8E87
+     at JetBrains.Application.Extensibility.PartCatalogTypeComponentDescriptor.DoCreateInstance(ConstructiorBindigns bindings, Object[] dependencies) in DoCreateInstance.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.SingletonDescriptor`1.CreateInstance(Object[] dependencies) in CreateInstance.il:line IL_005F mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.CreateInstanceWithReadLock() in CreateInstanceWithReadLock.il:line IL_0046 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.CreateInstance() in CreateInstance.il:line IL_0052 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.TryGetSyncImpl() in TryGetSyncImpl.il:line IL_00DD mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.StateWithPriorityCache`1.TryGetSync() in TryGetSync.il:line IL_0010 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.TryActivate(Object[] dependencyValues) in TryActivate.il:line IL_000B mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.TryGetOrCreateValue() in TryGetOrCreateValue.il:line IL_002F mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.GetValue() in GetValue.il:line IL_000C mvid 8E87
+     at JetBrains.Application.Components.InitializationStrategyBase.InitDescriptorSync(Lifetime lifetime, IComponentContainer container, IComponentDescriptor descriptor, ContainerStrategyStage stage) in InitDescriptorSync.il:line IL_0017 mvid 8E87
+     at JetBrains.Application.Components.LifecycleInitializationStrategy.DoSchedule(Lifetime lifetime, ICollection`1 descriptors, String containerId, IComponentContainer container) in DoSchedule.il:line IL_0070 mvid 8E87
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.Schedule(Lifetime lifetime, ICollection`1 dscs, String containedId, IComponentContainer container) in Schedule.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.InstantiateDescriptors(ICollection`1 descriptors) in InstantiateDescriptors.il:line IL_0046 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.ComposeDescriptors(ICollection`1 descriptors) in ComposeDescriptors.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.Compose() in Compose.il:line IL_00C9 mvid 8E87
+     at JetBrains.Application.Components.ComponentContainer.Compose() in Compose.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Environment.JetEnvironment..ctor(Lifetime lifetime, JetHostParametersCaller host)
+     at JetBrains.Application.Environment.JetEnvironment.<>c__DisplayClass11_0.<InternalCreate>b__0() in JetEnvironment.il:line IL_0000 mvid 8B01 or JetEnvironment.il:line IL_0255 mvid 8B01
+     at JetBrains.Threading.ReentrancyGuard.Execute(String name, Action action) in Execute.il:line IL_014D mvid 7D84
+     at JetBrains.Application.Environment.JetEnvironment.InternalCreate(LifetimeDefinition lifetimeDefinition, JetHostParametersCaller host, JetEnvironment& environment) in InternalCreate.il:line IL_0067 mvid 8B01
+     at JetBrains.Application.Environment.JetEnvironment.CreateAndRun(Full hostparams) in CreateAndRun.il:line IL_0017 mvid 8B01
+     at JetBrains.Application.Environment.JetHostItems.CreateAndRun(Full input) in CreateAndRun.il:line IL_000E mvid 8B01
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.MainX(Assembly assembly, HostInfo hostInfo, String[] args) in MainX.il:line IL_0089 mvid D690
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.<>c.<Main>b__4_0(Lifetime lifetime) in RiderBackendProgram.il:line IL_002B mvid D690
+     at JetBrains.Lifetimes.Lifetime.Using[T](Func`2 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.Main() in Main.il:line IL_0045 mvid D690
+”
+
+Cannot index assemblies in the application packages. There are at least two assemblies with the same simple name “JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325” in packages JetBrains.Platform.UIInteractive.Common and JetBrains.Platform.UIInteractive.Common. An item with the same key has already been added. Key: JetBrains.Platform.UIInteractive.Shell.Common
+
+--- EXCEPTION #1/2 [ArgumentException]
+Message = “An item with the same key has already been added. Key: JetBrains.Platform.UIInteractive.Shell.Common”
+ExceptionPath = Root.InnerException
+ClassName = System.ArgumentException
+Data.ThreadLocalDebugInfo = Environment::Create
+Data.AllPackages.#000 = JetBrains.Debugger.Debugger.BrowserHub
+Data.AllPackages.#001 = JetBrains.Debugger.Debugger.Host.Core
+Data.AllPackages.#002 = JetBrains.Debugger.Debugger.Host
+Data.AllPackages.#003 = JetBrains.Debugger.Debugger.Worker.Core
+Data.AllPackages.#004 = JetBrains.Debugger.Debugger.Worker
+Data.AllPackages.#005 = JetBrains.Debugger.Libs
+Data.AllPackages.#006 = JetBrains.Debugger.Tools.ProcessEnumerator.Core
+Data.AllPackages.#007 = JetBrains.ExternalAnnotations
+Data.AllPackages.#008 = JetBrains.Platform.Core.Ide
+Data.AllPackages.#009 = JetBrains.Platform.Core.IisExpress
+Data.AllPackages.#010 = JetBrains.Platform.Core.MsBuild
+Data.AllPackages.#011 = JetBrains.Platform.Core.Shell
+Data.AllPackages.#012 = JetBrains.Platform.Core.Symbols
+Data.AllPackages.#013 = JetBrains.Platform.Core.Text
+Data.AllPackages.#014 = JetBrains.Platform.Core.ViewModels
+Data.AllPackages.#015 = JetBrains.Platform.Installer
+Data.AllPackages.#016 = JetBrains.Platform.Interop.CommandLine
+Data.AllPackages.#017 = JetBrains.Platform.Interop.dotMemoryUnit.Interop.Console
+Data.AllPackages.#018 = JetBrains.Platform.Interop.dotMemoryUnit.Interop.Ide
+Data.AllPackages.#019 = JetBrains.Platform.RdProtocol
+Data.AllPackages.#020 = JetBrains.Platform.UIInteractive.Common
+Data.AllPackages.#021 = JetBrains.Platform.UIInteractive.Shell
+Data.AllPackages.#022 = JetBrains.Platform.UIInteractive.Wpf.Symbols
+Data.AllPackages.#023 = JetBrains.Psi.Features.AI.Src.Core
+Data.AllPackages.#024 = JetBrains.Psi.Features.Core
+Data.AllPackages.#025 = JetBrains.Psi.Features.Cpp.Src.AI
+Data.AllPackages.#026 = JetBrains.Psi.Features.Cpp.Src.Core
+Data.AllPackages.#027 = JetBrains.Psi.Features.SolutionBuilder
+Data.AllPackages.#028 = JetBrains.Psi.Features.src
+Data.AllPackages.#029 = JetBrains.Psi.Features.Tasks
+Data.AllPackages.#030 = JetBrains.Psi.Features.UnitTesting
+Data.AllPackages.#031 = JetBrains.Psi.Features.Web.Core
+Data.AllPackages.#032 = JetBrains.ReSharperAutomationTools.src.CommandLineCore
+Data.AllPackages.#033 = JetBrains.ReSharperAutomationTools.src.Roslyn
+Data.AllPackages.#034 = JetBrains.ReSharperCpp.RiderPlugin
+Data.AllPackages.#035 = JetBrains.Rider.BrowserHotReload
+Data.AllPackages.#036 = JetBrains.Rider.External.Iis
+Data.AllPackages.#037 = JetBrains.Rider.External.Templating.TemplateEngine
+Data.AllPackages.#038 = JetBrains.Rider.External.Wcf.SvcUtil
+Data.AllPackages.#039 = JetBrains.Rider.Native.Core.windows-x64.Release
+Data.AllPackages.#040 = JetBrains.Rider.Native.Core.windows-x86.Release
+Data.AllPackages.#041 = JetBrains.Rider.RdBackend.Common
+Data.AllPackages.#042 = JetBrains.Rider.Rider.Backend
+Data.AllPackages.#043 = JetBrains.Rider.RiderProduct
+Data.AllPackages.#044 = JetBrains.Rider.XamlHotReload
+Data.AllPackages.#045 = JetBrains.dotCommon.Core
+Data.AllPackages.#046 = JetBrains.dotCommon.Ide.Common
+Data.AllPackages.#047 = JetBrains.dotCommon.Ide.Rider
+Data.AllPackages.#048 = JetBrains.dotCommon.Native.Core.linux-x64.Release
+Data.AllPackages.#049 = JetBrains.dotCommon.Native.Core.macos-arm64.Release
+Data.AllPackages.#050 = JetBrains.dotCommon.Native.Core.macos-x64.Release
+Data.AllPackages.#051 = JetBrains.dotCommon.Native.Core.windows-x64.Release
+Data.AllPackages.#052 = JetBrains.dotCommon.Native.Core.windows-x86.Release
+Data.AllPackages.#053 = JetBrains.dotCommon.Psi.Navigation
+Data.AllPackages.#054 = JetBrains.dotCommon.Psi.UnitTesting
+Data.AllPackages.#055 = JetBrains.EtwService.Core
+Data.AllPackages.#056 = JetBrains.EtwService.Msi.windows-x64
+Data.AllPackages.#057 = JetBrains.EtwService.Native.Core.linux-x64.Release
+Data.AllPackages.#058 = JetBrains.EtwService.Native.Core.macos-arm64.Release
+Data.AllPackages.#059 = JetBrains.EtwService.Native.Core.macos-x64.Release
+Data.AllPackages.#060 = JetBrains.EtwService.Native.Core.windows-x64.Release
+Data.AllPackages.#061 = JetBrains.EtwService.Native.Core.windows-x86.Release
+Data.AllPackages.#062 = JetBrains.Profiler.Kernel.Core
+Data.AllPackages.#063 = JetBrains.Profiler.Kernel.ProfilingInstance
+Data.AllPackages.#064 = JetBrains.Profiler.Kernel.Windows.Engine
+Data.AllPackages.#065 = JetBrains.Profiler.Kernel.Windows.Remotable
+Data.AllPackages.#066 = JetBrains.Profiler.Kernel.Windows.RemoteApi
+Data.AllPackages.#067 = JetBrains.Profiler.Native.Core.linux-x64.Release
+Data.AllPackages.#068 = JetBrains.Profiler.Native.Core.macos-arm64.Release
+Data.AllPackages.#069 = JetBrains.Profiler.Native.Core.macos-x64.Release
+Data.AllPackages.#070 = JetBrains.Profiler.Native.Core.windows-x64.Release
+Data.AllPackages.#071 = JetBrains.Profiler.Native.Core.windows-x86.Release
+Data.AllPackages.#072 = JetBrains.Profiler.Snapshot
+Data.AllPackages.#073 = JetBrains.dotCover.Core
+Data.AllPackages.#074 = JetBrains.dotCover.Ide
+Data.AllPackages.#075 = JetBrains.dotCover.Interactive.Core
+Data.AllPackages.#076 = JetBrains.dotCover.OutOfProcess
+Data.AllPackages.#077 = JetBrains.dotCover.RiderPlugin
+Data.AllPackages.#078 = JetBrains.dotCommon.AvaloniaExternal
+Data.AllPackages.#079 = JetBrains.dotCommon.ExternalStorage
+Data.AllPackages.#080 = JetBrains.dotCommon.Timeline
+Data.AllPackages.#081 = JetBrains.dotCommon.UIInteractive.Avalonia.UI.Avalonia
+Data.AllPackages.#082 = JetBrains.dotCommon.UIInteractive.Shell
+Data.AllPackages.#083 = JetBrains.dotMemory.Core
+Data.AllPackages.#084 = JetBrains.dotMemory.Home.GUI.Avalonia
+Data.AllPackages.#085 = JetBrains.dotMemory.Home.Presentation
+Data.AllPackages.#086 = JetBrains.dotMemory.Ide.Core
+Data.AllPackages.#087 = JetBrains.dotMemory.Ide.Rider
+Data.AllPackages.#088 = JetBrains.dotMemory.Presentation.Avalonia.Common
+Data.AllPackages.#089 = JetBrains.dotMemory.Presentation.ViewModels
+Data.AllPackages.#090 = JetBrains.dotMemory.Profiling
+Data.AllPackages.#091 = JetBrains.dotMemory.Resources
+Data.AllPackages.#092 = JetBrains.dotMemory.StandaloneComponents
+Data.AllPackages.#093 = JetBrains.dotTrace.Core
+Data.AllPackages.#094 = JetBrains.dotTrace.Ide.Core
+Data.AllPackages.#095 = JetBrains.dotTrace.Ide.Rider.dotTrace
+Data.AllPackages.#096 = JetBrains.dotTrace.Ide.Rider.dotTraceMemoryPlugin
+Data.AllPackages.#097 = JetBrains.dotTrace.Ide.Rider.dotTraceMemoryPluginActivator
+Data.AllPackages.#098 = JetBrains.Platform.Standalone.Avalonia.Shell
+Data.AllPackages.#099 = JetBrains.Platform.Standalone.Shell
+Data.AllPackages.#100 = JetBrains.Platform.UIInteractive.Avalonia.Ide
+Data.AllPackages.#101 = JetBrains.Platform.UIInteractive.Avalonia.Shell
+Data.AllPackages.#102 = JetBrains.Platform.UIInteractive.Common
+Data.AllPackages.#103 = JetBrains.Profiler.Configurator.Common
+Data.AllPackages.#104 = JetBrains.Profiler.Home.GUI.Avalonia
+Data.AllPackages.#105 = JetBrains.Profiler.Home.Presentation
+Data.AllPackages.#106 = JetBrains.Profiler.Kernel.ProfilingSessions
+Data.AllPackages.#107 = JetBrains.DPA.Core
+Data.AllPackages.#108 = JetBrains.DPA.Ide.Core
+Data.AllPackages.#109 = JetBrains.DPA.Ide.Rider
+Data.AllPackages.#110 = JetBrains.DPA.Monitoring
+Data.AllPackages.#111 = JetBrains.Plugins.resharper-fsharp.ReSharper.FSharp.src.FSharp
+Data.AllPackages.#112 = JetBrains.Plugins.resharper-fsharp.ReSharper.FSharp.src.FSharp.RiderPlugin
+Data.AllPackages.#113 = JetBrains.Plugins._ReSharperFSharp.Pregenerated.BackendModel
+Data.AllPackages.#114 = JetBrains.unreal-link
+Data.AllPackages.#115 = me.seclerp.rider.plugins.efcore
+Data.AllPackages.#116 = org.jetbrains.fortea
+Data.AllPackages.#117 = com.intellij.resharper.unity
+Data.AllPackages.#118 = com.jetbrains.rider.plugins.actions
+HResult = E_INVALIDARG=COR_E_ARGUMENT=WIN32_ERROR_INVALID_PARAMETER=80070057
+Source = System.Private.CoreLib
+StackTraceString = “
+  at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior) in TryInsert.il:line IL_00C9 mvid 87BE
+     at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value) in Add.il:line IL_0000 mvid 87BE
+     at JetBrains.Application.Environment.ApplicationPackages.<>c.<.cctor>b__7_0(IEnumerable`1 apppkgs) in ApplicationPackages.il:line IL_00DA mvid 8B01
+”
+
+--- Outer ---
+
+--- EXCEPTION #2/2 [LoggerException]
+Message = “Cannot index assemblies in the application packages. There are at least two assemblies with the same simple name “JetBrains.Platform.UIInteractive.Shell.Common, Version=777.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325” in packages JetBrains.Platform.UIInteractive.Common and JetBrains.Platform.UIInteractive.Common. An item with the same key has already been added. Key: JetBrains.Platform.UIInteractive.Shell.Common”
+ExceptionPath = Root
+ClassName = JetBrains.Util.LoggerException
+Data.ManagedThreadName = <NULL>
+InnerException = “Exception #1 at Root.InnerException”
+HResult = COR_E_APPLICATION=80131600
+StackTraceString = “
+  at JetBrains.Util.ILoggerEx.Error[T1,T2,T3](ILogger this, Exception ex, String message, T1 t1, T2 t2, T3 t3) in Error.il:line IL_002E mvid 7D84
+     at JetBrains.Application.Environment.ApplicationPackages.<>c.<.cctor>b__7_0(IEnumerable`1 apppkgs) in ApplicationPackages.il:line IL_00DA mvid 8B01
+     at JetBrains.Util.Concurrency.LocalLazy`2.CreateValue() in CreateValue.il:line IL_0013 mvid 7D84
+     at JetBrains.Util.Concurrency.LocalLazy`2.CreateValueWithMode() in CreateValueWithMode.il:line IL_0046 mvid 7D84
+     at JetBrains.Util.Concurrency.LocalLazy`2.GetValue() in GetValue.il:line IL_000E mvid 7D84
+     at JetBrains.Application.Environment.ApplicationPackages.FindPackageWithAssembly(AssemblyNameInfo name, OnError onerror) in FindPackageWithAssembly.il:line IL_0014 mvid 8B01 or FindPackageWithAssembly.il:line IL_0022 mvid 8B01
+     at JetBrains.Application.Environment.ApplicationPackages.FindPackageWithAssembly(Assembly assembly, OnError onerror) in FindPackageWithAssembly.il:line IL_0014 mvid 8B01 or FindPackageWithAssembly.il:line IL_0022 mvid 8B01
+     at JetBrains.Application.HostProductInfoComponent.<>c__DisplayClass2_0.<.ctor>b__0() in HostProductInfoComponent.il:line IL_0000 mvid 8B01
+     at System.Lazy`1.PublicationOnlyViaFactory(LazyHelper initializer) in PublicationOnlyViaFactory.il:line IL_0011 mvid 87BE
+     at System.Lazy`1.CreateValue() in CreateValue.il:line IL_0059 mvid 87BE
+     at JetBrains.Application.HostProductInfoComponent.get_Version()
+     at JetBrains.Application.Extensions.JetPackageRepositoryFactoryEnvironmentComponent..ctor(IProductInfo product, IEnumerable`1 parameters)
+     at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+     at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr) in InvokeDirectByRefWithFewArgs.il:line IL_007E mvid 87BE
+     at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture) in InvokeWithFewArgs.il:line IL_00A7 mvid 87BE
+     at JetBrains.Application.Components.ConstructiorBindigns.Activate(ISingletonDescriptor descriptor, Object[] dependencies) in Activate.il:line IL_0035 mvid 8E87
+     at JetBrains.Application.Extensibility.PartCatalogTypeComponentDescriptor.DoCreateInstance(ConstructiorBindigns bindings, Object[] dependencies) in DoCreateInstance.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.SingletonDescriptor`1.CreateInstance(Object[] dependencies) in CreateInstance.il:line IL_005F mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.CreateInstanceWithReadLock() in CreateInstanceWithReadLock.il:line IL_0046 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.CreateInstance() in CreateInstance.il:line IL_0052 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.TryGetSyncImpl() in TryGetSyncImpl.il:line IL_00DD mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.StateWithPriorityCache`1.TryGetSync() in TryGetSync.il:line IL_0010 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.TryActivate(Object[] dependencyValues) in TryActivate.il:line IL_000B mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.TryGetOrCreateValue() in TryGetOrCreateValue.il:line IL_002F mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.GetValue() in GetValue.il:line IL_000C mvid 8E87
+     at JetBrains.Application.Components.InitializationStrategyBase.InitDescriptorSync(Lifetime lifetime, IComponentContainer container, IComponentDescriptor descriptor, ContainerStrategyStage stage) in InitDescriptorSync.il:line IL_0017 mvid 8E87
+     at JetBrains.Application.Components.LifecycleInitializationStrategy.DoSchedule(Lifetime lifetime, ICollection`1 descriptors, String containerId, IComponentContainer container) in DoSchedule.il:line IL_0070 mvid 8E87
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.Schedule(Lifetime lifetime, ICollection`1 dscs, String containedId, IComponentContainer container) in Schedule.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.InstantiateDescriptors(ICollection`1 descriptors) in InstantiateDescriptors.il:line IL_0046 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.ComposeDescriptors(ICollection`1 descriptors) in ComposeDescriptors.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.Compose() in Compose.il:line IL_00C9 mvid 8E87
+     at JetBrains.Application.Components.ComponentContainer.Compose() in Compose.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Environment.JetEnvironment..ctor(Lifetime lifetime, JetHostParametersCaller host)
+     at JetBrains.Application.Environment.JetEnvironment.<>c__DisplayClass11_0.<InternalCreate>b__0() in JetEnvironment.il:line IL_0000 mvid 8B01 or JetEnvironment.il:line IL_0255 mvid 8B01
+     at JetBrains.Threading.ReentrancyGuard.Execute(String name, Action action) in Execute.il:line IL_014D mvid 7D84
+     at JetBrains.Application.Environment.JetEnvironment.InternalCreate(LifetimeDefinition lifetimeDefinition, JetHostParametersCaller host, JetEnvironment& environment) in InternalCreate.il:line IL_0067 mvid 8B01
+     at JetBrains.Application.Environment.JetEnvironment.CreateAndRun(Full hostparams) in CreateAndRun.il:line IL_0017 mvid 8B01
+     at JetBrains.Application.Environment.JetHostItems.CreateAndRun(Full input) in CreateAndRun.il:line IL_000E mvid 8B01
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.MainX(Assembly assembly, HostInfo hostInfo, String[] args) in MainX.il:line IL_0089 mvid D690
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.<>c.<Main>b__4_0(Lifetime lifetime) in RiderBackendProgram.il:line IL_002B mvid D690
+     at JetBrains.Lifetimes.Lifetime.Using[T](Func`2 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.Main() in Main.il:line IL_0045 mvid D690
+”
+
+The same key already exists in tree
+
+--- EXCEPTION #1/2 [ArgumentException]
+Message = “The same key already exists in tree”
+ExceptionPath = Root.InnerException
+ClassName = System.ArgumentException
+Data.Key = JetBrains.Platform.UIInteractive.Shell.Common.dll
+Data.OldValue = “JetBrains.Platform.UIInteractive.Shell.Common.dll @ JetBrains.Platform.UIInteractive.Common”
+Data.NewValue = “JetBrains.Platform.UIInteractive.Shell.Common.dll @ JetBrains.Platform.UIInteractive.Common”
+Data.ThreadLocalDebugInfo = DeferStartingShellIdle
+HResult = E_INVALIDARG=COR_E_ARGUMENT=WIN32_ERROR_INVALID_PARAMETER=80070057
+Source = JetBrains.Platform.Util
+StackTraceString = “
+  at JetBrains.Util.Collections.JetBinaryTree.JetBinaryTree`2.AddOrReplace(TKeyType key, TDataType data, Boolean allowReplace) in AddOrReplace.il:line IL_00AC mvid CE2E
+     at JetBrains.Util.Collections.JetBinaryTree.JetBinaryTree`2.Add(TKeyType key, TDataType data) in Add.il:line IL_0000 mvid CE2E
+     at JetBrains.Application.ApplicationPackagesFiles.<>c__DisplayClass1_0.<.ctor>g__MakeTree|0() in ApplicationPackagesFiles.il:line IL_0032 mvid 8B01
+”
+
+--- Outer ---
+
+--- EXCEPTION #2/2 [LoggerException]
+Message = “The same key already exists in tree”
+ExceptionPath = Root
+ClassName = JetBrains.Util.LoggerException
+Data.ManagedThreadName = <NULL>
+InnerException = “Exception #1 at Root.InnerException”
+HResult = COR_E_APPLICATION=80131600
+StackTraceString = “
+  at JetBrains.Util.ILoggerEx.LogException(ILogger this, LoggingLevel level, Exception exception, ExceptionOrigin exceptionOrigin, String comment) in LogException.il:line IL_002E mvid 7D84
+     at JetBrains.Util.ILoggerEx.Error(ILogger this, Exception exception, ExceptionOrigin origin, String comment) in Error.il:line IL_0000 mvid 7D84
+     at JetBrains.Application.ApplicationPackagesFiles.<>c__DisplayClass1_0.<.ctor>g__MakeTree|0() in ApplicationPackagesFiles.il:line IL_0032 mvid 8B01
+     at System.Lazy`1.PublicationOnlyViaFactory(LazyHelper initializer) in PublicationOnlyViaFactory.il:line IL_0011 mvid 87BE
+     at System.Lazy`1.CreateValue() in CreateValue.il:line IL_0059 mvid 87BE or CreateValue.il:line IL_0074 mvid 87BE
+     at JetBrains.Application.ApplicationPackagesFiles.GetFiles(RelativePath root) in GetFiles.il:line IL_0000 mvid 8B01
+     at JetBrains.Application.ApplicationPackagesFilesEx.GetExtensionsFiles(ApplicationPackagesFiles applicationPackagesFiles, RelativePath root)
+     at JetBrains.Application.ApplicationPackagesFilesEx.GetExtensionsFileSystemPaths(ApplicationPackagesFiles applicationPackagesFiles, RelativePath root)
+     at JetBrains.Application.I18n.CultureContextComponentBase.ResolveResourcesFile(String baseName) in ResolveResourcesFile.il:line IL_004D mvid 8B01
+     at JetBrains.Application.I18n.CultureContextComponentBase.CreateResourceManager(String baseName, Assembly assembly) in CreateResourceManager.il:line IL_0000 mvid 8B01
+     at JetBrains.Application.Resources.Strings.<>c__DisplayClass1_0.<.cctor>b__3() in Strings.il:line IL_0000 mvid 8B01
+     at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+     at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor) in ExecutionAndPublication.il:line IL_0022 mvid 87BE
+     at System.Lazy`1.CreateValue() in CreateValue.il:line IL_0059 mvid 87BE or CreateValue.il:line IL_0074 mvid 87BE
+     at JetBrains.Application.Resources.Strings.get_ResourceManager()
+     at JetBrains.Application.Resources.Strings.get_ThisComputer_Text()
+     at JetBrains.Application.Settings.Storage.DefaultFileStorages.GlobalPerProductStorage..ctor(Lifetime lifetime, AnyProductSettingsLocation settingsLocation, IThreading threading, IFileSystemTracker filetracker, IApplicationHost product, IFileSettingsStorageBehavior behavior, InternKeyPathComponent interned, GlobalSettingsSanboxing globalSettingsSanboxing)
+     at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+     at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture) in InvokeWithManyArgs.il:line IL_0243 mvid 87BE
+     at JetBrains.Application.Components.ConstructiorBindigns.Activate(ISingletonDescriptor descriptor, Object[] dependencies) in Activate.il:line IL_0035 mvid 8E87
+     at JetBrains.Application.Extensibility.PartCatalogTypeComponentDescriptor.DoCreateInstance(ConstructiorBindigns bindings, Object[] dependencies) in DoCreateInstance.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.SingletonDescriptor`1.CreateInstance(Object[] dependencies) in CreateInstance.il:line IL_005F mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.CreateInstanceWithReadLock() in CreateInstanceWithReadLock.il:line IL_0046 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.CreateInstance() in CreateInstance.il:line IL_0052 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.TryGetSyncImpl() in TryGetSyncImpl.il:line IL_00DD mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.StateWithPriorityCache`1.TryGetSync() in TryGetSync.il:line IL_0010 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.TryActivate(Object[] dependencyValues) in TryActivate.il:line IL_000B mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.TryGetOrCreateValue() in TryGetOrCreateValue.il:line IL_002F mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.GetValue() in GetValue.il:line IL_000C mvid 8E87
+     at JetBrains.Application.Components.InitializationStrategyBase.InitDescriptorSync(Lifetime lifetime, IComponentContainer container, IComponentDescriptor descriptor, ContainerStrategyStage stage)
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.<CreateDescriptorAsync>g__CreateValueDescriptorSafe|28_1(Lifetime lifetime, IComponentContainer container, IValueDescriptor descriptor, ContainerStrategyStage stage, ILogger logger) in AsyncInitializationStrategyBase.il:line IL_0000 mvid 8E87 or AsyncInitializationStrategyBase.il:line IL_0043 mvid 8E87
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.<>c__DisplayClass28_0.<CreateDescriptorAsync>b__0() in AsyncInitializationStrategyBase.il:line IL_0000 mvid 8E87 or AsyncInitializationStrategyBase.il:line IL_0043 mvid 8E87
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 87BE
+     at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread) in ExecuteWithThreadLocal.il:line IL_0096 mvid 87BE
+     at System.Threading.Tasks.Task.ExecuteEntry() in ExecuteEntry.il:line IL_0036 mvid 87BE
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.InlineScheduler.Run(Func`1 checkForInterrupt) in Run.il:line IL_000F mvid 8E87
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.ProcessByInlineScheduler(Func`2 asyncPart, Action syncPart) in ProcessByInlineScheduler.il:line IL_0086 mvid 8E87
+     at JetBrains.Application.Components.AsyncParallelLifecycleInitializationStrategy.<>c__DisplayClass5_0.<<DoSchedule>g__InitAsync|0>d.MoveNext() in DoSchedule.il:line IL_0005 mvid 8E87 or DoSchedule.il:line IL_015B mvid 8E87
+     at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine) in Start.il:line IL_0028 mvid 87BE
+     at JetBrains.Application.Components.AsyncParallelLifecycleInitializationStrategy.<>c__DisplayClass5_0.<DoSchedule>g__InitAsync|0() in AsyncParallelLifecycleInitializationStrategy.il:line IL_001C mvid 8E87
+     at JetBrains.Application.Components.AsyncParallelLifecycleInitializationStrategy.DoSchedule(Lifetime lt, ICollection`1 descriptors, String containerId, IComponentContainer container) in DoSchedule.il:line IL_0005 mvid 8E87 or DoSchedule.il:line IL_015B mvid 8E87
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.Schedule(Lifetime lifetime, ICollection`1 dscs, String containedId, IComponentContainer container) in Schedule.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.InstantiateDescriptors(ICollection`1 descriptors) in InstantiateDescriptors.il:line IL_0046 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.ComposeDescriptors(ICollection`1 descriptors) in ComposeDescriptors.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.Compose() in Compose.il:line IL_00C9 mvid 8E87
+     at JetBrains.Application.Components.ComponentContainer.Compose() in Compose.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Environment.RunsProducts.RunProduct(Lifetime lifetimeProduct, JetEnvironment environment, JetEnvironmentZones zones, RunningProducts runningProducts, ZoneUserPreferenceChecker zoneUserPreferenceChecker, ITimebombZoneFilter timebombZoneFilter, ZoneLicenseChecker zoneLicenseChecker, IInitializationStrategyProvider myInitializationStrategyProvider, IEnumerable`1 shellComponentContainerExtenders, IProperty`1 timebombedZones, ILogger logger) in RunProduct.il:line IL_020C mvid 8B01
+     at JetBrains.Application.Environment.RunsProducts.<>c__DisplayClass5_0.<.ctor>b__2(Lifetime lifetimeShouldStart) in RunsProducts.il:line IL_0000 mvid 8B01 or RunsProducts.il:line IL_000B mvid 8B01
+     at JetBrains.Lifetimes.SequentialLifetimes.<>c__DisplayClass4_0.<Next>b__0(LifetimeDefinition lifetimeDefinition) in SequentialLifetimes.il:line IL_0000 mvid A5E3
+     at JetBrains.Lifetimes.LifetimeDefinition.ExecuteOrTerminateOnFail(Action`1 atomicAction) in ExecuteOrTerminateOnFail.il:line IL_0014 mvid A5E3
+     at JetBrains.Lifetimes.SequentialLifetimes.<>c__DisplayClass5_0.<DefineNext>b__0(LifetimeDefinition definition) in SequentialLifetimes.il:line IL_0000 mvid A5E3
+     at JetBrains.Lifetimes.SequentialLifetimes.TrySetNewAndTerminateOld(LifetimeDefinition newLifetimeDefinition, Action`1 actionWithNewLifetime) in TrySetNewAndTerminateOld.il:line IL_003C mvid A5E3
+     at JetBrains.Lifetimes.SequentialLifetimes.DefineNext(Action`1 atomicAction) in DefineNext.il:line IL_0040 mvid A5E3
+     at JetBrains.Lifetimes.SequentialLifetimes.Next(Action`1 atomicAction) in Next.il:line IL_002D mvid A5E3
+     at JetBrains.DataFlow.IPropertyEx.<>c__DisplayClass38_0.<WhenTrue>b__0(PropertyChangedEventArgs`1 args)
+     at JetBrains.DataFlow.Signal`1.Fire(TValue value, Object cookie) in Fire.il:line IL_0054 mvid 7D84
+     at JetBrains.DataFlow.Property`1.SetValue(TValue value, Object cookie) in SetValue.il:line IL_000D mvid 7D84
+     at JetBrains.DataFlow.Property`1.set_Value(TValue value)
+     at JetBrains.Application.Environment.RunsProducts.<>c__DisplayClass5_2.<.ctor>b__5() in RunsProducts.il:line IL_0000 mvid 8B01 or RunsProducts.il:line IL_000B mvid 8B01
+     at JetBrains.Threading.ReentrancyGuardEx.<>c__DisplayClass0_1.<Queue>b__3() in ReentrancyGuardEx.il:line IL_001C mvid 7D84
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o)
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 87BE
+     at JetBrains.Threading.ReentrancyGuard.QueuedAction.<>c__DisplayClass2_0.<.ctor>b__0() in QueuedAction.il:line IL_0000 mvid 7D84
+     at JetBrains.Threading.ReentrancyGuard.Execute(String name, Action action) in Execute.il:line IL_014D mvid 7D84
+     at JetBrains.Threading.ReentrancyGuard.ExecutePendingActions() in ExecutePendingActions.il:line IL_0053 mvid 7D84
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o)
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 87BE
+     at JetBrains.Threading.JetDispatcher.Closure.Execute() in Execute.il:line IL_017B mvid 7D84
+     at JetBrains.Threading.JetDispatcher.ProcessQueue(Int32 nMinBucket, Int32 nProcessQueueGeneration) in ProcessQueue.il:line IL_01D0 mvid 7D84
+     at JetBrains.Threading.JetDispatcher.<>c__DisplayClass58_0.<ScheduleQueueProcessingOnNativeMarshaller>g__ProcessQueueWithPriority|0() in JetDispatcher.il:line IL_0000 mvid 7D84
+     at JetBrains.Threading.RunsAndSleeps.RunOrSleep(Func`1 FCondition, IProperty`1 propCondition, TimeSpan timeout, OnWaitTimeout ontimeout) in RunOrSleep.il:line IL_03AC mvid 7D84
+     at JetBrains.Threading.JetDispatcher.Run(IProperty`1 condition, TimeSpan timeout, Boolean bThrowOnTimeout) in Run.il:line IL_0005 mvid 7D84
+     at JetBrains.Application.Environment.IJetHostEx.<>c__DisplayClass3_0.<RunHostMessageLoop>b__0(Lifetime lifetime) in IJetHostEx.il:line IL_0025 mvid 8B01
+     at JetBrains.Lifetimes.Lifetime.Using(Action`1 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Application.Environment.IJetHostEx.RunHostMessageLoop(IComponentContainer containerEnv) in RunHostMessageLoop.il:line IL_0030 mvid 8B01
+     at JetBrains.Application.Environment.HostParameters.MessagePumpMainLoopHostMixin.JetBrains.Application.Environment.HostParameters.IRunMainLoopHostMixin.RunMainLoop(ComponentContainer containerEnv)
+     at JetBrains.Application.Environment.HostParameters.JetHostParametersCaller.RunMainLoop(ComponentContainer containerEnv) in RunMainLoop.il:line IL_009F mvid 8B01
+     at JetBrains.Application.Environment.JetEnvironment.<>c__DisplayClass14_0.<InternalRun>b__0() in JetEnvironment.il:line IL_0000 mvid 8B01
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o)
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 87BE
+     at JetBrains.Threading.JetDispatcher.Closure.Execute() in Execute.il:line IL_017B mvid 7D84
+     at JetBrains.Threading.JetDispatcher.Invoke(OuterLifetime lifetime, String name, Action action, TaskPriority priority, Nullable`1 limit) in Invoke.il:line IL_0000 mvid 7D84 or Invoke.il:line IL_006A mvid 7D84
+     at JetBrains.Threading.JetDispatcher.Invoke(String name, Action action, TaskPriority priority) in Invoke.il:line IL_0000 mvid 7D84 or Invoke.il:line IL_006A mvid 7D84
+     at JetBrains.Application.Environment.JetEnvironment.InternalRun(JetHostParametersCaller host, ComponentContainer containerEnv) in InternalRun.il:line IL_004A mvid 8B01
+     at JetBrains.Application.Environment.JetEnvironment.CreateAndRun(Full hostparams) in CreateAndRun.il:line IL_002E mvid 8B01
+     at JetBrains.Application.Environment.JetHostItems.CreateAndRun(Full input) in CreateAndRun.il:line IL_000E mvid 8B01
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.MainX(Assembly assembly, HostInfo hostInfo, String[] args) in MainX.il:line IL_0089 mvid D690
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.<>c.<Main>b__4_0(Lifetime lifetime) in RiderBackendProgram.il:line IL_002B mvid D690
+     at JetBrains.Lifetimes.Lifetime.Using[T](Func`2 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.Main() in Main.il:line IL_0045 mvid D690
+”
+
+The same key already exists in tree
+
+--- EXCEPTION #1/2 [ArgumentException]
+Message = “The same key already exists in tree”
+ExceptionPath = Root.InnerException
+ClassName = System.ArgumentException
+Data.Key = JetBrains.Platform.UIInteractive.Shell.Common.xml
+Data.OldValue = “JetBrains.Platform.UIInteractive.Shell.Common.xml @ JetBrains.Platform.UIInteractive.Common”
+Data.NewValue = “JetBrains.Platform.UIInteractive.Shell.Common.xml @ JetBrains.Platform.UIInteractive.Common”
+Data.ThreadLocalDebugInfo = DeferStartingShellIdle
+HResult = E_INVALIDARG=COR_E_ARGUMENT=WIN32_ERROR_INVALID_PARAMETER=80070057
+Source = JetBrains.Platform.Util
+StackTraceString = “
+  at JetBrains.Util.Collections.JetBinaryTree.JetBinaryTree`2.AddOrReplace(TKeyType key, TDataType data, Boolean allowReplace) in AddOrReplace.il:line IL_00AC mvid CE2E
+     at JetBrains.Util.Collections.JetBinaryTree.JetBinaryTree`2.Add(TKeyType key, TDataType data) in Add.il:line IL_0000 mvid CE2E
+     at JetBrains.Application.ApplicationPackagesFiles.<>c__DisplayClass1_0.<.ctor>g__MakeTree|0() in ApplicationPackagesFiles.il:line IL_0032 mvid 8B01
+”
+
+--- Outer ---
+
+--- EXCEPTION #2/2 [LoggerException]
+Message = “The same key already exists in tree”
+ExceptionPath = Root
+ClassName = JetBrains.Util.LoggerException
+Data.ManagedThreadName = <NULL>
+InnerException = “Exception #1 at Root.InnerException”
+HResult = COR_E_APPLICATION=80131600
+StackTraceString = “
+  at JetBrains.Util.ILoggerEx.LogException(ILogger this, LoggingLevel level, Exception exception, ExceptionOrigin exceptionOrigin, String comment) in LogException.il:line IL_002E mvid 7D84
+     at JetBrains.Util.ILoggerEx.Error(ILogger this, Exception exception, ExceptionOrigin origin, String comment) in Error.il:line IL_0000 mvid 7D84
+     at JetBrains.Application.ApplicationPackagesFiles.<>c__DisplayClass1_0.<.ctor>g__MakeTree|0() in ApplicationPackagesFiles.il:line IL_0032 mvid 8B01
+     at System.Lazy`1.PublicationOnlyViaFactory(LazyHelper initializer) in PublicationOnlyViaFactory.il:line IL_0011 mvid 87BE
+     at System.Lazy`1.CreateValue() in CreateValue.il:line IL_0059 mvid 87BE or CreateValue.il:line IL_0074 mvid 87BE
+     at JetBrains.Application.ApplicationPackagesFiles.GetFiles(RelativePath root) in GetFiles.il:line IL_0000 mvid 8B01
+     at JetBrains.Application.ApplicationPackagesFilesEx.GetExtensionsFiles(ApplicationPackagesFiles applicationPackagesFiles, RelativePath root)
+     at JetBrains.Application.ApplicationPackagesFilesEx.GetExtensionsFileSystemPaths(ApplicationPackagesFiles applicationPackagesFiles, RelativePath root)
+     at JetBrains.Application.I18n.CultureContextComponentBase.ResolveResourcesFile(String baseName) in ResolveResourcesFile.il:line IL_004D mvid 8B01
+     at JetBrains.Application.I18n.CultureContextComponentBase.CreateResourceManager(String baseName, Assembly assembly) in CreateResourceManager.il:line IL_0000 mvid 8B01
+     at JetBrains.Application.Resources.Strings.<>c__DisplayClass1_0.<.cctor>b__3() in Strings.il:line IL_0000 mvid 8B01
+     at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+     at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor) in ExecutionAndPublication.il:line IL_0022 mvid 87BE
+     at System.Lazy`1.CreateValue() in CreateValue.il:line IL_0059 mvid 87BE or CreateValue.il:line IL_0074 mvid 87BE
+     at JetBrains.Application.Resources.Strings.get_ResourceManager()
+     at JetBrains.Application.Resources.Strings.get_ThisComputer_Text()
+     at JetBrains.Application.Settings.Storage.DefaultFileStorages.GlobalPerProductStorage..ctor(Lifetime lifetime, AnyProductSettingsLocation settingsLocation, IThreading threading, IFileSystemTracker filetracker, IApplicationHost product, IFileSettingsStorageBehavior behavior, InternKeyPathComponent interned, GlobalSettingsSanboxing globalSettingsSanboxing)
+     at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+     at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture) in InvokeWithManyArgs.il:line IL_0243 mvid 87BE
+     at JetBrains.Application.Components.ConstructiorBindigns.Activate(ISingletonDescriptor descriptor, Object[] dependencies) in Activate.il:line IL_0035 mvid 8E87
+     at JetBrains.Application.Extensibility.PartCatalogTypeComponentDescriptor.DoCreateInstance(ConstructiorBindigns bindings, Object[] dependencies) in DoCreateInstance.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.SingletonDescriptor`1.CreateInstance(Object[] dependencies) in CreateInstance.il:line IL_005F mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.CreateInstanceWithReadLock() in CreateInstanceWithReadLock.il:line IL_0046 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.CreateInstance() in CreateInstance.il:line IL_0052 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.ActivatingComponentState.TryGetSyncImpl() in TryGetSyncImpl.il:line IL_00DD mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.StateWithPriorityCache`1.TryGetSync() in TryGetSync.il:line IL_0010 mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.TryActivate(Object[] dependencyValues) in TryActivate.il:line IL_000B mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.TryGetOrCreateValue() in TryGetOrCreateValue.il:line IL_002F mvid 8E87
+     at JetBrains.Application.Components.AsyncDescriptorBase.GetValue() in GetValue.il:line IL_000C mvid 8E87
+     at JetBrains.Application.Components.InitializationStrategyBase.InitDescriptorSync(Lifetime lifetime, IComponentContainer container, IComponentDescriptor descriptor, ContainerStrategyStage stage)
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.<CreateDescriptorAsync>g__CreateValueDescriptorSafe|28_1(Lifetime lifetime, IComponentContainer container, IValueDescriptor descriptor, ContainerStrategyStage stage, ILogger logger) in AsyncInitializationStrategyBase.il:line IL_0000 mvid 8E87 or AsyncInitializationStrategyBase.il:line IL_0043 mvid 8E87
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.<>c__DisplayClass28_0.<CreateDescriptorAsync>b__0() in AsyncInitializationStrategyBase.il:line IL_0000 mvid 8E87 or AsyncInitializationStrategyBase.il:line IL_0043 mvid 8E87
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 87BE
+     at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread) in ExecuteWithThreadLocal.il:line IL_0096 mvid 87BE
+     at System.Threading.Tasks.Task.ExecuteEntry() in ExecuteEntry.il:line IL_0036 mvid 87BE
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.InlineScheduler.Run(Func`1 checkForInterrupt) in Run.il:line IL_000F mvid 8E87
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.ProcessByInlineScheduler(Func`2 asyncPart, Action syncPart) in ProcessByInlineScheduler.il:line IL_0086 mvid 8E87
+     at JetBrains.Application.Components.AsyncParallelLifecycleInitializationStrategy.<>c__DisplayClass5_0.<<DoSchedule>g__InitAsync|0>d.MoveNext() in DoSchedule.il:line IL_0005 mvid 8E87 or DoSchedule.il:line IL_015B mvid 8E87
+     at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine) in Start.il:line IL_0028 mvid 87BE
+     at JetBrains.Application.Components.AsyncParallelLifecycleInitializationStrategy.<>c__DisplayClass5_0.<DoSchedule>g__InitAsync|0() in AsyncParallelLifecycleInitializationStrategy.il:line IL_001C mvid 8E87
+     at JetBrains.Application.Components.AsyncParallelLifecycleInitializationStrategy.DoSchedule(Lifetime lt, ICollection`1 descriptors, String containerId, IComponentContainer container) in DoSchedule.il:line IL_0005 mvid 8E87 or DoSchedule.il:line IL_015B mvid 8E87
+     at JetBrains.Application.Components.AsyncInitializationStrategyBase.Schedule(Lifetime lifetime, ICollection`1 dscs, String containedId, IComponentContainer container) in Schedule.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.InstantiateDescriptors(ICollection`1 descriptors) in InstantiateDescriptors.il:line IL_0046 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.ComposeDescriptors(ICollection`1 descriptors) in ComposeDescriptors.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Components.ComponentStorage.Compose() in Compose.il:line IL_00C9 mvid 8E87
+     at JetBrains.Application.Components.ComponentContainer.Compose() in Compose.il:line IL_0000 mvid 8E87
+     at JetBrains.Application.Environment.RunsProducts.RunProduct(Lifetime lifetimeProduct, JetEnvironment environment, JetEnvironmentZones zones, RunningProducts runningProducts, ZoneUserPreferenceChecker zoneUserPreferenceChecker, ITimebombZoneFilter timebombZoneFilter, ZoneLicenseChecker zoneLicenseChecker, IInitializationStrategyProvider myInitializationStrategyProvider, IEnumerable`1 shellComponentContainerExtenders, IProperty`1 timebombedZones, ILogger logger) in RunProduct.il:line IL_020C mvid 8B01
+     at JetBrains.Application.Environment.RunsProducts.<>c__DisplayClass5_0.<.ctor>b__2(Lifetime lifetimeShouldStart) in RunsProducts.il:line IL_0000 mvid 8B01 or RunsProducts.il:line IL_000B mvid 8B01
+     at JetBrains.Lifetimes.SequentialLifetimes.<>c__DisplayClass4_0.<Next>b__0(LifetimeDefinition lifetimeDefinition) in SequentialLifetimes.il:line IL_0000 mvid A5E3
+     at JetBrains.Lifetimes.LifetimeDefinition.ExecuteOrTerminateOnFail(Action`1 atomicAction) in ExecuteOrTerminateOnFail.il:line IL_0014 mvid A5E3
+     at JetBrains.Lifetimes.SequentialLifetimes.<>c__DisplayClass5_0.<DefineNext>b__0(LifetimeDefinition definition) in SequentialLifetimes.il:line IL_0000 mvid A5E3
+     at JetBrains.Lifetimes.SequentialLifetimes.TrySetNewAndTerminateOld(LifetimeDefinition newLifetimeDefinition, Action`1 actionWithNewLifetime) in TrySetNewAndTerminateOld.il:line IL_003C mvid A5E3
+     at JetBrains.Lifetimes.SequentialLifetimes.DefineNext(Action`1 atomicAction) in DefineNext.il:line IL_0040 mvid A5E3
+     at JetBrains.Lifetimes.SequentialLifetimes.Next(Action`1 atomicAction) in Next.il:line IL_002D mvid A5E3
+     at JetBrains.DataFlow.IPropertyEx.<>c__DisplayClass38_0.<WhenTrue>b__0(PropertyChangedEventArgs`1 args)
+     at JetBrains.DataFlow.Signal`1.Fire(TValue value, Object cookie) in Fire.il:line IL_0054 mvid 7D84
+     at JetBrains.DataFlow.Property`1.SetValue(TValue value, Object cookie) in SetValue.il:line IL_000D mvid 7D84
+     at JetBrains.DataFlow.Property`1.set_Value(TValue value)
+     at JetBrains.Application.Environment.RunsProducts.<>c__DisplayClass5_2.<.ctor>b__5() in RunsProducts.il:line IL_0000 mvid 8B01 or RunsProducts.il:line IL_000B mvid 8B01
+     at JetBrains.Threading.ReentrancyGuardEx.<>c__DisplayClass0_1.<Queue>b__3() in ReentrancyGuardEx.il:line IL_001C mvid 7D84
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o)
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 87BE
+     at JetBrains.Threading.ReentrancyGuard.QueuedAction.<>c__DisplayClass2_0.<.ctor>b__0() in QueuedAction.il:line IL_0000 mvid 7D84
+     at JetBrains.Threading.ReentrancyGuard.Execute(String name, Action action) in Execute.il:line IL_014D mvid 7D84
+     at JetBrains.Threading.ReentrancyGuard.ExecutePendingActions() in ExecutePendingActions.il:line IL_0053 mvid 7D84
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o)
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 87BE
+     at JetBrains.Threading.JetDispatcher.Closure.Execute() in Execute.il:line IL_017B mvid 7D84
+     at JetBrains.Threading.JetDispatcher.ProcessQueue(Int32 nMinBucket, Int32 nProcessQueueGeneration) in ProcessQueue.il:line IL_01D0 mvid 7D84
+     at JetBrains.Threading.JetDispatcher.<>c__DisplayClass58_0.<ScheduleQueueProcessingOnNativeMarshaller>g__ProcessQueueWithPriority|0() in JetDispatcher.il:line IL_0000 mvid 7D84
+     at JetBrains.Threading.RunsAndSleeps.RunOrSleep(Func`1 FCondition, IProperty`1 propCondition, TimeSpan timeout, OnWaitTimeout ontimeout) in RunOrSleep.il:line IL_03AC mvid 7D84
+     at JetBrains.Threading.JetDispatcher.Run(IProperty`1 condition, TimeSpan timeout, Boolean bThrowOnTimeout) in Run.il:line IL_0005 mvid 7D84
+     at JetBrains.Application.Environment.IJetHostEx.<>c__DisplayClass3_0.<RunHostMessageLoop>b__0(Lifetime lifetime) in IJetHostEx.il:line IL_0025 mvid 8B01
+     at JetBrains.Lifetimes.Lifetime.Using(Action`1 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Application.Environment.IJetHostEx.RunHostMessageLoop(IComponentContainer containerEnv) in RunHostMessageLoop.il:line IL_0030 mvid 8B01
+     at JetBrains.Application.Environment.HostParameters.MessagePumpMainLoopHostMixin.JetBrains.Application.Environment.HostParameters.IRunMainLoopHostMixin.RunMainLoop(ComponentContainer containerEnv)
+     at JetBrains.Application.Environment.HostParameters.JetHostParametersCaller.RunMainLoop(ComponentContainer containerEnv) in RunMainLoop.il:line IL_009F mvid 8B01
+     at JetBrains.Application.Environment.JetEnvironment.<>c__DisplayClass14_0.<InternalRun>b__0() in JetEnvironment.il:line IL_0000 mvid 8B01
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o)
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 87BE
+     at JetBrains.Threading.JetDispatcher.Closure.Execute() in Execute.il:line IL_017B mvid 7D84
+     at JetBrains.Threading.JetDispatcher.Invoke(OuterLifetime lifetime, String name, Action action, TaskPriority priority, Nullable`1 limit) in Invoke.il:line IL_0000 mvid 7D84 or Invoke.il:line IL_006A mvid 7D84
+     at JetBrains.Threading.JetDispatcher.Invoke(String name, Action action, TaskPriority priority) in Invoke.il:line IL_0000 mvid 7D84 or Invoke.il:line IL_006A mvid 7D84
+     at JetBrains.Application.Environment.JetEnvironment.InternalRun(JetHostParametersCaller host, ComponentContainer containerEnv) in InternalRun.il:line IL_004A mvid 8B01
+     at JetBrains.Application.Environment.JetEnvironment.CreateAndRun(Full hostparams) in CreateAndRun.il:line IL_002E mvid 8B01
+     at JetBrains.Application.Environment.JetHostItems.CreateAndRun(Full input) in CreateAndRun.il:line IL_000E mvid 8B01
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.MainX(Assembly assembly, HostInfo hostInfo, String[] args) in MainX.il:line IL_0089 mvid D690
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.<>c.<Main>b__4_0(Lifetime lifetime) in RiderBackendProgram.il:line IL_002B mvid D690
+     at JetBrains.Lifetimes.Lifetime.Using[T](Func`2 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.Main() in Main.il:line IL_0045 mvid D690
+”
+
+Warning: Primary thread didn't respond for 0.578sec (CurrentTask: 'CreateAutomationForOptionsPage') QueueSize=0
+Warning: Primary thread was unresponsive for 0.578sec

@@ -1,0 +1,1007 @@
+<options>
+  <configurable id="editor.breadcrumbs" configurable_name="Breadcrumbs">
+    <option name="asxx" hit="Asxx" />
+  </configurable>
+  <configurable id="preferences.sourceCode.ASP.NET (Razor)" configurable_name="ASP.NET (Razor)">
+    <option name="asp" hit="ASP.NET (Razor)" />
+    <option name="net" hit="ASP.NET (Razor)" />
+    <option name="razor" hit="ASP.NET (Razor)" />
+    <option name="align" hit="Align even if the resulting indentation is too large" />
+    <option name="even" hit="Align even if the resulting indentation is too large" />
+    <option name="if" hit="Align even if the resulting indentation is too large" />
+    <option name="indentation" hit="Align even if the resulting indentation is too large" />
+    <option name="is" hit="Align even if the resulting indentation is too large" />
+    <option name="large" hit="Align even if the resulting indentation is too large" />
+    <option name="resulting" hit="Align even if the resulting indentation is too large" />
+    <option name="the" hit="Align even if the resulting indentation is too large" />
+    <option name="too" hit="Align even if the resulting indentation is too large" />
+    <option name="always" hit="Always remove 'this.' qualifier (override corresponding C# setting)" />
+    <option name="c#" hit="Always remove 'this.' qualifier (override corresponding C# setting)" />
+    <option name="corresponding" hit="Always remove 'this.' qualifier (override corresponding C# setting)" />
+    <option name="override" hit="Always remove 'this.' qualifier (override corresponding C# setting)" />
+    <option name="qualifier" hit="Always remove 'this.' qualifier (override corresponding C# setting)" />
+    <option name="remove" hit="Always remove 'this.' qualifier (override corresponding C# setting)" />
+    <option name="setting" hit="Always remove 'this.' qualifier (override corresponding C# setting)" />
+    <option name="this" hit="Always remove 'this.' qualifier (override corresponding C# setting)" />
+    <option name="around" hit="Around Tags" />
+    <option name="tags" hit="Around Tags" />
+    <option name="attributes" hit="Attributes format" />
+    <option name="format" hit="Attributes format" />
+    <option name="attributes" hit="Attributes indenting" />
+    <option name="indenting" hit="Attributes indenting" />
+    <option name="after" hit="Blank line after processing instructions" />
+    <option name="blank" hit="Blank line after processing instructions" />
+    <option name="instructions" hit="Blank line after processing instructions" />
+    <option name="line" hit="Blank line after processing instructions" />
+    <option name="processing" hit="Blank line after processing instructions" />
+    <option name="around" hit="Blank lines around Razor @functions block" />
+    <option name="blank" hit="Blank lines around Razor @functions block" />
+    <option name="block" hit="Blank lines around Razor @functions block" />
+    <option name="functions" hit="Blank lines around Razor @functions block" />
+    <option name="lines" hit="Blank lines around Razor @functions block" />
+    <option name="razor" hit="Blank lines around Razor @functions block" />
+    <option name="around" hit="Blank lines around Razor helpers" />
+    <option name="blank" hit="Blank lines around Razor helpers" />
+    <option name="helpers" hit="Blank lines around Razor helpers" />
+    <option name="lines" hit="Blank lines around Razor helpers" />
+    <option name="razor" hit="Blank lines around Razor helpers" />
+    <option name="around" hit="Blank lines around Razor sections" />
+    <option name="blank" hit="Blank lines around Razor sections" />
+    <option name="lines" hit="Blank lines around Razor sections" />
+    <option name="razor" hit="Blank lines around Razor sections" />
+    <option name="sections" hit="Blank lines around Razor sections" />
+    <option name="children" hit="Do not indent children if element has more lines than" />
+    <option name="do" hit="Do not indent children if element has more lines than" />
+    <option name="element" hit="Do not indent children if element has more lines than" />
+    <option name="has" hit="Do not indent children if element has more lines than" />
+    <option name="if" hit="Do not indent children if element has more lines than" />
+    <option name="indent" hit="Do not indent children if element has more lines than" />
+    <option name="lines" hit="Do not indent children if element has more lines than" />
+    <option name="more" hit="Do not indent children if element has more lines than" />
+    <option name="not" hit="Do not indent children if element has more lines than" />
+    <option name="than" hit="Do not indent children if element has more lines than" />
+    <option name="children" hit="Do not indent children of" />
+    <option name="do" hit="Do not indent children of" />
+    <option name="indent" hit="Do not indent children of" />
+    <option name="not" hit="Do not indent children of" />
+    <option name="of" hit="Do not indent children of" />
+    <option name="extra" hit="Extra spaces inside" />
+    <option name="inside" hit="Extra spaces inside" />
+    <option name="spaces" hit="Extra spaces inside" />
+    <option name="formatting" path="Formatting" hit="Formatting" />
+    <option name="align" hit="How to align when tabs are used for indents" />
+    <option name="are" hit="How to align when tabs are used for indents" />
+    <option name="for" hit="How to align when tabs are used for indents" />
+    <option name="how" hit="How to align when tabs are used for indents" />
+    <option name="indents" hit="How to align when tabs are used for indents" />
+    <option name="tabs" hit="How to align when tabs are used for indents" />
+    <option name="to" hit="How to align when tabs are used for indents" />
+    <option name="used" hit="How to align when tabs are used for indents" />
+    <option name="when" hit="How to align when tabs are used for indents" />
+    <option name="indent" hit="Indent size" />
+    <option name="size" hit="Indent size" />
+    <option name="indent" hit="Indent style" />
+    <option name="style" hit="Indent style" />
+    <option name="header" hit="Inside of Tag Header" />
+    <option name="inside" hit="Inside of Tag Header" />
+    <option name="of" hit="Inside of Tag Header" />
+    <option name="tag" hit="Inside of Tag Header" />
+    <option name="inside" hit="Keep white spaces inside" />
+    <option name="keep" hit="Keep white spaces inside" />
+    <option name="spaces" hit="Keep white spaces inside" />
+    <option name="white" hit="Keep white spaces inside" />
+    <option name="after" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="and" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="before" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="breaks" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="contain" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="elements" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="end-tag" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="in" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="line" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="no" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="other" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="start-tag" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="text" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="that" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="after" hit="Line breaks after start-tag and before end-tag in multiline elements" />
+    <option name="and" hit="Line breaks after start-tag and before end-tag in multiline elements" />
+    <option name="before" hit="Line breaks after start-tag and before end-tag in multiline elements" />
+    <option name="breaks" hit="Line breaks after start-tag and before end-tag in multiline elements" />
+    <option name="elements" hit="Line breaks after start-tag and before end-tag in multiline elements" />
+    <option name="end-tag" hit="Line breaks after start-tag and before end-tag in multiline elements" />
+    <option name="in" hit="Line breaks after start-tag and before end-tag in multiline elements" />
+    <option name="line" hit="Line breaks after start-tag and before end-tag in multiline elements" />
+    <option name="multiline" hit="Line breaks after start-tag and before end-tag in multiline elements" />
+    <option name="start-tag" hit="Line breaks after start-tag and before end-tag in multiline elements" />
+    <option name="around" hit="Line breaks around Razor statements" />
+    <option name="breaks" hit="Line breaks around Razor statements" />
+    <option name="line" hit="Line breaks around Razor statements" />
+    <option name="razor" hit="Line breaks around Razor statements" />
+    <option name="statements" hit="Line breaks around Razor statements" />
+    <option name="at" hit="Line feed at end of file" />
+    <option name="end" hit="Line feed at end of file" />
+    <option name="feed" hit="Line feed at end of file" />
+    <option name="file" hit="Line feed at end of file" />
+    <option name="line" hit="Line feed at end of file" />
+    <option name="of" hit="Line feed at end of file" />
+    <option name="loading" hit="Loading..." />
+    <option name="between" hit="Maximum blank lines between tags" />
+    <option name="blank" hit="Maximum blank lines between tags" />
+    <option name="lines" hit="Maximum blank lines between tags" />
+    <option name="maximum" hit="Maximum blank lines between tags" />
+    <option name="tags" hit="Maximum blank lines between tags" />
+    <option name="names" hit="Normalize tag names" />
+    <option name="normalize" hit="Normalize tag names" />
+    <option name="tag" hit="Normalize tag names" />
+    <option name="other" hit="Other" />
+    <option name="always" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="at" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="brace" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="c#" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="end" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="for" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="k" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="line" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="of" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="override" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="r" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="style" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="to" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="use" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="a" hit="Place all elements on a new line" />
+    <option name="all" hit="Place all elements on a new line" />
+    <option name="elements" hit="Place all elements on a new line" />
+    <option name="line" hit="Place all elements on a new line" />
+    <option name="new" hit="Place all elements on a new line" />
+    <option name="on" hit="Place all elements on a new line" />
+    <option name="place" hit="Place all elements on a new line" />
+    <option name="a" hit="Place multiline elements on a new line" />
+    <option name="elements" hit="Place multiline elements on a new line" />
+    <option name="line" hit="Place multiline elements on a new line" />
+    <option name="multiline" hit="Place multiline elements on a new line" />
+    <option name="new" hit="Place multiline elements on a new line" />
+    <option name="on" hit="Place multiline elements on a new line" />
+    <option name="place" hit="Place multiline elements on a new line" />
+    <option name="a" hit="Place the following elements on a new line" />
+    <option name="elements" hit="Place the following elements on a new line" />
+    <option name="following" hit="Place the following elements on a new line" />
+    <option name="line" hit="Place the following elements on a new line" />
+    <option name="new" hit="Place the following elements on a new line" />
+    <option name="on" hit="Place the following elements on a new line" />
+    <option name="place" hit="Place the following elements on a new line" />
+    <option name="the" hit="Place the following elements on a new line" />
+    <option name="instructions" hit="Processing Instructions" />
+    <option name="processing" hit="Processing Instructions" />
+    <option name="quote" hit="Quote style" />
+    <option name="style" hit="Quote style" />
+    <option name="quotes" hit="Quotes" />
+    <option name="razor" path="Razor" hit="Razor" />
+    <option name="attribute" hit="Remove attribute quotes where values do not contain spaces" />
+    <option name="contain" hit="Remove attribute quotes where values do not contain spaces" />
+    <option name="do" hit="Remove attribute quotes where values do not contain spaces" />
+    <option name="not" hit="Remove attribute quotes where values do not contain spaces" />
+    <option name="quotes" hit="Remove attribute quotes where values do not contain spaces" />
+    <option name="remove" hit="Remove attribute quotes where values do not contain spaces" />
+    <option name="spaces" hit="Remove attribute quotes where values do not contain spaces" />
+    <option name="values" hit="Remove attribute quotes where values do not contain spaces" />
+    <option name="where" hit="Remove attribute quotes where values do not contain spaces" />
+    <option name="after" hit="Remove blank lines after '{' and before '}' in @functions" />
+    <option name="and" hit="Remove blank lines after '{' and before '}' in @functions" />
+    <option name="before" hit="Remove blank lines after '{' and before '}' in @functions" />
+    <option name="blank" hit="Remove blank lines after '{' and before '}' in @functions" />
+    <option name="functions" hit="Remove blank lines after '{' and before '}' in @functions" />
+    <option name="in" hit="Remove blank lines after '{' and before '}' in @functions" />
+    <option name="lines" hit="Remove blank lines after '{' and before '}' in @functions" />
+    <option name="remove" hit="Remove blank lines after '{' and before '}' in @functions" />
+    <option name="blank" hit="Remove blank lines inside &lt;script runat=&quot;server&quot;&gt;" />
+    <option name="inside" hit="Remove blank lines inside &lt;script runat=&quot;server&quot;&gt;" />
+    <option name="lines" hit="Remove blank lines inside &lt;script runat=&quot;server&quot;&gt;" />
+    <option name="remove" hit="Remove blank lines inside &lt;script runat=&quot;server&quot;&gt;" />
+    <option name="runat" hit="Remove blank lines inside &lt;script runat=&quot;server&quot;&gt;" />
+    <option name="script" hit="Remove blank lines inside &lt;script runat=&quot;server&quot;&gt;" />
+    <option name="server" hit="Remove blank lines inside &lt;script runat=&quot;server&quot;&gt;" />
+    <option name="blank" hit="Remove whitespace on blank lines" />
+    <option name="lines" hit="Remove whitespace on blank lines" />
+    <option name="on" hit="Remove whitespace on blank lines" />
+    <option name="remove" hit="Remove whitespace on blank lines" />
+    <option name="whitespace" hit="Remove whitespace on blank lines" />
+    <option name="attributes" hit="Sort attributes" />
+    <option name="sort" hit="Sort attributes" />
+    <option name="class" hit="Sort class selectors" />
+    <option name="selectors" hit="Sort class selectors" />
+    <option name="sort" hit="Sort class selectors" />
+    <option name="after" hit="Space after last attribute" />
+    <option name="attribute" hit="Space after last attribute" />
+    <option name="last" hit="Space after last attribute" />
+    <option name="space" hit="Space after last attribute" />
+    <option name="before" hit="Space before '/&gt;'" />
+    <option name="space" hit="Space before '/&gt;'" />
+    <option name="around" hit="Spaces around '=' in attribute" />
+    <option name="attribute" hit="Spaces around '=' in attribute" />
+    <option name="in" hit="Spaces around '=' in attribute" />
+    <option name="spaces" hit="Spaces around '=' in attribute" />
+    <option name="style" path="Syntax Style" hit="Syntax Style" />
+    <option name="syntax" path="Syntax Style" hit="Syntax Style" />
+    <option name="tab" hit="Tab width" />
+    <option name="width" hit="Tab width" />
+    <option name="and" hit="Tabs and Indents" />
+    <option name="indents" hit="Tabs and Indents" />
+    <option name="tabs" hit="Tabs and Indents" />
+    <option name="and" hit="Use fully qualified names for @inherits and @model directives" />
+    <option name="directives" hit="Use fully qualified names for @inherits and @model directives" />
+    <option name="for" hit="Use fully qualified names for @inherits and @model directives" />
+    <option name="fully" hit="Use fully qualified names for @inherits and @model directives" />
+    <option name="inherits" hit="Use fully qualified names for @inherits and @model directives" />
+    <option name="model" hit="Use fully qualified names for @inherits and @model directives" />
+    <option name="names" hit="Use fully qualified names for @inherits and @model directives" />
+    <option name="qualified" hit="Use fully qualified names for @inherits and @model directives" />
+    <option name="use" hit="Use fully qualified names for @inherits and @model directives" />
+    <option name="engine" hit="Use the old engine for Razor formatting" />
+    <option name="for" hit="Use the old engine for Razor formatting" />
+    <option name="formatting" hit="Use the old engine for Razor formatting" />
+    <option name="old" hit="Use the old engine for Razor formatting" />
+    <option name="razor" hit="Use the old engine for Razor formatting" />
+    <option name="the" hit="Use the old engine for Razor formatting" />
+    <option name="use" hit="Use the old engine for Razor formatting" />
+    <option name="forms" path="Web Forms" hit="Web Forms" />
+    <option name="web" path="Web Forms" hit="Web Forms" />
+    <option name="iddqd" hit="iddqd" />
+    <option name="align" path="Formatting" hit="Align even if the resulting indentation is too large" />
+    <option name="even" path="Formatting" hit="Align even if the resulting indentation is too large" />
+    <option name="if" path="Formatting" hit="Align even if the resulting indentation is too large" />
+    <option name="indentation" path="Formatting" hit="Align even if the resulting indentation is too large" />
+    <option name="is" path="Formatting" hit="Align even if the resulting indentation is too large" />
+    <option name="large" path="Formatting" hit="Align even if the resulting indentation is too large" />
+    <option name="resulting" path="Formatting" hit="Align even if the resulting indentation is too large" />
+    <option name="the" path="Formatting" hit="Align even if the resulting indentation is too large" />
+    <option name="too" path="Formatting" hit="Align even if the resulting indentation is too large" />
+    <option name="always" path="Razor" hit="Always remove 'this.' qualifier (override corresponding C# setting)" />
+    <option name="c#" path="Razor" hit="Always remove 'this.' qualifier (override corresponding C# setting)" />
+    <option name="corresponding" path="Razor" hit="Always remove 'this.' qualifier (override corresponding C# setting)" />
+    <option name="override" path="Razor" hit="Always remove 'this.' qualifier (override corresponding C# setting)" />
+    <option name="qualifier" path="Razor" hit="Always remove 'this.' qualifier (override corresponding C# setting)" />
+    <option name="remove" path="Razor" hit="Always remove 'this.' qualifier (override corresponding C# setting)" />
+    <option name="setting" path="Razor" hit="Always remove 'this.' qualifier (override corresponding C# setting)" />
+    <option name="this" path="Razor" hit="Always remove 'this.' qualifier (override corresponding C# setting)" />
+    <option name="around" path="Formatting" hit="Around Tags" />
+    <option name="tags" path="Formatting" hit="Around Tags" />
+    <option name="attributes" path="Formatting" hit="Attributes format" />
+    <option name="format" path="Formatting" hit="Attributes format" />
+    <option name="attributes" path="Formatting" hit="Attributes indenting" />
+    <option name="indenting" path="Formatting" hit="Attributes indenting" />
+    <option name="after" path="Formatting" hit="Blank line after processing instructions" />
+    <option name="blank" path="Formatting" hit="Blank line after processing instructions" />
+    <option name="instructions" path="Formatting" hit="Blank line after processing instructions" />
+    <option name="line" path="Formatting" hit="Blank line after processing instructions" />
+    <option name="processing" path="Formatting" hit="Blank line after processing instructions" />
+    <option name="around" path="Razor" hit="Blank lines around Razor @functions block" />
+    <option name="blank" path="Razor" hit="Blank lines around Razor @functions block" />
+    <option name="block" path="Razor" hit="Blank lines around Razor @functions block" />
+    <option name="functions" path="Razor" hit="Blank lines around Razor @functions block" />
+    <option name="lines" path="Razor" hit="Blank lines around Razor @functions block" />
+    <option name="razor" path="Razor" hit="Blank lines around Razor @functions block" />
+    <option name="around" path="Razor" hit="Blank lines around Razor helpers" />
+    <option name="blank" path="Razor" hit="Blank lines around Razor helpers" />
+    <option name="helpers" path="Razor" hit="Blank lines around Razor helpers" />
+    <option name="lines" path="Razor" hit="Blank lines around Razor helpers" />
+    <option name="razor" path="Razor" hit="Blank lines around Razor helpers" />
+    <option name="around" path="Razor" hit="Blank lines around Razor sections" />
+    <option name="blank" path="Razor" hit="Blank lines around Razor sections" />
+    <option name="lines" path="Razor" hit="Blank lines around Razor sections" />
+    <option name="razor" path="Razor" hit="Blank lines around Razor sections" />
+    <option name="sections" path="Razor" hit="Blank lines around Razor sections" />
+    <option name="children" path="Formatting" hit="Do not indent children if element has more lines than" />
+    <option name="do" path="Formatting" hit="Do not indent children if element has more lines than" />
+    <option name="element" path="Formatting" hit="Do not indent children if element has more lines than" />
+    <option name="has" path="Formatting" hit="Do not indent children if element has more lines than" />
+    <option name="if" path="Formatting" hit="Do not indent children if element has more lines than" />
+    <option name="indent" path="Formatting" hit="Do not indent children if element has more lines than" />
+    <option name="lines" path="Formatting" hit="Do not indent children if element has more lines than" />
+    <option name="more" path="Formatting" hit="Do not indent children if element has more lines than" />
+    <option name="not" path="Formatting" hit="Do not indent children if element has more lines than" />
+    <option name="than" path="Formatting" hit="Do not indent children if element has more lines than" />
+    <option name="children" path="Formatting" hit="Do not indent children of" />
+    <option name="do" path="Formatting" hit="Do not indent children of" />
+    <option name="indent" path="Formatting" hit="Do not indent children of" />
+    <option name="not" path="Formatting" hit="Do not indent children of" />
+    <option name="of" path="Formatting" hit="Do not indent children of" />
+    <option name="extra" path="Formatting" hit="Extra spaces inside" />
+    <option name="inside" path="Formatting" hit="Extra spaces inside" />
+    <option name="spaces" path="Formatting" hit="Extra spaces inside" />
+    <option name="align" path="Formatting" hit="How to align when tabs are used for indents" />
+    <option name="are" path="Formatting" hit="How to align when tabs are used for indents" />
+    <option name="for" path="Formatting" hit="How to align when tabs are used for indents" />
+    <option name="how" path="Formatting" hit="How to align when tabs are used for indents" />
+    <option name="indents" path="Formatting" hit="How to align when tabs are used for indents" />
+    <option name="tabs" path="Formatting" hit="How to align when tabs are used for indents" />
+    <option name="to" path="Formatting" hit="How to align when tabs are used for indents" />
+    <option name="used" path="Formatting" hit="How to align when tabs are used for indents" />
+    <option name="when" path="Formatting" hit="How to align when tabs are used for indents" />
+    <option name="indent" path="Formatting" hit="Indent size" />
+    <option name="size" path="Formatting" hit="Indent size" />
+    <option name="indent" path="Formatting" hit="Indent style" />
+    <option name="style" path="Formatting" hit="Indent style" />
+    <option name="header" path="Formatting" hit="Inside of Tag Header" />
+    <option name="inside" path="Formatting" hit="Inside of Tag Header" />
+    <option name="of" path="Formatting" hit="Inside of Tag Header" />
+    <option name="tag" path="Formatting" hit="Inside of Tag Header" />
+    <option name="inside" path="Formatting" hit="Keep white spaces inside" />
+    <option name="keep" path="Formatting" hit="Keep white spaces inside" />
+    <option name="spaces" path="Formatting" hit="Keep white spaces inside" />
+    <option name="white" path="Formatting" hit="Keep white spaces inside" />
+    <option name="after" path="Formatting" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="and" path="Formatting" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="before" path="Formatting" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="breaks" path="Formatting" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="contain" path="Formatting" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="elements" path="Formatting" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="end-tag" path="Formatting" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="in" path="Formatting" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="line" path="Formatting" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="no" path="Formatting" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="other" path="Formatting" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="start-tag" path="Formatting" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="text" path="Formatting" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="that" path="Formatting" hit="Line breaks after start-tag and before end-tag in elements that contain other elements and no text" />
+    <option name="after" path="Formatting" hit="Line breaks after start-tag and before end-tag in multiline elements" />
+    <option name="and" path="Formatting" hit="Line breaks after start-tag and before end-tag in multiline elements" />
+    <option name="before" path="Formatting" hit="Line breaks after start-tag and before end-tag in multiline elements" />
+    <option name="breaks" path="Formatting" hit="Line breaks after start-tag and before end-tag in multiline elements" />
+    <option name="elements" path="Formatting" hit="Line breaks after start-tag and before end-tag in multiline elements" />
+    <option name="end-tag" path="Formatting" hit="Line breaks after start-tag and before end-tag in multiline elements" />
+    <option name="in" path="Formatting" hit="Line breaks after start-tag and before end-tag in multiline elements" />
+    <option name="line" path="Formatting" hit="Line breaks after start-tag and before end-tag in multiline elements" />
+    <option name="multiline" path="Formatting" hit="Line breaks after start-tag and before end-tag in multiline elements" />
+    <option name="start-tag" path="Formatting" hit="Line breaks after start-tag and before end-tag in multiline elements" />
+    <option name="around" path="Razor" hit="Line breaks around Razor statements" />
+    <option name="breaks" path="Razor" hit="Line breaks around Razor statements" />
+    <option name="line" path="Razor" hit="Line breaks around Razor statements" />
+    <option name="razor" path="Razor" hit="Line breaks around Razor statements" />
+    <option name="statements" path="Razor" hit="Line breaks around Razor statements" />
+    <option name="at" path="Formatting" hit="Line feed at end of file" />
+    <option name="end" path="Formatting" hit="Line feed at end of file" />
+    <option name="feed" path="Formatting" hit="Line feed at end of file" />
+    <option name="file" path="Formatting" hit="Line feed at end of file" />
+    <option name="line" path="Formatting" hit="Line feed at end of file" />
+    <option name="of" path="Formatting" hit="Line feed at end of file" />
+    <option name="between" path="Formatting" hit="Maximum blank lines between tags" />
+    <option name="blank" path="Formatting" hit="Maximum blank lines between tags" />
+    <option name="lines" path="Formatting" hit="Maximum blank lines between tags" />
+    <option name="maximum" path="Formatting" hit="Maximum blank lines between tags" />
+    <option name="tags" path="Formatting" hit="Maximum blank lines between tags" />
+    <option name="names" path="Syntax Style" hit="Normalize tag names" />
+    <option name="normalize" path="Syntax Style" hit="Normalize tag names" />
+    <option name="tag" path="Syntax Style" hit="Normalize tag names" />
+    <option name="other" path="Syntax Style" hit="Other" />
+    <option name="always" path="Web Forms" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="at" path="Web Forms" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="brace" path="Web Forms" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="c#" path="Web Forms" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="end" path="Web Forms" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="for" path="Web Forms" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="k" path="Web Forms" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="line" path="Web Forms" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="of" path="Web Forms" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="override" path="Web Forms" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="r" path="Web Forms" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="style" path="Web Forms" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="to" path="Web Forms" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="use" path="Web Forms" hit="Override brace style for C# to always use 'At end of line (K&amp;R style)'" />
+    <option name="a" path="Formatting" hit="Place all elements on a new line" />
+    <option name="all" path="Formatting" hit="Place all elements on a new line" />
+    <option name="elements" path="Formatting" hit="Place all elements on a new line" />
+    <option name="line" path="Formatting" hit="Place all elements on a new line" />
+    <option name="new" path="Formatting" hit="Place all elements on a new line" />
+    <option name="on" path="Formatting" hit="Place all elements on a new line" />
+    <option name="place" path="Formatting" hit="Place all elements on a new line" />
+    <option name="a" path="Formatting" hit="Place multiline elements on a new line" />
+    <option name="elements" path="Formatting" hit="Place multiline elements on a new line" />
+    <option name="line" path="Formatting" hit="Place multiline elements on a new line" />
+    <option name="multiline" path="Formatting" hit="Place multiline elements on a new line" />
+    <option name="new" path="Formatting" hit="Place multiline elements on a new line" />
+    <option name="on" path="Formatting" hit="Place multiline elements on a new line" />
+    <option name="place" path="Formatting" hit="Place multiline elements on a new line" />
+    <option name="a" path="Formatting" hit="Place the following elements on a new line" />
+    <option name="elements" path="Formatting" hit="Place the following elements on a new line" />
+    <option name="following" path="Formatting" hit="Place the following elements on a new line" />
+    <option name="line" path="Formatting" hit="Place the following elements on a new line" />
+    <option name="new" path="Formatting" hit="Place the following elements on a new line" />
+    <option name="on" path="Formatting" hit="Place the following elements on a new line" />
+    <option name="place" path="Formatting" hit="Place the following elements on a new line" />
+    <option name="the" path="Formatting" hit="Place the following elements on a new line" />
+    <option name="instructions" path="Formatting" hit="Processing Instructions" />
+    <option name="processing" path="Formatting" hit="Processing Instructions" />
+    <option name="quote" path="Syntax Style" hit="Quote style" />
+    <option name="style" path="Syntax Style" hit="Quote style" />
+    <option name="quotes" path="Syntax Style" hit="Quotes" />
+    <option name="attribute" path="Syntax Style" hit="Remove attribute quotes where values do not contain spaces" />
+    <option name="contain" path="Syntax Style" hit="Remove attribute quotes where values do not contain spaces" />
+    <option name="do" path="Syntax Style" hit="Remove attribute quotes where values do not contain spaces" />
+    <option name="not" path="Syntax Style" hit="Remove attribute quotes where values do not contain spaces" />
+    <option name="quotes" path="Syntax Style" hit="Remove attribute quotes where values do not contain spaces" />
+    <option name="remove" path="Syntax Style" hit="Remove attribute quotes where values do not contain spaces" />
+    <option name="spaces" path="Syntax Style" hit="Remove attribute quotes where values do not contain spaces" />
+    <option name="values" path="Syntax Style" hit="Remove attribute quotes where values do not contain spaces" />
+    <option name="where" path="Syntax Style" hit="Remove attribute quotes where values do not contain spaces" />
+    <option name="after" path="Razor" hit="Remove blank lines after '{' and before '}' in @functions" />
+    <option name="and" path="Razor" hit="Remove blank lines after '{' and before '}' in @functions" />
+    <option name="before" path="Razor" hit="Remove blank lines after '{' and before '}' in @functions" />
+    <option name="blank" path="Razor" hit="Remove blank lines after '{' and before '}' in @functions" />
+    <option name="functions" path="Razor" hit="Remove blank lines after '{' and before '}' in @functions" />
+    <option name="in" path="Razor" hit="Remove blank lines after '{' and before '}' in @functions" />
+    <option name="lines" path="Razor" hit="Remove blank lines after '{' and before '}' in @functions" />
+    <option name="remove" path="Razor" hit="Remove blank lines after '{' and before '}' in @functions" />
+    <option name="blank" path="Web Forms" hit="Remove blank lines inside &lt;script runat=&quot;server&quot;&gt;" />
+    <option name="inside" path="Web Forms" hit="Remove blank lines inside &lt;script runat=&quot;server&quot;&gt;" />
+    <option name="lines" path="Web Forms" hit="Remove blank lines inside &lt;script runat=&quot;server&quot;&gt;" />
+    <option name="remove" path="Web Forms" hit="Remove blank lines inside &lt;script runat=&quot;server&quot;&gt;" />
+    <option name="runat" path="Web Forms" hit="Remove blank lines inside &lt;script runat=&quot;server&quot;&gt;" />
+    <option name="script" path="Web Forms" hit="Remove blank lines inside &lt;script runat=&quot;server&quot;&gt;" />
+    <option name="server" path="Web Forms" hit="Remove blank lines inside &lt;script runat=&quot;server&quot;&gt;" />
+    <option name="blank" path="Formatting" hit="Remove whitespace on blank lines" />
+    <option name="lines" path="Formatting" hit="Remove whitespace on blank lines" />
+    <option name="on" path="Formatting" hit="Remove whitespace on blank lines" />
+    <option name="remove" path="Formatting" hit="Remove whitespace on blank lines" />
+    <option name="whitespace" path="Formatting" hit="Remove whitespace on blank lines" />
+    <option name="attributes" path="Formatting" hit="Sort attributes" />
+    <option name="sort" path="Formatting" hit="Sort attributes" />
+    <option name="class" path="Formatting" hit="Sort class selectors" />
+    <option name="selectors" path="Formatting" hit="Sort class selectors" />
+    <option name="sort" path="Formatting" hit="Sort class selectors" />
+    <option name="after" path="Formatting" hit="Space after last attribute" />
+    <option name="attribute" path="Formatting" hit="Space after last attribute" />
+    <option name="last" path="Formatting" hit="Space after last attribute" />
+    <option name="space" path="Formatting" hit="Space after last attribute" />
+    <option name="before" path="Formatting" hit="Space before '/&gt;'" />
+    <option name="space" path="Formatting" hit="Space before '/&gt;'" />
+    <option name="around" path="Formatting" hit="Spaces around '=' in attribute" />
+    <option name="attribute" path="Formatting" hit="Spaces around '=' in attribute" />
+    <option name="in" path="Formatting" hit="Spaces around '=' in attribute" />
+    <option name="spaces" path="Formatting" hit="Spaces around '=' in attribute" />
+    <option name="tab" path="Formatting" hit="Tab width" />
+    <option name="width" path="Formatting" hit="Tab width" />
+    <option name="and" path="Formatting" hit="Tabs and Indents" />
+    <option name="indents" path="Formatting" hit="Tabs and Indents" />
+    <option name="tabs" path="Formatting" hit="Tabs and Indents" />
+    <option name="and" path="Razor" hit="Use fully qualified names for @inherits and @model directives" />
+    <option name="directives" path="Razor" hit="Use fully qualified names for @inherits and @model directives" />
+    <option name="for" path="Razor" hit="Use fully qualified names for @inherits and @model directives" />
+    <option name="fully" path="Razor" hit="Use fully qualified names for @inherits and @model directives" />
+    <option name="inherits" path="Razor" hit="Use fully qualified names for @inherits and @model directives" />
+    <option name="model" path="Razor" hit="Use fully qualified names for @inherits and @model directives" />
+    <option name="names" path="Razor" hit="Use fully qualified names for @inherits and @model directives" />
+    <option name="qualified" path="Razor" hit="Use fully qualified names for @inherits and @model directives" />
+    <option name="use" path="Razor" hit="Use fully qualified names for @inherits and @model directives" />
+    <option name="engine" path="Razor" hit="Use the old engine for Razor formatting" />
+    <option name="for" path="Razor" hit="Use the old engine for Razor formatting" />
+    <option name="formatting" path="Razor" hit="Use the old engine for Razor formatting" />
+    <option name="old" path="Razor" hit="Use the old engine for Razor formatting" />
+    <option name="razor" path="Razor" hit="Use the old engine for Razor formatting" />
+    <option name="the" path="Razor" hit="Use the old engine for Razor formatting" />
+    <option name="use" path="Razor" hit="Use the old engine for Razor formatting" />
+    <option name="iddqd" path="Syntax Style" hit="iddqd" />
+  </configurable>
+  <configurable id="Inspections-Razor" configurable_name="Razor">
+    <option name="description" hit="Description" />
+    <option name="code" hit="Potential Code Quality Issues" />
+    <option name="issues" hit="Potential Code Quality Issues" />
+    <option name="potential" hit="Potential Code Quality Issues" />
+    <option name="quality" hit="Potential Code Quality Issues" />
+    <option name="razor" hit="Razor" />
+    <option name="assembly" hit="Unknown Razor assembly" />
+    <option name="razor" hit="Unknown Razor assembly" />
+    <option name="unknown" hit="Unknown Razor assembly" />
+    <option name="layout" hit="Unknown Razor layout" />
+    <option name="razor" hit="Unknown Razor layout" />
+    <option name="unknown" hit="Unknown Razor layout" />
+    <option name="razor" hit="Unknown Razor section" />
+    <option name="section" hit="Unknown Razor section" />
+    <option name="unknown" hit="Unknown Razor section" />
+    <option name="iddqd" hit="iddqd" />
+  </configurable>
+  <configurable id="RiderRazorFileTemplatesSettingsId" configurable_name="Razor">
+    <option name="razor" hit="Razor" />
+    <option name="iddqd" hit="iddqd" />
+  </configurable>
+  <configurable id="RiderRazorCSFileTemplatesSettingsId" configurable_name="Razor (C#)">
+    <option name="" hit=" Blazor (C#) Projects" />
+    <option name="blazor" hit=" Blazor (C#) Projects" />
+    <option name="c#" hit=" Blazor (C#) Projects" />
+    <option name="projects" hit=" Blazor (C#) Projects" />
+    <option name="add" hit="Add to &quot;New &quot; menu" />
+    <option name="menu" hit="Add to &quot;New &quot; menu" />
+    <option name="new" hit="Add to &quot;New &quot; menu" />
+    <option name="to" hit="Add to &quot;New &quot; menu" />
+    <option name="availability" hit="Availability:" />
+    <option name="blazor" hit="Blazor (C#) Projects" />
+    <option name="c#" hit="Blazor (C#) Projects" />
+    <option name="projects" hit="Blazor (C#) Projects" />
+    <option name="component" hit="Component" />
+    <option name="controller" hit="Controller" />
+    <option name="default" hit="Default file name:" />
+    <option name="file" hit="Default file name:" />
+    <option name="name" hit="Default file name:" />
+    <option name="description" hit="Description:" />
+    <option name="edit" hit="Edit variables" />
+    <option name="variables" hit="Edit variables" />
+    <option name="a" hit="File name must be a valid identifier" />
+    <option name="be" hit="File name must be a valid identifier" />
+    <option name="file" hit="File name must be a valid identifier" />
+    <option name="identifier" hit="File name must be a valid identifier" />
+    <option name="must" hit="File name must be a valid identifier" />
+    <option name="name" hit="File name must be a valid identifier" />
+    <option name="valid" hit="File name must be a valid identifier" />
+    <option name="group" hit="Group:" />
+    <option name="options" hit="Options:" />
+    <option name="page" hit="Page" />
+    <option name="c#" hit="Razor (C#)" />
+    <option name="razor" hit="Razor (C#)" />
+    <option name="layout" hit="Razor Layout" />
+    <option name="razor" hit="Razor Layout" />
+    <option name="mvc" hit="Razor MVC Partial View" />
+    <option name="partial" hit="Razor MVC Partial View" />
+    <option name="razor" hit="Razor MVC Partial View" />
+    <option name="view" hit="Razor MVC Partial View" />
+    <option name="mvc" hit="Razor MVC View" />
+    <option name="razor" hit="Razor MVC View" />
+    <option name="view" hit="Razor MVC View" />
+    <option name="layout" hit="Razor MVC View with Layout" />
+    <option name="mvc" hit="Razor MVC View with Layout" />
+    <option name="razor" hit="Razor MVC View with Layout" />
+    <option name="view" hit="Razor MVC View with Layout" />
+    <option name="with" hit="Razor MVC View with Layout" />
+    <option name="page" hit="Razor Page" />
+    <option name="razor" hit="Razor Page" />
+    <option name="imports" hit="Razor View Imports" />
+    <option name="razor" hit="Razor View Imports" />
+    <option name="view" hit="Razor View Imports" />
+    <option name="razor" hit="Razor View Start" />
+    <option name="start" hit="Razor View Start" />
+    <option name="view" hit="Razor View Start" />
+    <option name="reformat" hit="Reformat" />
+    <option name="qualified" hit="Shorten qualified references" />
+    <option name="references" hit="Shorten qualified references" />
+    <option name="shorten" hit="Shorten qualified references" />
+    <option name="component" hit="View Component" />
+    <option name="view" hit="View Component" />
+    <option name="iddqd" hit="iddqd" />
+  </configurable>
+  <configurable id="RiderRazorLiveTemplatesSettingsId" configurable_name="Razor">
+    <option name="" hit=" HTML and similar tags" />
+    <option name="and" hit=" HTML and similar tags" />
+    <option name="html" hit=" HTML and similar tags" />
+    <option name="similar" hit=" HTML and similar tags" />
+    <option name="tags" hit=" HTML and similar tags" />
+    <option name="" hit="&lt;script (Create script tag)" />
+    <option name="create" hit="&lt;script (Create script tag)" />
+    <option name="script" hit="&lt;script (Create script tag)" />
+    <option name="tag" hit="&lt;script (Create script tag)" />
+    <option name="" hit="@inherits (Razor inherits directive)" />
+    <option name="directive" hit="@inherits (Razor inherits directive)" />
+    <option name="inherits" hit="@inherits (Razor inherits directive)" />
+    <option name="razor" hit="@inherits (Razor inherits directive)" />
+    <option name="" hit="@model (Razor model directive)" />
+    <option name="directive" hit="@model (Razor model directive)" />
+    <option name="model" hit="@model (Razor model directive)" />
+    <option name="razor" hit="@model (Razor model directive)" />
+    <option name="" hit="@section (Razor section)" />
+    <option name="razor" hit="@section (Razor section)" />
+    <option name="section" hit="@section (Razor section)" />
+    <option name="availability" hit="Availability:" />
+    <option name="both" hit="Both" />
+    <option name="description" hit="Description:" />
+    <option name="edit" hit="Edit variables" />
+    <option name="variables" hit="Edit variables" />
+    <option name="generation" hit="Generation" />
+    <option name="and" hit="HTML and similar tags" />
+    <option name="html" hit="HTML and similar tags" />
+    <option name="similar" hit="HTML and similar tags" />
+    <option name="tags" hit="HTML and similar tags" />
+    <option name="mnemonic" hit="Mnemonic:" />
+    <option name="options" hit="Options:" />
+    <option name="razor" hit="Razor" />
+    <option name="reformat" hit="Reformat" />
+    <option name="shortcut" hit="Shortcut:" />
+    <option name="qualified" hit="Shorten qualified references" />
+    <option name="references" hit="Shorten qualified references" />
+    <option name="shorten" hit="Shorten qualified references" />
+    <option name="action" hit="Show in context action" />
+    <option name="context" hit="Show in context action" />
+    <option name="in" hit="Show in context action" />
+    <option name="show" hit="Show in context action" />
+    <option name="surround" hit="Surround" />
+    <option name="in" hit="Use in:" />
+    <option name="use" hit="Use in:" />
+    <option name="a" hit="a (Create tag attribute)" />
+    <option name="attribute" hit="a (Create tag attribute)" />
+    <option name="create" hit="a (Create tag attribute)" />
+    <option name="tag" hit="a (Create tag attribute)" />
+    <option name="context" hit="ctx (Current file context)" />
+    <option name="ctx" hit="ctx (Current file context)" />
+    <option name="current" hit="ctx (Current file context)" />
+    <option name="file" hit="ctx (Current file context)" />
+    <option name="iddqd" hit="iddqd" />
+    <option name="link" hit="link" />
+    <option name="guid" hit="nguid (Insert new GUID)" />
+    <option name="insert" hit="nguid (Insert new GUID)" />
+    <option name="new" hit="nguid (Insert new GUID)" />
+    <option name="nguid" hit="nguid (Insert new GUID)" />
+    <option name="create" hit="t (Create tag)" />
+    <option name="t" hit="t (Create tag)" />
+    <option name="tag" hit="t (Create tag)" />
+    <option name="tag" hit="tag (tag)" />
+    <option name="closed" hit="tc (Create closed tag)" />
+    <option name="create" hit="tc (Create closed tag)" />
+    <option name="tag" hit="tc (Create closed tag)" />
+    <option name="tc" hit="tc (Create closed tag)" />
+  </configurable>
+  <configurable id="Inspections-ASP.NET" configurable_name="ASP.NET">
+    <option name="asp" hit="ASP.NET" />
+    <option name="net" hit="ASP.NET" />
+    <option name="asp" hit="ASP.NET Dead Code" />
+    <option name="code" hit="ASP.NET Dead Code" />
+    <option name="dead" hit="ASP.NET Dead Code" />
+    <option name="net" hit="ASP.NET Dead Code" />
+    <option name="asp" hit="ASP.NET Resolve Warning" />
+    <option name="net" hit="ASP.NET Resolve Warning" />
+    <option name="resolve" hit="ASP.NET Resolve Warning" />
+    <option name="warning" hit="ASP.NET Resolve Warning" />
+    <option name="asp" hit="ASP.NET Warning" />
+    <option name="net" hit="ASP.NET Warning" />
+    <option name="warning" hit="ASP.NET Warning" />
+    <option name="attribute" hit="Attribute with optional value problem" />
+    <option name="optional" hit="Attribute with optional value problem" />
+    <option name="problem" hit="Attribute with optional value problem" />
+    <option name="value" hit="Attribute with optional value problem" />
+    <option name="with" hit="Attribute with optional value problem" />
+    <option name="cannot" hit="Cannot resolve property" />
+    <option name="property" hit="Cannot resolve property" />
+    <option name="resolve" hit="Cannot resolve property" />
+    <option name="cannot" hit="Cannot resolve resource" />
+    <option name="resolve" hit="Cannot resolve resource" />
+    <option name="resource" hit="Cannot resolve resource" />
+    <option name="cannot" hit="Cannot resolve resource item" />
+    <option name="item" hit="Cannot resolve resource item" />
+    <option name="resolve" hit="Cannot resolve resource item" />
+    <option name="resource" hit="Cannot resolve resource item" />
+    <option name="and" hit="Common Practices and Code Improvements" />
+    <option name="code" hit="Common Practices and Code Improvements" />
+    <option name="common" hit="Common Practices and Code Improvements" />
+    <option name="improvements" hit="Common Practices and Code Improvements" />
+    <option name="practices" hit="Common Practices and Code Improvements" />
+    <option name="description" hit="Description" />
+    <option name="control" hit="Invalid control type" />
+    <option name="invalid" hit="Invalid control type" />
+    <option name="type" hit="Invalid control type" />
+    <option name="mvc" hit="MVC" />
+    <option name="mismatch" hit="Mismatch Model Type" />
+    <option name="model" hit="Mismatch Model Type" />
+    <option name="type" hit="Mismatch Model Type" />
+    <option name="field" hit="Non-accessed field" />
+    <option name="non-accessed" hit="Non-accessed field" />
+    <option name="accessibility" hit="Non-private accessibility" />
+    <option name="non-private" hit="Non-private accessibility" />
+    <option name="data" hit="Object data source method resolve problem" />
+    <option name="method" hit="Object data source method resolve problem" />
+    <option name="object" hit="Object data source method resolve problem" />
+    <option name="problem" hit="Object data source method resolve problem" />
+    <option name="resolve" hit="Object data source method resolve problem" />
+    <option name="source" hit="Object data source method resolve problem" />
+    <option name="code" hit="Potential Code Quality Issues" />
+    <option name="issues" hit="Potential Code Quality Issues" />
+    <option name="potential" hit="Potential Code Quality Issues" />
+    <option name="quality" hit="Potential Code Quality Issues" />
+    <option name="code" hit="Redundancies in Code" />
+    <option name="in" hit="Redundancies in Code" />
+    <option name="redundancies" hit="Redundancies in Code" />
+    <option name="declarations" hit="Redundancies in Symbol Declarations" />
+    <option name="in" hit="Redundancies in Symbol Declarations" />
+    <option name="redundancies" hit="Redundancies in Symbol Declarations" />
+    <option name="symbol" hit="Redundancies in Symbol Declarations" />
+    <option name="directive" hit="Redundant using directive" />
+    <option name="redundant" hit="Redundant using directive" />
+    <option name="using" hit="Redundant using directive" />
+    <option name="is" hit="Type member is never used" />
+    <option name="member" hit="Type member is never used" />
+    <option name="never" hit="Type member is never used" />
+    <option name="type" hit="Type member is never used" />
+    <option name="used" hit="Type member is never used" />
+    <option name="action" hit="Unknown action" />
+    <option name="unknown" hit="Unknown action" />
+    <option name="area" hit="Unknown area" />
+    <option name="unknown" hit="Unknown area" />
+    <option name="content" hit="Unknown content placeholder" />
+    <option name="placeholder" hit="Unknown content placeholder" />
+    <option name="unknown" hit="Unknown content placeholder" />
+    <option name="controller" hit="Unknown controller" />
+    <option name="unknown" hit="Unknown controller" />
+    <option name="masterpage" hit="Unknown masterpage" />
+    <option name="unknown" hit="Unknown masterpage" />
+    <option name="partial" hit="Unknown partial view" />
+    <option name="unknown" hit="Unknown partial view" />
+    <option name="view" hit="Unknown partial view" />
+    <option name="skin" hit="Unknown skin" />
+    <option name="unknown" hit="Unknown skin" />
+    <option name="symbol" hit="Unknown symbol" />
+    <option name="unknown" hit="Unknown symbol" />
+    <option name="template" hit="Unknown template" />
+    <option name="unknown" hit="Unknown template" />
+    <option name="theme" hit="Unknown theme" />
+    <option name="unknown" hit="Unknown theme" />
+    <option name="unknown" hit="Unknown view" />
+    <option name="view" hit="Unknown view" />
+    <option name="component" hit="Unknown view component" />
+    <option name="unknown" hit="Unknown view component" />
+    <option name="view" hit="Unknown view component" />
+    <option name="component" hit="Unknown view component view" />
+    <option name="unknown" hit="Unknown view component view" />
+    <option name="view" hit="Unknown view component view" />
+    <option name="pageparserfiltertype" hit="Unsupported pageParserFilterType" />
+    <option name="unsupported" hit="Unsupported pageParserFilterType" />
+    <option name="clause" hit="Unused import clause" />
+    <option name="import" hit="Unused import clause" />
+    <option name="unused" hit="Unused import clause" />
+    <option name="directive" hit="Unused register directive" />
+    <option name="register" hit="Unused register directive" />
+    <option name="unused" hit="Unused register directive" />
+    <option name="image" hit="Wrong image size" />
+    <option name="size" hit="Wrong image size" />
+    <option name="wrong" hit="Wrong image size" />
+    <option name="iddqd" hit="iddqd" />
+  </configurable>
+  <configurable id="RiderAspFileTemplatesSettingsId" configurable_name="ASP.NET">
+    <option name="" hit=" ASP.NET projects" />
+    <option name="asp" hit=" ASP.NET projects" />
+    <option name="net" hit=" ASP.NET projects" />
+    <option name="projects" hit=" ASP.NET projects" />
+    <option name="asp" hit="ASP.NET" />
+    <option name="net" hit="ASP.NET" />
+    <option name="asp" hit="ASP.NET projects" />
+    <option name="net" hit="ASP.NET projects" />
+    <option name="projects" hit="ASP.NET projects" />
+    <option name="availability" hit="Availability:" />
+    <option name="default" hit="Default file name:" />
+    <option name="file" hit="Default file name:" />
+    <option name="name" hit="Default file name:" />
+    <option name="description" hit="Description:" />
+    <option name="edit" hit="Edit variables" />
+    <option name="variables" hit="Edit variables" />
+    <option name="a" hit="File name must be a valid identifier" />
+    <option name="be" hit="File name must be a valid identifier" />
+    <option name="file" hit="File name must be a valid identifier" />
+    <option name="identifier" hit="File name must be a valid identifier" />
+    <option name="must" hit="File name must be a valid identifier" />
+    <option name="name" hit="File name must be a valid identifier" />
+    <option name="valid" hit="File name must be a valid identifier" />
+    <option name="group" hit="Group:" />
+    <option name="options" hit="Options:" />
+    <option name="reformat" hit="Reformat" />
+    <option name="qualified" hit="Shorten qualified references" />
+    <option name="references" hit="Shorten qualified references" />
+    <option name="shorten" hit="Shorten qualified references" />
+    <option name="config" hit="Web.config File" />
+    <option name="file" hit="Web.config File" />
+    <option name="web" hit="Web.config File" />
+    <option name="iddqd" hit="iddqd" />
+  </configurable>
+  <configurable id="RiderAspCSFileTemplatesSettingsId" configurable_name="ASP.NET (C#)">
+    <option name="" hit=" ASP.NET (C#) projects" />
+    <option name="asp" hit=" ASP.NET (C#) projects" />
+    <option name="c#" hit=" ASP.NET (C#) projects" />
+    <option name="net" hit=" ASP.NET (C#) projects" />
+    <option name="projects" hit=" ASP.NET (C#) projects" />
+    <option name="asp" hit="ASP.NET (C#)" />
+    <option name="c#" hit="ASP.NET (C#)" />
+    <option name="net" hit="ASP.NET (C#)" />
+    <option name="asp" hit="ASP.NET (C#) projects" />
+    <option name="c#" hit="ASP.NET (C#) projects" />
+    <option name="net" hit="ASP.NET (C#) projects" />
+    <option name="projects" hit="ASP.NET (C#) projects" />
+    <option name="add" hit="Add to &quot;New &quot; menu" />
+    <option name="menu" hit="Add to &quot;New &quot; menu" />
+    <option name="new" hit="Add to &quot;New &quot; menu" />
+    <option name="to" hit="Add to &quot;New &quot; menu" />
+    <option name="availability" hit="Availability:" />
+    <option name="default" hit="Default file name:" />
+    <option name="file" hit="Default file name:" />
+    <option name="name" hit="Default file name:" />
+    <option name="description" hit="Description:" />
+    <option name="edit" hit="Edit variables" />
+    <option name="variables" hit="Edit variables" />
+    <option name="a" hit="File name must be a valid identifier" />
+    <option name="be" hit="File name must be a valid identifier" />
+    <option name="file" hit="File name must be a valid identifier" />
+    <option name="identifier" hit="File name must be a valid identifier" />
+    <option name="must" hit="File name must be a valid identifier" />
+    <option name="name" hit="File name must be a valid identifier" />
+    <option name="valid" hit="File name must be a valid identifier" />
+    <option name="group" hit="Group:" />
+    <option name="master" hit="MVC View Page with master page" />
+    <option name="mvc" hit="MVC View Page with master page" />
+    <option name="page" hit="MVC View Page with master page" />
+    <option name="view" hit="MVC View Page with master page" />
+    <option name="with" hit="MVC View Page with master page" />
+    <option name="master" hit="MVC View Page without master page" />
+    <option name="mvc" hit="MVC View Page without master page" />
+    <option name="page" hit="MVC View Page without master page" />
+    <option name="view" hit="MVC View Page without master page" />
+    <option name="without" hit="MVC View Page without master page" />
+    <option name="mvc" hit="MVC View UserControl" />
+    <option name="usercontrol" hit="MVC View UserControl" />
+    <option name="view" hit="MVC View UserControl" />
+    <option name="base" hit="Master page with base master page" />
+    <option name="master" hit="Master page with base master page" />
+    <option name="page" hit="Master page with base master page" />
+    <option name="with" hit="Master page with base master page" />
+    <option name="base" hit="Master page without base master page" />
+    <option name="master" hit="Master page without base master page" />
+    <option name="page" hit="Master page without base master page" />
+    <option name="without" hit="Master page without base master page" />
+    <option name="options" hit="Options:" />
+    <option name="reformat" hit="Reformat" />
+    <option name="qualified" hit="Shorten qualified references" />
+    <option name="references" hit="Shorten qualified references" />
+    <option name="shorten" hit="Shorten qualified references" />
+    <option name="control" hit="Web control" />
+    <option name="web" hit="Web control" />
+    <option name="form" hit="Web form with master page" />
+    <option name="master" hit="Web form with master page" />
+    <option name="page" hit="Web form with master page" />
+    <option name="web" hit="Web form with master page" />
+    <option name="with" hit="Web form with master page" />
+    <option name="form" hit="Web form without master page" />
+    <option name="master" hit="Web form without master page" />
+    <option name="page" hit="Web form without master page" />
+    <option name="web" hit="Web form without master page" />
+    <option name="without" hit="Web form without master page" />
+    <option name="config" hit="Web.config File" />
+    <option name="file" hit="Web.config File" />
+    <option name="web" hit="Web.config File" />
+    <option name="iddqd" hit="iddqd" />
+  </configurable>
+  <configurable id="RiderAspVBFileTemplatesSettingsId" configurable_name="ASP.NET (VB)">
+    <option name="" hit=" ASP.NET (VB) projects" />
+    <option name="asp" hit=" ASP.NET (VB) projects" />
+    <option name="net" hit=" ASP.NET (VB) projects" />
+    <option name="projects" hit=" ASP.NET (VB) projects" />
+    <option name="vb" hit=" ASP.NET (VB) projects" />
+    <option name="asp" hit="ASP.NET (VB)" />
+    <option name="net" hit="ASP.NET (VB)" />
+    <option name="vb" hit="ASP.NET (VB)" />
+    <option name="asp" hit="ASP.NET (VB) projects" />
+    <option name="net" hit="ASP.NET (VB) projects" />
+    <option name="projects" hit="ASP.NET (VB) projects" />
+    <option name="vb" hit="ASP.NET (VB) projects" />
+    <option name="add" hit="Add to &quot;New &quot; menu" />
+    <option name="menu" hit="Add to &quot;New &quot; menu" />
+    <option name="new" hit="Add to &quot;New &quot; menu" />
+    <option name="to" hit="Add to &quot;New &quot; menu" />
+    <option name="availability" hit="Availability:" />
+    <option name="default" hit="Default file name:" />
+    <option name="file" hit="Default file name:" />
+    <option name="name" hit="Default file name:" />
+    <option name="description" hit="Description:" />
+    <option name="edit" hit="Edit variables" />
+    <option name="variables" hit="Edit variables" />
+    <option name="a" hit="File name must be a valid identifier" />
+    <option name="be" hit="File name must be a valid identifier" />
+    <option name="file" hit="File name must be a valid identifier" />
+    <option name="identifier" hit="File name must be a valid identifier" />
+    <option name="must" hit="File name must be a valid identifier" />
+    <option name="name" hit="File name must be a valid identifier" />
+    <option name="valid" hit="File name must be a valid identifier" />
+    <option name="group" hit="Group:" />
+    <option name="master" hit="MVC View Page with master page" />
+    <option name="mvc" hit="MVC View Page with master page" />
+    <option name="page" hit="MVC View Page with master page" />
+    <option name="view" hit="MVC View Page with master page" />
+    <option name="with" hit="MVC View Page with master page" />
+    <option name="master" hit="MVC View Page without master page" />
+    <option name="mvc" hit="MVC View Page without master page" />
+    <option name="page" hit="MVC View Page without master page" />
+    <option name="view" hit="MVC View Page without master page" />
+    <option name="without" hit="MVC View Page without master page" />
+    <option name="mvc" hit="MVC View UserControl" />
+    <option name="usercontrol" hit="MVC View UserControl" />
+    <option name="view" hit="MVC View UserControl" />
+    <option name="base" hit="Master page with base master page" />
+    <option name="master" hit="Master page with base master page" />
+    <option name="page" hit="Master page with base master page" />
+    <option name="with" hit="Master page with base master page" />
+    <option name="base" hit="Master page without base master page" />
+    <option name="master" hit="Master page without base master page" />
+    <option name="page" hit="Master page without base master page" />
+    <option name="without" hit="Master page without base master page" />
+    <option name="options" hit="Options:" />
+    <option name="reformat" hit="Reformat" />
+    <option name="qualified" hit="Shorten qualified references" />
+    <option name="references" hit="Shorten qualified references" />
+    <option name="shorten" hit="Shorten qualified references" />
+    <option name="control" hit="Web control" />
+    <option name="web" hit="Web control" />
+    <option name="form" hit="Web form with master page" />
+    <option name="master" hit="Web form with master page" />
+    <option name="page" hit="Web form with master page" />
+    <option name="web" hit="Web form with master page" />
+    <option name="with" hit="Web form with master page" />
+    <option name="form" hit="Web form without master page" />
+    <option name="master" hit="Web form without master page" />
+    <option name="page" hit="Web form without master page" />
+    <option name="web" hit="Web form without master page" />
+    <option name="without" hit="Web form without master page" />
+    <option name="config" hit="Web.config File" />
+    <option name="file" hit="Web.config File" />
+    <option name="web" hit="Web.config File" />
+    <option name="iddqd" hit="iddqd" />
+  </configurable>
+  <configurable id="RiderAspLiveTemplatesSettingsId" configurable_name="ASP.NET">
+    <option name="" hit=" ASP.NET tags" />
+    <option name="asp" hit=" ASP.NET tags" />
+    <option name="net" hit=" ASP.NET tags" />
+    <option name="tags" hit=" ASP.NET tags" />
+    <option name="" hit="&lt;asp:HyperLink (ASP.NET Hyperlink)" />
+    <option name="asp" hit="&lt;asp:HyperLink (ASP.NET Hyperlink)" />
+    <option name="hyperlink" hit="&lt;asp:HyperLink (ASP.NET Hyperlink)" />
+    <option name="net" hit="&lt;asp:HyperLink (ASP.NET Hyperlink)" />
+    <option name="" hit="&lt;script (Create script tag)" />
+    <option name="create" hit="&lt;script (Create script tag)" />
+    <option name="script" hit="&lt;script (Create script tag)" />
+    <option name="tag" hit="&lt;script (Create script tag)" />
+    <option name="asp" hit="ASP.NET" />
+    <option name="net" hit="ASP.NET" />
+    <option name="asp" hit="ASP.NET tags" />
+    <option name="net" hit="ASP.NET tags" />
+    <option name="tags" hit="ASP.NET tags" />
+    <option name="availability" hit="Availability:" />
+    <option name="both" hit="Both" />
+    <option name="description" hit="Description:" />
+    <option name="edit" hit="Edit variables" />
+    <option name="variables" hit="Edit variables" />
+    <option name="generation" hit="Generation" />
+    <option name="mnemonic" hit="Mnemonic:" />
+    <option name="options" hit="Options:" />
+    <option name="reformat" hit="Reformat" />
+    <option name="shortcut" hit="Shortcut:" />
+    <option name="qualified" hit="Shorten qualified references" />
+    <option name="references" hit="Shorten qualified references" />
+    <option name="shorten" hit="Shorten qualified references" />
+    <option name="action" hit="Show in context action" />
+    <option name="context" hit="Show in context action" />
+    <option name="in" hit="Show in context action" />
+    <option name="show" hit="Show in context action" />
+    <option name="surround" hit="Surround" />
+    <option name="in" hit="Use in:" />
+    <option name="use" hit="Use in:" />
+    <option name="a" hit="a (Create tag attribute)" />
+    <option name="attribute" hit="a (Create tag attribute)" />
+    <option name="create" hit="a (Create tag attribute)" />
+    <option name="tag" hit="a (Create tag attribute)" />
+    <option name="context" hit="ctx (Current file context)" />
+    <option name="ctx" hit="ctx (Current file context)" />
+    <option name="current" hit="ctx (Current file context)" />
+    <option name="file" hit="ctx (Current file context)" />
+    <option name="block" hit="foreach (For Each block)" />
+    <option name="each" hit="foreach (For Each block)" />
+    <option name="for" hit="foreach (For Each block)" />
+    <option name="foreach" hit="foreach (For Each block)" />
+    <option name="block" hit="foreach (foreach block)" />
+    <option name="foreach" hit="foreach (foreach block)" />
+    <option name="iddqd" hit="iddqd" />
+    <option name="link" hit="link" />
+    <option name="guid" hit="nguid (Insert new GUID)" />
+    <option name="insert" hit="nguid (Insert new GUID)" />
+    <option name="new" hit="nguid (Insert new GUID)" />
+    <option name="nguid" hit="nguid (Insert new GUID)" />
+    <option name="asp" hit="t (Create ASP.NET tag)" />
+    <option name="create" hit="t (Create ASP.NET tag)" />
+    <option name="net" hit="t (Create ASP.NET tag)" />
+    <option name="t" hit="t (Create ASP.NET tag)" />
+    <option name="tag" hit="t (Create ASP.NET tag)" />
+    <option name="tag" hit="tag (tag)" />
+    <option name="closed" hit="tc (Create closed tag)" />
+    <option name="create" hit="tc (Create closed tag)" />
+    <option name="tag" hit="tc (Create closed tag)" />
+    <option name="tc" hit="tc (Create closed tag)" />
+  </configurable>
+</options>

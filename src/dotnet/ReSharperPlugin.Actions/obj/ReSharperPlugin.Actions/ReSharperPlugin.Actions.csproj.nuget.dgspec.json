@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/main/Projects/Rider Extension/resharper-rider-plugin/samples/Actions/src/dotnet/ReSharperPlugin.Actions/ReSharperPlugin.Actions.csproj": {}
+  },
+  "projects": {
+    "/Users/main/Projects/Rider Extension/resharper-rider-plugin/samples/Actions/src/dotnet/ReSharperPlugin.Actions/ReSharperPlugin.Actions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/main/Projects/Rider Extension/resharper-rider-plugin/samples/Actions/src/dotnet/ReSharperPlugin.Actions/ReSharperPlugin.Actions.csproj",
+        "projectName": "ReSharperPlugin.Actions",
+        "projectPath": "/Users/main/Projects/Rider Extension/resharper-rider-plugin/samples/Actions/src/dotnet/ReSharperPlugin.Actions/ReSharperPlugin.Actions.csproj",
+        "packagesPath": "/Users/main/.nuget/packages/",
+        "outputPath": "/Users/main/Projects/Rider Extension/resharper-rider-plugin/samples/Actions/src/dotnet/ReSharperPlugin.Actions/obj/ReSharperPlugin.Actions/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/main/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "JetBrains.ReSharper.SDK": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2023.3.0, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Wave": {
+              "target": "Package",
+              "version": "[233.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

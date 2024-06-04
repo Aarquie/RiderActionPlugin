@@ -1,0 +1,419 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="always" path="ActionManager" hit="Always On" />
+    <option name="on" path="ActionManager" hit="Always On" />
+    <option name="off" path="ActionManager" hit="Off" />
+    <option name="debug" path="ActionManager" hit="Only during Debug" />
+    <option name="during" path="ActionManager" hit="Only during Debug" />
+    <option name="only" path="ActionManager" hit="Only during Debug" />
+  </configurable>
+  <configurable id="IdeDpaFilteringPageId" configurable_name="Filtering">
+    <option name="" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="a" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="an" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="analysis" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="assembly" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="classes" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="corresponding" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="dll" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="exclude" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="exe" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="extension" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="filters" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="from" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="is" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="methods" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="module" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="modules" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="name" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="of" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="or" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="processes" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="the" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="to" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="typically" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="unnecessary" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="use" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="with" hit=" Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="analyze" hit="Analyze code only in" />
+    <option name="code" hit="Analyze code only in" />
+    <option name="in" hit="Analyze code only in" />
+    <option name="only" hit="Analyze code only in" />
+    <option name="analyze" hit="Do not analyze code in" />
+    <option name="code" hit="Do not analyze code in" />
+    <option name="do" hit="Do not analyze code in" />
+    <option name="in" hit="Do not analyze code in" />
+    <option name="not" hit="Do not analyze code in" />
+    <option name="filtering" hit="Filtering" />
+    <option name="filters" hit="Filters" />
+    <option name="a" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="an" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="analysis" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="assembly" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="classes" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="corresponding" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="dll" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="exclude" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="exe" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="extension" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="filters" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="from" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="is" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="methods" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="module" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="modules" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="name" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="of" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="or" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="processes" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="the" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="to" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="typically" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="unnecessary" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="use" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="with" hit="Use the filters to exclude unnecessary processes/modules/classes/methods from analysis. Typically, a module name is a name of the corresponding assembly with an extension (.dll or .exe)." />
+    <option name="iddqd" hit="iddqd" />
+  </configurable>
+  <configurable id="IdeDpaMemoryAllocationsPageId" configurable_name="Memory Allocation">
+    <option name="" hit=" Analyze memory allocation during debugging" />
+    <option name="allocation" hit=" Analyze memory allocation during debugging" />
+    <option name="analyze" hit=" Analyze memory allocation during debugging" />
+    <option name="debugging" hit=" Analyze memory allocation during debugging" />
+    <option name="during" hit=" Analyze memory allocation during debugging" />
+    <option name="memory" hit=" Analyze memory allocation during debugging" />
+    <option name="" hit=" During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="allocate" hit=" During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="application" hit=" During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="assemblies" hit=" During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="by" hit=" During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="debugging" hit=" During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="during" hit=" During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="false-positive" hit=" During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="lead" hit=" During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="may" hit=" During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="memory" hit=" During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="more" hit=" During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="regular" hit=" During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="results" hit=" During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="run" hit=" During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="system" hit=" During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="than" hit=" During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="this" hit=" During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="to" hit=" During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="used" hit=" During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="your" hit=" During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="allocation" hit="Analyze memory allocation during debugging" />
+    <option name="analyze" hit="Analyze memory allocation during debugging" />
+    <option name="debugging" hit="Analyze memory allocation during debugging" />
+    <option name="during" hit="Analyze memory allocation during debugging" />
+    <option name="memory" hit="Analyze memory allocation during debugging" />
+    <option name="closure" hit="Closure object" />
+    <option name="object" hit="Closure object" />
+    <option name="debugging" hit="Debugging" />
+    <option name="allocate" hit="During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="application" hit="During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="assemblies" hit="During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="by" hit="During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="debugging" hit="During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="during" hit="During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="false-positive" hit="During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="lead" hit="During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="may" hit="During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="memory" hit="During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="more" hit="During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="regular" hit="During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="results" hit="During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="run" hit="During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="system" hit="During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="than" hit="During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="this" hit="During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="to" hit="During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="used" hit="During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="your" hit="During debugging, system assemblies used by your application allocate more memory than during regular run. This may lead to false-positive results." />
+    <option name="allocation" hit="Enable memory allocation inspections" />
+    <option name="enable" hit="Enable memory allocation inspections" />
+    <option name="inspections" hit="Enable memory allocation inspections" />
+    <option name="memory" hit="Enable memory allocation inspections" />
+    <option name="heap" hit="Large object heap" />
+    <option name="large" hit="Large object heap" />
+    <option name="object" hit="Large object heap" />
+    <option name="learn" hit="Learn more" />
+    <option name="more" hit="Learn more" />
+    <option name="allocation" hit="Memory Allocation" />
+    <option name="memory" hit="Memory Allocation" />
+    <option name="heap" hit="Small object heap" />
+    <option name="object" hit="Small object heap" />
+    <option name="small" hit="Small object heap" />
+    <option name="iddqd" hit="iddqd" />
+  </configurable>
+  <configurable id="IdeDpaSqlPageId" configurable_name="Database">
+    <option name="" hit=" Auto-disable database inspections for Devart's ADO.NET" />
+    <option name="ado" hit=" Auto-disable database inspections for Devart's ADO.NET" />
+    <option name="auto-disable" hit=" Auto-disable database inspections for Devart's ADO.NET" />
+    <option name="database" hit=" Auto-disable database inspections for Devart's ADO.NET" />
+    <option name="devart" hit=" Auto-disable database inspections for Devart's ADO.NET" />
+    <option name="for" hit=" Auto-disable database inspections for Devart's ADO.NET" />
+    <option name="inspections" hit=" Auto-disable database inspections for Devart's ADO.NET" />
+    <option name="net" hit=" Auto-disable database inspections for Devart's ADO.NET" />
+    <option name="s" hit=" Auto-disable database inspections for Devart's ADO.NET" />
+    <option name="" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="a" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="ado" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="analysis" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="application" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="automatically" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="cause" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="crashes" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="data" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="database" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="devart" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="disables" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="dpa" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="during" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="in" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="inspections" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="may" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="net" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="prevent" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="project" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="projects" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="providers" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="s" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="such" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="the" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="this" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="to" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="using" hit=" Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="auto-disable" hit="Auto-Disable" />
+    <option name="ado" hit="Auto-disable database inspections for Devart's ADO.NET" />
+    <option name="auto-disable" hit="Auto-disable database inspections for Devart's ADO.NET" />
+    <option name="database" hit="Auto-disable database inspections for Devart's ADO.NET" />
+    <option name="devart" hit="Auto-disable database inspections for Devart's ADO.NET" />
+    <option name="for" hit="Auto-disable database inspections for Devart's ADO.NET" />
+    <option name="inspections" hit="Auto-disable database inspections for Devart's ADO.NET" />
+    <option name="net" hit="Auto-disable database inspections for Devart's ADO.NET" />
+    <option name="s" hit="Auto-disable database inspections for Devart's ADO.NET" />
+    <option name="command" hit="DB command time" />
+    <option name="db" hit="DB command time" />
+    <option name="time" hit="DB command time" />
+    <option name="commands" hit="DB commands" />
+    <option name="db" hit="DB commands" />
+    <option name="connections" hit="DB connections" />
+    <option name="db" hit="DB connections" />
+    <option name="db" hit="DB records" />
+    <option name="records" hit="DB records" />
+    <option name="database" hit="Database" />
+    <option name="database" hit="Enable database inspections" />
+    <option name="enable" hit="Enable database inspections" />
+    <option name="inspections" hit="Enable database inspections" />
+    <option name="learn" hit="Learn more" />
+    <option name="more" hit="Learn more" />
+    <option name="a" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="ado" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="analysis" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="application" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="automatically" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="cause" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="crashes" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="data" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="database" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="devart" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="disables" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="dpa" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="during" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="in" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="inspections" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="may" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="net" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="prevent" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="project" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="projects" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="providers" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="s" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="such" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="the" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="this" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="to" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="using" hit="Using Devart's ADO .NET data providers in a project may cause application crashes during the analysis. To prevent this, DPA automatically disables database inspections in such projects." />
+    <option name="iddqd" hit="iddqd" />
+  </configurable>
+  <configurable id="IdeDpaAspPageId" configurable_name="ASP">
+    <option name="" hit=" Auto-disable ASP inspections that affect performance" />
+    <option name="affect" hit=" Auto-disable ASP inspections that affect performance" />
+    <option name="asp" hit=" Auto-disable ASP inspections that affect performance" />
+    <option name="auto-disable" hit=" Auto-disable ASP inspections that affect performance" />
+    <option name="inspections" hit=" Auto-disable ASP inspections that affect performance" />
+    <option name="performance" hit=" Auto-disable ASP inspections that affect performance" />
+    <option name="that" hit=" Auto-disable ASP inspections that affect performance" />
+    <option name="" hit=" DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="asp" hit=" DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="auto-disables" hit=" DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="count" hit=" DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="dpa" hit=" DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="events" hit=" DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="exceeds" hit=" DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="frame" hit=" DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="inspections" hit=" DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="limit" hit=" DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="of" hit=" DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="per" hit=" DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="received" hit=" DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="specified" hit=" DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="the" hit=" DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="time" hit=" DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="when" hit=" DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="" hit=" When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="affected" hit=" When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="application" hit=" When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="asp" hit=" When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="automatically" hit=" When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="be" hit=" When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="data" hit=" When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="disables" hit=" When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="dpa" hit=" When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="extensive" hit=" When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="for" hit=" When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="future" hit=" When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="inspection" hit=" When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="might" hit=" When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="performance" hit=" When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="problematic" hit=" When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="processes" hit=" When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="runs" hit=" When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="s" hit=" When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="significantly" hit=" When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="the" hit=" When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="when" hit=" When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="asp" hit="ASP" />
+    <option name="auto-disable" hit="Auto-Disable" />
+    <option name="auto-fix" hit="Auto-Fix Issues" />
+    <option name="issues" hit="Auto-Fix Issues" />
+    <option name="affect" hit="Auto-disable ASP inspections that affect performance" />
+    <option name="asp" hit="Auto-disable ASP inspections that affect performance" />
+    <option name="auto-disable" hit="Auto-disable ASP inspections that affect performance" />
+    <option name="inspections" hit="Auto-disable ASP inspections that affect performance" />
+    <option name="performance" hit="Auto-disable ASP inspections that affect performance" />
+    <option name="that" hit="Auto-disable ASP inspections that affect performance" />
+    <option name="asp" hit="DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="auto-disables" hit="DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="count" hit="DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="dpa" hit="DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="events" hit="DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="exceeds" hit="DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="frame" hit="DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="inspections" hit="DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="limit" hit="DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="of" hit="DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="per" hit="DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="received" hit="DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="specified" hit="DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="the" hit="DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="time" hit="DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="when" hit="DPA auto-disables ASP inspections when the count of received events exceeds specified limit per time frame" />
+    <option name="asp" hit="Enable ASP.NET Core inspections" />
+    <option name="core" hit="Enable ASP.NET Core inspections" />
+    <option name="enable" hit="Enable ASP.NET Core inspections" />
+    <option name="inspections" hit="Enable ASP.NET Core inspections" />
+    <option name="net" hit="Enable ASP.NET Core inspections" />
+    <option name="count" hit="Events count per frame limit" />
+    <option name="events" hit="Events count per frame limit" />
+    <option name="frame" hit="Events count per frame limit" />
+    <option name="limit" hit="Events count per frame limit" />
+    <option name="per" hit="Events count per frame limit" />
+    <option name="frame" hit="Frame size in ms" />
+    <option name="in" hit="Frame size in ms" />
+    <option name="ms" hit="Frame size in ms" />
+    <option name="size" hit="Frame size in ms" />
+    <option name="internal" hit="Internal" />
+    <option name="learn" hit="Learn more" />
+    <option name="more" hit="Learn more" />
+    <option name="action" hit="MVC action" />
+    <option name="mvc" hit="MVC action" />
+    <option name="after" hit="Mark issues as fixed after" />
+    <option name="as" hit="Mark issues as fixed after" />
+    <option name="fixed" hit="Mark issues as fixed after" />
+    <option name="issues" hit="Mark issues as fixed after" />
+    <option name="mark" hit="Mark issues as fixed after" />
+    <option name="handler" hit="Razor page handler" />
+    <option name="page" hit="Razor page handler" />
+    <option name="razor" hit="Razor page handler" />
+    <option name="component" hit="Razor view component" />
+    <option name="razor" hit="Razor view component" />
+    <option name="view" hit="Razor view component" />
+    <option name="affected" hit="When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="application" hit="When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="asp" hit="When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="automatically" hit="When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="be" hit="When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="data" hit="When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="disables" hit="When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="dpa" hit="When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="extensive" hit="When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="for" hit="When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="future" hit="When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="inspection" hit="When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="might" hit="When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="performance" hit="When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="problematic" hit="When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="processes" hit="When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="runs" hit="When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="s" hit="When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="significantly" hit="When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="the" hit="When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="when" hit="When DPA processes extensive ASP data, the application's performance might be significantly affected. DPA automatically disables the problematic inspection for future runs." />
+    <option name="days" hit="days" />
+    <option name="iddqd" hit="iddqd" />
+  </configurable>
+  <configurable id="IdeDpaInternalPageId" configurable_name="Internal">
+    <option name="" hit=" Show special icon for the processing state" />
+    <option name="for" hit=" Show special icon for the processing state" />
+    <option name="icon" hit=" Show special icon for the processing state" />
+    <option name="processing" hit=" Show special icon for the processing state" />
+    <option name="show" hit=" Show special icon for the processing state" />
+    <option name="special" hit=" Show special icon for the processing state" />
+    <option name="state" hit=" Show special icon for the processing state" />
+    <option name="the" hit=" Show special icon for the processing state" />
+    <option name="internal" hit="Internal" />
+    <option name="for" hit="Show special icon for the processing state" />
+    <option name="icon" hit="Show special icon for the processing state" />
+    <option name="processing" hit="Show special icon for the processing state" />
+    <option name="show" hit="Show special icon for the processing state" />
+    <option name="special" hit="Show special icon for the processing state" />
+    <option name="state" hit="Show special icon for the processing state" />
+    <option name="the" hit="Show special icon for the processing state" />
+    <option name="iddqd" hit="iddqd" />
+  </configurable>
+  <configurable id="MonitoringPageId" configurable_name="Monitoring">
+    <option name="" hit=" Monitoring mode" />
+    <option name="mode" hit=" Monitoring mode" />
+    <option name="monitoring" hit=" Monitoring mode" />
+    <option name="always" hit="Always On" />
+    <option name="on" hit="Always On" />
+    <option name="counter" hit="Counter providers" />
+    <option name="providers" hit="Counter providers" />
+    <option name="counters" hit="Counters" />
+    <option name="learn" hit="Learn more" />
+    <option name="more" hit="Learn more" />
+    <option name="histograms" hit="Maximum number of histograms" />
+    <option name="maximum" hit="Maximum number of histograms" />
+    <option name="number" hit="Maximum number of histograms" />
+    <option name="of" hit="Maximum number of histograms" />
+    <option name="maximum" hit="Maximum number of time series" />
+    <option name="number" hit="Maximum number of time series" />
+    <option name="of" hit="Maximum number of time series" />
+    <option name="series" hit="Maximum number of time series" />
+    <option name="time" hit="Maximum number of time series" />
+    <option name="metric" hit="Metric providers" />
+    <option name="providers" hit="Metric providers" />
+    <option name="monitoring" hit="Monitoring" />
+    <option name="mode" hit="Monitoring mode" />
+    <option name="monitoring" hit="Monitoring mode" />
+    <option name="off" hit="Off" />
+    <option name="debug" hit="Only during Debug" />
+    <option name="during" hit="Only during Debug" />
+    <option name="only" hit="Only during Debug" />
+    <option name="interval" hit="Refresh interval" />
+    <option name="refresh" hit="Refresh interval" />
+    <option name="iddqd" hit="iddqd" />
+  </configurable>
+</options>

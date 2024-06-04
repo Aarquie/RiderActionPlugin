@@ -1,0 +1,13 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="resharper" path="ActionManager" hit="ReSharper SDK: SampleActionDescription" />
+    <option name="sampleactiondescription" path="ActionManager" hit="ReSharper SDK: SampleActionDescription" />
+    <option name="sdk" path="ActionManager" hit="ReSharper SDK: SampleActionDescription" />
+    <option name="resharper" path="ActionManager" hit="ReSharper SDK: SampleActionText" />
+    <option name="sampleactiontext" path="ActionManager" hit="ReSharper SDK: SampleActionText" />
+    <option name="sdk" path="ActionManager" hit="ReSharper SDK: SampleActionText" />
+    <option name="resharper" path="ActionManager" hit="ReSharper SDK: SampleFrontendTestedAction" />
+    <option name="samplefrontendtestedaction" path="ActionManager" hit="ReSharper SDK: SampleFrontendTestedAction" />
+    <option name="sdk" path="ActionManager" hit="ReSharper SDK: SampleFrontendTestedAction" />
+  </configurable>
+</options>

@@ -1,0 +1,37 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="" path="ActionManager" hit="" />
+    <option name="apply" path="ActionManager" hit="Apply Current Layout" />
+    <option name="current" path="ActionManager" hit="Apply Current Layout" />
+    <option name="layout" path="ActionManager" hit="Apply Current Layout" />
+    <option name="compare" path="ActionManager" hit="Compare with Saved…" />
+    <option name="saved" path="ActionManager" hit="Compare with Saved…" />
+    <option name="with" path="ActionManager" hit="Compare with Saved…" />
+    <option name="a" path="ActionManager" hit="Create a diagram of dependencies between selected projects" />
+    <option name="between" path="ActionManager" hit="Create a diagram of dependencies between selected projects" />
+    <option name="create" path="ActionManager" hit="Create a diagram of dependencies between selected projects" />
+    <option name="dependencies" path="ActionManager" hit="Create a diagram of dependencies between selected projects" />
+    <option name="diagram" path="ActionManager" hit="Create a diagram of dependencies between selected projects" />
+    <option name="of" path="ActionManager" hit="Create a diagram of dependencies between selected projects" />
+    <option name="projects" path="ActionManager" hit="Create a diagram of dependencies between selected projects" />
+    <option name="selected" path="ActionManager" hit="Create a diagram of dependencies between selected projects" />
+    <option name="diagrams" path="ActionManager" hit="Diagrams" />
+    <option name="export" path="ActionManager" hit="Export to Image…" />
+    <option name="image" path="ActionManager" hit="Export to Image…" />
+    <option name="to" path="ActionManager" hit="Export to Image…" />
+    <option name="print" path="ActionManager" hit="Print…" />
+    <option name="diagram" path="ActionManager" hit="Show Diagram Popup…" />
+    <option name="popup" path="ActionManager" hit="Show Diagram Popup…" />
+    <option name="show" path="ActionManager" hit="Show Diagram Popup…" />
+    <option name="diagram" path="ActionManager" hit="Show Diagram…" />
+    <option name="show" path="ActionManager" hit="Show Diagram…" />
+    <option name="dependency" path="ActionManager" hit="Show Type Dependency Diagram" />
+    <option name="diagram" path="ActionManager" hit="Show Type Dependency Diagram" />
+    <option name="show" path="ActionManager" hit="Show Type Dependency Diagram" />
+    <option name="type" path="ActionManager" hit="Show Type Dependency Diagram" />
+    <option name="diagram" path="ActionManager" hit="Show on Diagram" />
+    <option name="on" path="ActionManager" hit="Show on Diagram" />
+    <option name="show" path="ActionManager" hit="Show on Diagram" />
+    <option name="showarchitecturediagram" path="ActionManager" hit="ShowArchitectureDiagram" />
+  </configurable>
+</options>

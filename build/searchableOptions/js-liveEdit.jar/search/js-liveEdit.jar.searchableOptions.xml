@@ -1,0 +1,67 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="application" path="ActionManager" hit="Update application" />
+    <option name="update" path="ActionManager" hit="Update application" />
+  </configurable>
+  <configurable id="liveEdit" configurable_name="Live Edit">
+    <option name="" hit=" ms" />
+    <option name="ms" hit=" ms" />
+    <option name="browser" hit="Highlight current element in browser on caret change" />
+    <option name="caret" hit="Highlight current element in browser on caret change" />
+    <option name="change" hit="Highlight current element in browser on caret change" />
+    <option name="current" hit="Highlight current element in browser on caret change" />
+    <option name="element" hit="Highlight current element in browser on caret change" />
+    <option name="highlight" hit="Highlight current element in browser on caret change" />
+    <option name="in" hit="Highlight current element in browser on caret change" />
+    <option name="on" hit="Highlight current element in browser on caret change" />
+    <option name="an" hit="Hold Shift and hover an element to highlight it at any time" />
+    <option name="and" hit="Hold Shift and hover an element to highlight it at any time" />
+    <option name="any" hit="Hold Shift and hover an element to highlight it at any time" />
+    <option name="at" hit="Hold Shift and hover an element to highlight it at any time" />
+    <option name="element" hit="Hold Shift and hover an element to highlight it at any time" />
+    <option name="highlight" hit="Hold Shift and hover an element to highlight it at any time" />
+    <option name="hold" hit="Hold Shift and hover an element to highlight it at any time" />
+    <option name="hover" hit="Hold Shift and hover an element to highlight it at any time" />
+    <option name="it" hit="Hold Shift and hover an element to highlight it at any time" />
+    <option name="shift" hit="Hold Shift and hover an element to highlight it at any time" />
+    <option name="time" hit="Hold Shift and hover an element to highlight it at any time" />
+    <option name="to" hit="Hold Shift and hover an element to highlight it at any time" />
+    <option name="and" hit="JavaScript, HTML and CSS" />
+    <option name="css" hit="JavaScript, HTML and CSS" />
+    <option name="html" hit="JavaScript, HTML and CSS" />
+    <option name="javascript" hit="JavaScript, HTML and CSS" />
+    <option name="edit" hit="Live Edit" />
+    <option name="live" hit="Live Edit" />
+    <option name="and" hit="Only HTML and CSS" />
+    <option name="css" hit="Only HTML and CSS" />
+    <option name="html" hit="Only HTML and CSS" />
+    <option name="only" hit="Only HTML and CSS" />
+    <option name="fails" hit="Restart if hotswap fails" />
+    <option name="hotswap" hit="Restart if hotswap fails" />
+    <option name="if" hit="Restart if hotswap fails" />
+    <option name="restart" hit="Restart if hotswap fails" />
+    <option name="changes" hit="Track changes in files compiled to JavaScript, HTML or CSS" />
+    <option name="compiled" hit="Track changes in files compiled to JavaScript, HTML or CSS" />
+    <option name="css" hit="Track changes in files compiled to JavaScript, HTML or CSS" />
+    <option name="files" hit="Track changes in files compiled to JavaScript, HTML or CSS" />
+    <option name="html" hit="Track changes in files compiled to JavaScript, HTML or CSS" />
+    <option name="in" hit="Track changes in files compiled to JavaScript, HTML or CSS" />
+    <option name="javascript" hit="Track changes in files compiled to JavaScript, HTML or CSS" />
+    <option name="or" hit="Track changes in files compiled to JavaScript, HTML or CSS" />
+    <option name="to" hit="Track changes in files compiled to JavaScript, HTML or CSS" />
+    <option name="track" hit="Track changes in files compiled to JavaScript, HTML or CSS" />
+    <option name="application" hit="Update Node.js application on changes in " />
+    <option name="changes" hit="Update Node.js application on changes in " />
+    <option name="in" hit="Update Node.js application on changes in " />
+    <option name="js" hit="Update Node.js application on changes in " />
+    <option name="node" hit="Update Node.js application on changes in " />
+    <option name="on" hit="Update Node.js application on changes in " />
+    <option name="update" hit="Update Node.js application on changes in " />
+    <option name="application" hit="Update application in Chrome on changes in " />
+    <option name="changes" hit="Update application in Chrome on changes in " />
+    <option name="chrome" hit="Update application in Chrome on changes in " />
+    <option name="in" hit="Update application in Chrome on changes in " />
+    <option name="on" hit="Update application in Chrome on changes in " />
+    <option name="update" hit="Update application in Chrome on changes in " />
+  </configurable>
+</options>

@@ -1,0 +1,144 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="attach" path="ActionManager" hit="Attach Debugger" />
+    <option name="debugger" path="ActionManager" hit="Attach Debugger" />
+    <option name="attach" path="ActionManager" hit="Attach debugger to the container" />
+    <option name="container" path="ActionManager" hit="Attach debugger to the container" />
+    <option name="debugger" path="ActionManager" hit="Attach debugger to the container" />
+    <option name="the" path="ActionManager" hit="Attach debugger to the container" />
+    <option name="to" path="ActionManager" hit="Attach debugger to the container" />
+    <option name="cancel" path="ActionManager" hit="Cancel" />
+    <option name="backend" path="ActionManager" hit="Collect Statistics from Backend" />
+    <option name="collect" path="ActionManager" hit="Collect Statistics from Backend" />
+    <option name="from" path="ActionManager" hit="Collect Statistics from Backend" />
+    <option name="statistics" path="ActionManager" hit="Collect Statistics from Backend" />
+    <option name="compare" path="ActionManager" hit="Compare" />
+    <option name="and" path="ActionManager" hit="Compare Source and Target" />
+    <option name="compare" path="ActionManager" hit="Compare Source and Target" />
+    <option name="source" path="ActionManager" hit="Compare Source and Target" />
+    <option name="target" path="ActionManager" hit="Compare Source and Target" />
+    <option name="compare" path="ActionManager" hit="Compare database schema" />
+    <option name="database" path="ActionManager" hit="Compare database schema" />
+    <option name="schema" path="ActionManager" hit="Compare database schema" />
+    <option name="connect" path="ActionManager" hit="Connect to Database…" />
+    <option name="database" path="ActionManager" hit="Connect to Database…" />
+    <option name="to" path="ActionManager" hit="Connect to Database…" />
+    <option name="create" path="ActionManager" hit="Create Data Source" />
+    <option name="data" path="ActionManager" hit="Create Data Source" />
+    <option name="source" path="ActionManager" hit="Create Data Source" />
+    <option name="a" path="ActionManager" hit="Create a new Data Source" />
+    <option name="create" path="ActionManager" hit="Create a new Data Source" />
+    <option name="data" path="ActionManager" hit="Create a new Data Source" />
+    <option name="new" path="ActionManager" hit="Create a new Data Source" />
+    <option name="source" path="ActionManager" hit="Create a new Data Source" />
+    <option name="ai" path="ActionManager" hit="Create new file from description with AI Assistant" />
+    <option name="assistant" path="ActionManager" hit="Create new file from description with AI Assistant" />
+    <option name="create" path="ActionManager" hit="Create new file from description with AI Assistant" />
+    <option name="description" path="ActionManager" hit="Create new file from description with AI Assistant" />
+    <option name="file" path="ActionManager" hit="Create new file from description with AI Assistant" />
+    <option name="from" path="ActionManager" hit="Create new file from description with AI Assistant" />
+    <option name="new" path="ActionManager" hit="Create new file from description with AI Assistant" />
+    <option name="with" path="ActionManager" hit="Create new file from description with AI Assistant" />
+    <option name="ai" path="ActionManager" hit="Create with AI Assistant…" />
+    <option name="assistant" path="ActionManager" hit="Create with AI Assistant…" />
+    <option name="create" path="ActionManager" hit="Create with AI Assistant…" />
+    <option name="with" path="ActionManager" hit="Create with AI Assistant…" />
+    <option name="compose" path="ActionManager" hit="Docker Compose File" />
+    <option name="docker" path="ActionManager" hit="Docker Compose File" />
+    <option name="file" path="ActionManager" hit="Docker Compose File" />
+    <option name="dockerfile" path="ActionManager" hit="Dockerfile" />
+    <option name="compose" path="ActionManager" hit="Enable Docker Compose support for this project" />
+    <option name="docker" path="ActionManager" hit="Enable Docker Compose support for this project" />
+    <option name="enable" path="ActionManager" hit="Enable Docker Compose support for this project" />
+    <option name="for" path="ActionManager" hit="Enable Docker Compose support for this project" />
+    <option name="project" path="ActionManager" hit="Enable Docker Compose support for this project" />
+    <option name="support" path="ActionManager" hit="Enable Docker Compose support for this project" />
+    <option name="this" path="ActionManager" hit="Enable Docker Compose support for this project" />
+    <option name="docker" path="ActionManager" hit="Enable Docker support for this project" />
+    <option name="enable" path="ActionManager" hit="Enable Docker support for this project" />
+    <option name="for" path="ActionManager" hit="Enable Docker support for this project" />
+    <option name="project" path="ActionManager" hit="Enable Docker support for this project" />
+    <option name="support" path="ActionManager" hit="Enable Docker support for this project" />
+    <option name="this" path="ActionManager" hit="Enable Docker support for this project" />
+    <option name="errors" path="ActionManager" hit="Errors" />
+    <option name="generate" path="ActionManager" hit="Generate Script" />
+    <option name="script" path="ActionManager" hit="Generate Script" />
+    <option name="group" path="ActionManager" hit="Group Results" />
+    <option name="results" path="ActionManager" hit="Group Results" />
+    <option name="infos" path="ActionManager" hit="Infos" />
+    <option name="new" path="ActionManager" hit="Open Terminal (New UI)" />
+    <option name="open" path="ActionManager" hit="Open Terminal (New UI)" />
+    <option name="terminal" path="ActionManager" hit="Open Terminal (New UI)" />
+    <option name="ui" path="ActionManager" hit="Open Terminal (New UI)" />
+    <option name="action" path="ActionManager" hit="Opens the terminal tool window (temporary action introduced for the What's New page)" />
+    <option name="for" path="ActionManager" hit="Opens the terminal tool window (temporary action introduced for the What's New page)" />
+    <option name="introduced" path="ActionManager" hit="Opens the terminal tool window (temporary action introduced for the What's New page)" />
+    <option name="new" path="ActionManager" hit="Opens the terminal tool window (temporary action introduced for the What's New page)" />
+    <option name="opens" path="ActionManager" hit="Opens the terminal tool window (temporary action introduced for the What's New page)" />
+    <option name="page" path="ActionManager" hit="Opens the terminal tool window (temporary action introduced for the What's New page)" />
+    <option name="s" path="ActionManager" hit="Opens the terminal tool window (temporary action introduced for the What's New page)" />
+    <option name="temporary" path="ActionManager" hit="Opens the terminal tool window (temporary action introduced for the What's New page)" />
+    <option name="terminal" path="ActionManager" hit="Opens the terminal tool window (temporary action introduced for the What's New page)" />
+    <option name="the" path="ActionManager" hit="Opens the terminal tool window (temporary action introduced for the What's New page)" />
+    <option name="tool" path="ActionManager" hit="Opens the terminal tool window (temporary action introduced for the What's New page)" />
+    <option name="what" path="ActionManager" hit="Opens the terminal tool window (temporary action introduced for the What's New page)" />
+    <option name="window" path="ActionManager" hit="Opens the terminal tool window (temporary action introduced for the What's New page)" />
+    <option name="options" path="ActionManager" hit="Options" />
+    <option name="comparison" path="ActionManager" hit="Save Schema Comparison File" />
+    <option name="file" path="ActionManager" hit="Save Schema Comparison File" />
+    <option name="save" path="ActionManager" hit="Save Schema Comparison File" />
+    <option name="schema" path="ActionManager" hit="Save Schema Comparison File" />
+    <option name="compare" path="ActionManager" hit="Schema Compare…" />
+    <option name="schema" path="ActionManager" hit="Schema Compare…" />
+    <option name="equal" path="ActionManager" hit="Show Equal Objects" />
+    <option name="objects" path="ActionManager" hit="Show Equal Objects" />
+    <option name="show" path="ActionManager" hit="Show Equal Objects" />
+    <option name="dialog" path="ActionManager" hit="Show Rider Evaluation Feedback Dialog" />
+    <option name="evaluation" path="ActionManager" hit="Show Rider Evaluation Feedback Dialog" />
+    <option name="feedback" path="ActionManager" hit="Show Rider Evaluation Feedback Dialog" />
+    <option name="rider" path="ActionManager" hit="Show Rider Evaluation Feedback Dialog" />
+    <option name="show" path="ActionManager" hit="Show Rider Evaluation Feedback Dialog" />
+    <option name="objects" path="ActionManager" hit="Show Unsupported Objects" />
+    <option name="show" path="ActionManager" hit="Show Unsupported Objects" />
+    <option name="unsupported" path="ActionManager" hit="Show Unsupported Objects" />
+    <option name="update" path="ActionManager" hit="Update" />
+    <option name="target" path="ActionManager" hit="Update Target" />
+    <option name="update" path="ActionManager" hit="Update Target" />
+    <option name="warnings" path="ActionManager" hit="Warnings" />
+  </configurable>
+  <configurable id="docker.rider" configurable_name="Debug and Fast Mode">
+    <option name="and" hit="Debug and Fast Mode" />
+    <option name="debug" hit="Debug and Fast Mode" />
+    <option name="fast" hit="Debug and Fast Mode" />
+    <option name="mode" hit="Debug and Fast Mode" />
+    <option name="connection" hit="Debugger connection timeout (sec)" />
+    <option name="debugger" hit="Debugger connection timeout (sec)" />
+    <option name="sec" hit="Debugger connection timeout (sec)" />
+    <option name="timeout" hit="Debugger connection timeout (sec)" />
+    <option name="build" hit="Enable debugging for services that don't have build configurations" />
+    <option name="configurations" hit="Enable debugging for services that don't have build configurations" />
+    <option name="debugging" hit="Enable debugging for services that don't have build configurations" />
+    <option name="don" hit="Enable debugging for services that don't have build configurations" />
+    <option name="enable" hit="Enable debugging for services that don't have build configurations" />
+    <option name="for" hit="Enable debugging for services that don't have build configurations" />
+    <option name="have" hit="Enable debugging for services that don't have build configurations" />
+    <option name="services" hit="Enable debugging for services that don't have build configurations" />
+    <option name="t" hit="Enable debugging for services that don't have build configurations" />
+    <option name="that" hit="Enable debugging for services that don't have build configurations" />
+    <option name="and" hit="Pull Docker images and inspect them during the startup" />
+    <option name="docker" hit="Pull Docker images and inspect them during the startup" />
+    <option name="during" hit="Pull Docker images and inspect them during the startup" />
+    <option name="images" hit="Pull Docker images and inspect them during the startup" />
+    <option name="inspect" hit="Pull Docker images and inspect them during the startup" />
+    <option name="pull" hit="Pull Docker images and inspect them during the startup" />
+    <option name="startup" hit="Pull Docker images and inspect them during the startup" />
+    <option name="the" hit="Pull Docker images and inspect them during the startup" />
+    <option name="them" hit="Pull Docker images and inspect them during the startup" />
+    <option name="address" hit="Use loopback address for debugger connection" />
+    <option name="connection" hit="Use loopback address for debugger connection" />
+    <option name="debugger" hit="Use loopback address for debugger connection" />
+    <option name="for" hit="Use loopback address for debugger connection" />
+    <option name="loopback" hit="Use loopback address for debugger connection" />
+    <option name="use" hit="Use loopback address for debugger connection" />
+  </configurable>
+</options>

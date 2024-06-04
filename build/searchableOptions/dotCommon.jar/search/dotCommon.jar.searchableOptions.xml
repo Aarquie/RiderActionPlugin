@@ -1,0 +1,70 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="copy" path="ActionManager" hit="Copy Paths" />
+    <option name="paths" path="ActionManager" hit="Copy Paths" />
+    <option name="clipboard" path="ActionManager" hit="Copy paths corresponding to selected files or directories to clipboard" />
+    <option name="copy" path="ActionManager" hit="Copy paths corresponding to selected files or directories to clipboard" />
+    <option name="corresponding" path="ActionManager" hit="Copy paths corresponding to selected files or directories to clipboard" />
+    <option name="directories" path="ActionManager" hit="Copy paths corresponding to selected files or directories to clipboard" />
+    <option name="files" path="ActionManager" hit="Copy paths corresponding to selected files or directories to clipboard" />
+    <option name="or" path="ActionManager" hit="Copy paths corresponding to selected files or directories to clipboard" />
+    <option name="paths" path="ActionManager" hit="Copy paths corresponding to selected files or directories to clipboard" />
+    <option name="selected" path="ActionManager" hit="Copy paths corresponding to selected files or directories to clipboard" />
+    <option name="to" path="ActionManager" hit="Copy paths corresponding to selected files or directories to clipboard" />
+    <option name="file" path="ActionManager" hit="Override File Type" />
+    <option name="override" path="ActionManager" hit="Override File Type" />
+    <option name="type" path="ActionManager" hit="Override File Type" />
+    <option name="file" path="ActionManager" hit="Rename File" />
+    <option name="rename" path="ActionManager" hit="Rename File" />
+    <option name="file" path="ActionManager" hit="Rename File…" />
+    <option name="rename" path="ActionManager" hit="Rename File…" />
+    <option name="and" path="ActionManager" hit="Split and Move Down" />
+    <option name="down" path="ActionManager" hit="Split and Move Down" />
+    <option name="move" path="ActionManager" hit="Split and Move Down" />
+    <option name="split" path="ActionManager" hit="Split and Move Down" />
+    <option name="and" path="ActionManager" hit="Split and Move Right" />
+    <option name="move" path="ActionManager" hit="Split and Move Right" />
+    <option name="right" path="ActionManager" hit="Split and Move Right" />
+    <option name="split" path="ActionManager" hit="Split and Move Right" />
+    <option name="2" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the bottom group and close the top editor" />
+    <option name="and" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the bottom group and close the top editor" />
+    <option name="area" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the bottom group and close the top editor" />
+    <option name="bottom" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the bottom group and close the top editor" />
+    <option name="close" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the bottom group and close the top editor" />
+    <option name="current" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the bottom group and close the top editor" />
+    <option name="editor" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the bottom group and close the top editor" />
+    <option name="group" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the bottom group and close the top editor" />
+    <option name="groups" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the bottom group and close the top editor" />
+    <option name="into" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the bottom group and close the top editor" />
+    <option name="move" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the bottom group and close the top editor" />
+    <option name="split" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the bottom group and close the top editor" />
+    <option name="tab" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the bottom group and close the top editor" />
+    <option name="the" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the bottom group and close the top editor" />
+    <option name="to" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the bottom group and close the top editor" />
+    <option name="top" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the bottom group and close the top editor" />
+    <option name="2" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the right group and close the left editor" />
+    <option name="and" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the right group and close the left editor" />
+    <option name="area" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the right group and close the left editor" />
+    <option name="close" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the right group and close the left editor" />
+    <option name="current" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the right group and close the left editor" />
+    <option name="editor" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the right group and close the left editor" />
+    <option name="group" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the right group and close the left editor" />
+    <option name="groups" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the right group and close the left editor" />
+    <option name="into" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the right group and close the left editor" />
+    <option name="left" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the right group and close the left editor" />
+    <option name="move" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the right group and close the left editor" />
+    <option name="right" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the right group and close the left editor" />
+    <option name="split" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the right group and close the left editor" />
+    <option name="tab" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the right group and close the left editor" />
+    <option name="the" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the right group and close the left editor" />
+    <option name="to" path="ActionManager" hit="Split editor area into 2 tab groups and move the current tab to the right group and close the left editor" />
+    <option name="a" path="ActionManager" hit="Treat current file as a file of different file type" />
+    <option name="as" path="ActionManager" hit="Treat current file as a file of different file type" />
+    <option name="current" path="ActionManager" hit="Treat current file as a file of different file type" />
+    <option name="different" path="ActionManager" hit="Treat current file as a file of different file type" />
+    <option name="file" path="ActionManager" hit="Treat current file as a file of different file type" />
+    <option name="of" path="ActionManager" hit="Treat current file as a file of different file type" />
+    <option name="treat" path="ActionManager" hit="Treat current file as a file of different file type" />
+    <option name="type" path="ActionManager" hit="Treat current file as a file of different file type" />
+  </configurable>
+</options>

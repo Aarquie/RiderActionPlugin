@@ -1,0 +1,71 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="creates" path="ActionManager" hit="Creates Pug/Jade file from template" />
+    <option name="file" path="ActionManager" hit="Creates Pug/Jade file from template" />
+    <option name="from" path="ActionManager" hit="Creates Pug/Jade file from template" />
+    <option name="jade" path="ActionManager" hit="Creates Pug/Jade file from template" />
+    <option name="pug" path="ActionManager" hit="Creates Pug/Jade file from template" />
+    <option name="template" path="ActionManager" hit="Creates Pug/Jade file from template" />
+    <option name="file" path="ActionManager" hit="Pug/Jade File" />
+    <option name="jade" path="ActionManager" hit="Pug/Jade File" />
+    <option name="pug" path="ActionManager" hit="Pug/Jade File" />
+  </configurable>
+  <configurable id="editor.breadcrumbs" configurable_name="Breadcrumbs">
+    <option name="ex-jade" hit="Pug (ex-Jade)" />
+    <option name="pug" hit="Pug (ex-Jade)" />
+  </configurable>
+  <configurable id="reference.settingsdialog.IDE.editor.colors.Pug/Jade" configurable_name="Pug/Jade">
+    <option name="jade" hit="Pug/Jade" />
+    <option name="pug" hit="Pug/Jade" />
+    <option name="attribute" hit="Attribute name" />
+    <option name="name" hit="Attribute name" />
+    <option name="class" hit="Class" />
+    <option name="colon" hit="Colon" />
+    <option name="comma" hit="Comma" />
+    <option name="comment" hit="Comment" />
+    <option name="doctype" hit="Doctype" />
+    <option name="content" hit="Embedded content" />
+    <option name="embedded" hit="Embedded content" />
+    <option name="file" hit="File path" />
+    <option name="path" hit="File path" />
+    <option name="filter" hit="Filter name" />
+    <option name="name" hit="Filter name" />
+    <option name="id" hit="ID" />
+    <option name="character" hit="Illegal character" />
+    <option name="illegal" hit="Illegal character" />
+    <option name="fragment" hit="Injected Language Fragment" />
+    <option name="injected" hit="Injected Language Fragment" />
+    <option name="language" hit="Injected Language Fragment" />
+    <option name="fragment" hit="JavaScript fragment" />
+    <option name="javascript" hit="JavaScript fragment" />
+    <option name="keyword" hit="Keyword" />
+    <option name="number" hit="Number" />
+    <option name="operation" hit="Operation" />
+    <option name="parenthesis" hit="Parenthesis" />
+    <option name="pipe" hit="Pipe" />
+    <option name="statement" hit="Statement" />
+    <option name="name" hit="Tag name" />
+    <option name="tag" hit="Tag name" />
+    <option name="text" hit="Text" />
+    <option name="comment" hit="Unbuffered comment" />
+    <option name="unbuffered" hit="Unbuffered comment" />
+  </configurable>
+  <configurable id="preferences.sourceCode.Pug/Jade" configurable_name="Pug/Jade">
+    <option name="disable" hit="Disable" />
+    <option name="indent" path="Tabs and Indents" hit="Indent:" />
+    <option name="loading" hit="Loading..." />
+    <option name="jade" hit="Pug/Jade" />
+    <option name="pug" hit="Pug/Jade" />
+    <option name="scheme" hit="Scheme:" />
+    <option name="from" hit="Set from..." />
+    <option name="set" hit="Set from..." />
+    <option name="size" path="Tabs and Indents" hit="Tab size:" />
+    <option name="tab" path="Tabs and Indents" hit="Tab size:" />
+    <option name="and" path="Tabs and Indents" hit="Tabs and Indents" />
+    <option name="indents" path="Tabs and Indents" hit="Tabs and Indents" />
+    <option name="tabs" path="Tabs and Indents" hit="Tabs and Indents" />
+    <option name="character" path="Tabs and Indents" hit="Use tab character" />
+    <option name="tab" path="Tabs and Indents" hit="Use tab character" />
+    <option name="use" path="Tabs and Indents" hit="Use tab character" />
+  </configurable>
+</options>
